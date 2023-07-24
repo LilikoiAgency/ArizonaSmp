@@ -1,0 +1,389 @@
+/* EXTRA CRIPSY */
+
+.modal_popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: visibility 0s linear 0.25s, opacity 0.25s 0s, -webkit-transform 0.25s;
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, -webkit-transform 0.25s;
+    -o-transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s, -webkit-transform 0.25s;
+    z-index: 999;
+}
+
+.modal-content_popup {
+    width: 768px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.close-button_popup {
+    color: black;
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    z-index: 1000;
+    font-size: 30px;
+}
+
+.close-button_popup:hover {
+    cursor: pointer;
+}
+
+.show-modal_popup {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+    -webkit-transition: visibility 0s linear 0s, opacity 0.25s 0s, -webkit-transform 0.25s;
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, -webkit-transform 0.25s;
+    -o-transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s, -webkit-transform 0.25s;
+}
+
+.exit-pop-display {
+    display: block;
+}
+
+.exit-pop-up {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.exit-pop-up input {
+    -webkit-box-shadow: inset 0 0 1px 1px #888;
+    box-shadow: inset 0 0 1px 1px #888;
+    background: #fff;
+    border: none;
+    border-radius: 2px;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 16px !important;
+}
+
+.exit-pop-up .exit-pop-up-btn {
+    background-color: #FF7E00 !important;
+    color: white;
+    height: auto;
+    width: 280px !important;
+    font-size: 24px;
+    border-radius: 4px;
+    border: solid 2px white;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.exit-popup-title {
+    font-size: 32px;
+    margin: 0px;
+    padding: 18px;
+
+}
+
+.exit-popup-title-1 {
+    font-size: 40px;
+}
+
+.exit-popup-3rd-header {
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+
+}
+
+.popup-coupon-wrapper {
+    background-color: #0C4E97;
+    height: 450px;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.popup-from-wrapper {
+    background-color: white;
+    padding: 10px 20px;
+
+}
+
+.exit-pop-display-reverse {
+    display: none;
+}
+
+.right-side-title {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.fill-out-form-below {
+    margin-top: 5px;
+}
+
+.popup-from-wrapper form label {
+    margin: 0px !important;
+    display: inline;
+}
+
+.popup-from-wrapper form input[type=submit]:disabled {
+    background-color: #FF7E00 !important;
+    color: white !important;
+    cursor: not-allowed !important;
+}
+.close-with-text{
+    opacity: 0;
+}
+.exit-btn-wrapper {
+    width: 267px;
+}
+
+
+.button-spinner {
+    width: 100%;
+    height: 52px;
+    position: relative;
+    margin-top: -54px;
+}
+
+.button--loading::after {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    border: 4px solid transparent;
+    border-top-color: #fff;
+    border-radius: 50%;
+    -webkit-animation: button-loading-spinner 1s ease infinite;
+    animation: button-loading-spinner 1s ease infinite;
+}
+
+@media screen and (max-width:768px) {
+    .button-spinner {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 433px;
+    }
+    .exit-btn-wrapper{
+        width: 100%;
+    }
+    .exit-pop-up .exit-pop-up-btn{
+        display: block;
+        width: 100% !important;
+    }
+    .close-button_popup {
+        color: white;
+        position: absolute;
+        top: -12px;
+        right: 5px;
+        z-index: 1000;
+        font-size: 30px;
+    }
+    .exit-text-holder{
+        padding: 10px;
+    }
+
+    .close-with-text{
+        opacity: 1;
+        position: absolute;
+        top: 484px;
+        color: white;
+        text-decoration: underline;
+        font-size: 16px;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .popup-coupon-wrapper {
+
+        padding-bottom: 0px;
+    }
+
+    .exit-popup-3rd-header {
+        display: none;
+    }
+    div.text-center.popup-coupon-wrapper > picture > img{
+        padding-top:15px;
+    }
+
+    .modal-content_popup {
+        min-width: 320px;
+        max-width: 90%;
+        max-height: 90%;
+
+    }
+
+    .exit-pop-up {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .exit-pop-display {
+        display: none;
+    }
+
+    .exit-pop-display-reverse {
+        display: block
+    }
+
+    .exit-pop-up-btn {
+        font-size: 24px;
+        border-radius: 6px;
+        border: solid 2px white;
+        padding: 6px;
+        width: 90%;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+
+    .exit-pop-up input {
+        -webkit-box-shadow: inset 0 0 1px 1px #888;
+        box-shadow: inset 2px 2px 3px 0px #888;
+        background: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 10px;
+        height: 35px;
+        margin-bottom: 10px !important;
+    }
+
+    .exit-pop-up input::-webkit-input-placeholder {
+        color: #131313;
+
+    }
+
+    .exit-pop-up input::-moz-placeholder {
+        color: #131313;
+
+    }
+
+    .exit-pop-up input:-ms-input-placeholder {
+        color: #131313;
+
+    }
+
+    .exit-pop-up input::-ms-input-placeholder {
+        color: #131313;
+
+    }
+
+    .exit-pop-up input::placeholder {
+        color: #131313;
+
+    }
+
+    .exit-popup-title {
+        font-size: 1.2rem;
+        margin-bottom: 0px;
+        padding: 10px;
+    }
+
+    .exit-popup-title-1 {
+        font-size: 22px;
+    }
+
+    .exit-popup-3rd-header {
+        font-size: 22px;
+        padding-bottom: 8px;
+        padding-top: 6px;
+    }
+
+    .popup-coupon-wrapper {
+        background-color: #0C4E97;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+    }
+
+    .popup-from-wrapper {
+        background-color: #0C4E97;
+        color: white;
+        padding-top: 0px;
+    }
+
+    .fill-out-form-below {
+        margin-top: 2px;
+        margin-bottom: 5px;
+        color: white !important;
+    }
+
+    .popup-coupon-wrapper {
+        padding-top: 0px;
+    }
+}
+
+
+
+
+.button--loading {
+    display: none;
+}
+
+
+
+@-webkit-keyframes button-loading-spinner {
+    from {
+        -webkit-transform: rotate(0turn);
+        transform: rotate(0turn);
+    }
+
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes button-loading-spinner {
+    from {
+        -webkit-transform: rotate(0turn);
+        transform: rotate(0turn);
+    }
+
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+}

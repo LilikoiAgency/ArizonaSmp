@@ -1,0 +1,517 @@
+/* REGULAR POPUP */
+
+#modal_container {
+    max-width: 1000px;
+    z-index: 999;
+    -webkit-transform: translate(calc(50vw - 51.5%), calc(50vh - 52%));
+    -ms-transform: translate(calc(50vw - 51.5%), calc(50vh - 52%));
+    transform: translate(calc(50vw - 51.5%), calc(50vh - 52%));
+    border-radius: 2px;
+    font-family: 'Barlow', sans-serif;
+    color: #020202;
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+    background: white;
+    -webkit-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    padding: 0px !important;
+}
+
+
+#modal_background,
+#modal_container {
+    display: none;
+    position: fixed;
+    left: 0;
+    opacity: 0;
+    top: 0
+}
+
+#modal_container .label-text,
+#modal_container legend {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0
+}
+
+#modal_container br,
+#modal_container br:first-of-type,
+#modal_container br:nth-of-type(3),
+#modal_container br:nth-of-type(4),
+#modal_container br:nth-of-type(8) {
+    display: none
+}
+
+.recaptcha_render {
+    width: 304px;
+    height: 78px;
+    background-color: white;
+}
+
+.recaptcha-logo::before {
+    content: url("https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/logo/recaptcha.svg");
+    position: absolute;
+    -webkit-transform: translate(calc(154px - 50%), calc(39px - 50%)) scale(.5);
+    -ms-transform: translate(calc(154px - 50%), calc(39px - 50%)) scale(.5);
+    transform: translate(calc(154px - 50%), calc(39px - 50%)) scale(.5)
+}
+
+#modal_background {
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    -webkit-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out
+}
+
+#modal_container #modal_close_x {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    z-index: 900;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer
+}
+
+#modal_container fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0
+}
+
+#modal_container input::-webkit-input-placeholder,
+#modal_container textarea::-webkit-input-placeholder {
+    font-size: 16px;
+    opacity: .7
+}
+
+#modal_container input::-moz-placeholder,
+#modal_container textarea::-moz-placeholder {
+    font-size: 16px;
+    opacity: .7
+}
+
+#modal_container input:-ms-input-placeholder,
+#modal_container textarea:-ms-input-placeholder {
+    font-size: 16px;
+    opacity: .7
+}
+
+#modal_container input::-ms-input-placeholder,
+#modal_container textarea::-ms-input-placeholder {
+    font-size: 16px;
+    opacity: .7
+}
+
+#modal_container input::placeholder,
+#modal_container textarea::placeholder {
+    font-size: 16px;
+    opacity: .7
+}
+
+#modal_container label {
+    font-weight: 700
+}
+
+#modal_container input,
+#modal_container label,
+#modal_container select {
+    width: 100%
+}
+
+#modal_container input,
+#modal_container select {
+    padding: 5px;
+    margin-bottom: 5px
+}
+
+#modal_container .grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 5px auto;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5px
+}
+
+#modal_container textarea {
+    font-family: sans-serif;
+    padding: 10px;
+    width: 100% !important;
+    min-height: 70px;
+    height: 1em
+}
+
+#modal_container input[type=submit] {
+    width: 100%;
+    height: 38px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #E65B12!important;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: none;
+    color: #fff
+}
+
+#modal_container input[type=submit]:disabled {
+    background-color: #E65B1280 !important;
+    color: white !important;
+}
+
+.submit-arrow {
+    position: absolute;
+    z-index: 9;
+    transform: translate(70px, 95%);
+}
+
+@media screen and (max-width:429px) {
+    #modal_container .grid-container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: auto;
+        grid-template-columns: auto;
+        grid-column-gap: 5px
+    }
+
+    #modal_container {
+        -webkit-transform: translate(calc(50vw - 50%), calc(50vh - 51%));
+        -ms-transform: translate(calc(50vw - 50%), calc(50vh - 51%));
+        transform: translate(calc(50vw - 50%), calc(50vh - 51%));
+        max-height: 100vh;
+        overflow-y: scroll
+    }
+}
+
+@media screen and (max-height:700px) {
+    #modal_container {
+        -webkit-transform: translate(calc(50vw - 51.5%), 0);
+        -ms-transform: translate(calc(50vw - 51.5%), 0);
+        transform: translate(calc(50vw - 51.5%), 0)
+    }
+}
+
+.email-format-error {
+    border: 2px solid red !important
+}
+
+/**********************************************/
+#modal_content_container {
+    background-color: white;
+    max-width: 916px;
+    margin: 0 auto;
+}
+
+#modal_content_container .container-desktop {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-header-container-desktop h2 {
+    margin: 0;
+    color: white;
+    background-color: #CE0109;
+}
+
+.content-container {
+    color: white;
+    background-color: #0C4E97;
+    padding: 16px 10px;
+	margin:auto;
+}
+
+.content-container h2 {
+    font-size: 32px;
+    text-transform: none;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.content-container ul,
+.form-header-container-mobile ul {
+    list-style-image: url("https://www.sempersolaris.com/wp-content/themes/semper-solaris/forms/01-23-SMP-White-Check-Mark-Jan2023.svg");
+    font-size: 26px;
+}
+
+.content-container ul {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.content-container li {
+    line-height: 1.2;
+}
+
+.content-container .oorah {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    font-size: 22px;
+}
+
+.content-container .oorah img {
+    position: relative;
+    transform: translate(8px, -5px);
+}
+
+.save-big {
+    margin: 8px 0;
+    font-size: 24px;
+}
+
+form[id$="_p"] {
+    padding: 0 18px 5px;
+    font-family: 'Barlow';
+    max-width: 400px;
+}
+
+form[id$="_p"] label {
+    color: #020202;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+form[id$="_p"] input:not([type="radio"]):not([type="checkbox"]),
+form[id$="_p"] select,
+form[id$="_p"] textarea {
+    width: 100%;
+    margin: 2px auto;
+    border: 2.5px solid #A5A5A5;
+    -webkit-box-shadow: inset 2px 4px 6px #00000029;
+    box-shadow: inset 2px 4px 6px #00000029;
+    background-color: white;
+    font-size: 11pt;
+}
+
+form[id$="_p"] select {
+    padding: 5.5px;
+}
+
+form[id$="_p"] input::-webkit-input-placeholder,
+form[id$="_p"] textarea::-webkit-input-placeholder {
+    color: black;
+}
+
+form[id$="_p"] input::-moz-placeholder,
+form[id$="_p"] textarea::-moz-placeholder {
+    color: black;
+}
+
+form[id$="_p"] input:-ms-input-placeholder,
+form[id$="_p"] textarea:-ms-input-placeholder {
+    color: black;
+}
+
+form[id$="_p"] input::-ms-input-placeholder,
+form[id$="_p"] textarea::-ms-input-placeholder {
+    color: black;
+}
+
+form[id$="_p"] input::-webkit-input-placeholder,
+form[id$="_p"] textarea::-webkit-input-placeholder {
+    color: black;
+}
+
+form[id$="_p"] input::-moz-placeholder,
+form[id$="_p"] textarea::-moz-placeholder {
+    color: black;
+}
+
+form[id$="_p"] input:-ms-input-placeholder,
+form[id$="_p"] textarea:-ms-input-placeholder {
+    color: black;
+}
+
+form[id$="_p"] input::-ms-input-placeholder,
+form[id$="_p"] textarea::-ms-input-placeholder {
+    color: black;
+}
+
+form[id$="_p"] input::placeholder,
+form[id$="_p"] textarea::placeholder {
+    color: black;
+}
+
+.save-big-mobile {
+    display: none;
+}
+
+.radio-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 5px 1fr 5px 1fr 5px 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(30px, auto);
+    margin-top: 5px;
+}
+
+.radio-container label,
+.interest-container label,
+.interest-label {
+    font-size: 11pt;
+}
+
+@media screen and (max-width:386px) {
+    .interest-container label {
+        font-size: 3.5vw;
+    }
+}
+
+.radio-container input[type="radio"],
+.interest-container input[type="checkbox"] {
+    max-width: 20px;
+}
+
+.interest-container {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(30px, auto);
+    gap: 5px;
+}
+
+form[id$="_p"] .recaptcha_render {
+    -webkit-text-size-adjust: 100%;
+    font-family: "Barlow", Barlow, Montserrat, sans-serif, "Helvetica", Helvetica;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    width: 304px;
+    height: 78px;
+    margin: 0 auto;
+    border: 1px solid #A5A5A5;
+    border-radius: 5px;
+}
+
+.recaptcha-logo::before {
+    content: url("https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/logo/recaptcha.svg");
+    position: absolute;
+    -webkit-transform: translate(calc(154px - 50%), calc(39px - 50%)) scale(.5);
+    -ms-transform: translate(calc(154px - 50%), calc(39px - 50%)) scale(.5);
+    transform: translate(calc(154px - 50%), calc(39px - 50%)) scale(.5);
+}
+
+form[id$="_p"] input[type="submit"] {
+    margin: 0 auto;
+    color: white;
+    font-size: 24px/29px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--semperOrange);
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 20px 0;
+    border: none;
+}
+
+.form-disclaimer {
+    margin: 0 0 5px;
+    font-size: 8pt;
+    line-height: 8pt;
+}
+
+.form-header-container-mobile,
+.all-services-mobile {
+    display: none;
+}
+
+.container-desktop>div:first-of-type{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:576px) {
+    .radio-container{
+        display: none;
+    }
+
+    .container-desktop>div:first-of-type {
+        display: none;
+    }
+
+    .form-header-container-desktop {
+        display: none;
+    }
+
+    .form-header-container-mobile {
+        display: block;
+    }
+    #modal_content_container > div.form-header-container-mobile > div{
+        display: none;
+    }
+    #modal_container{
+        transform: scale(0.95);
+        height: fit-content;
+        padding: 25px 5px !important;
+    }
+    form[id$="_p"],#__semper_solaris_sf_form_p {
+    padding: 0;
+    font-family: 'Barlow';
+    width: 90%;
+    margin: auto;
+    }
+    #modal_container #modal_close_x {
+        color: black !important;
+        font-weight: bold !important;
+        font-size: 38px;
+        top: -10px;
+        right: 5px;
+
+    }
+    .submit-arrow {
+        transform: translate(55px, 95%);
+    }
+    .form-header-container-mobile>div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #0C4E97;
+    }
+
+    .form-header-container-mobile h3 {
+        font-size: 1.1rem;
+        font-weight: normal;
+    }
+
+    .form-header-container-mobile ul {
+        margin: 0;
+        font-size: .7em;
+    }
+
+    .form-header-container-mobile li {
+        line-height: 1.5;
+    }
+
+    .save-big {
+        display: none;
+    }
+
+    .save-big-mobile {
+        display: block;
+        color: #0C4E97;
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .all-services-mobile {
+        display: block;
+    }
+}

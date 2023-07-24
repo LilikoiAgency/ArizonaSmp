@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65.569" height="65.569" viewBox="0 0 65.569 65.569">
+  <g id="Icon_feather-arrow-right-circle" data-name="Icon feather-arrow-right-circle" transform="translate(65.569) rotate(90)">
+    <path id="Path_8220" data-name="Path 8220" d="M62.569,32.785A29.785,29.785,0,1,1,32.785,3,29.785,29.785,0,0,1,62.569,32.785Z" transform="translate(0 0)" fill="#fff"/>
+    <path id="Path_8220_-_Outline" data-name="Path 8220 - Outline" d="M32.785,0A32.785,32.785,0,1,1,0,32.785,32.822,32.822,0,0,1,32.785,0Zm0,59.569A26.785,26.785,0,1,0,6,32.785,26.815,26.815,0,0,0,32.785,59.569Z" transform="translate(0 0)" fill="#0c4e97"/>
+    <path id="Path_8221" data-name="Path 8221" d="M18,35.828,29.914,23.914,18,12" transform="translate(14.785 8.871)" fill="#fff"/>
+    <path id="Path_8221_-_Outline" data-name="Path 8221 - Outline" d="M18,38.828a3,3,0,0,1-2.121-5.121l9.792-9.792-9.792-9.792a3,3,0,1,1,4.243-4.243L32.035,21.793a3,3,0,0,1,0,4.243L20.121,37.949A2.991,2.991,0,0,1,18,38.828Z" transform="translate(14.785 8.871)" fill="#efb82a"/>
+    <path id="Path_8222" data-name="Path 8222" d="M12,18H35.828" transform="translate(8.871 14.785)" fill="#fff"/>
+    <path id="Path_8222_-_Outline" data-name="Path 8222 - Outline" d="M35.828,21H12a3,3,0,1,1,0-6H35.828a3,3,0,0,1,0,6Z" transform="translate(8.871 14.785)" fill="#efb82a"/>
+  </g>
+</svg>
