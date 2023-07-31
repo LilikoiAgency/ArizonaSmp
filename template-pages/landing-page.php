@@ -325,7 +325,7 @@ wp_head();
                 margin: auto;
             }
             .up-to{
-                color: #f9bf17;font-size: 90px; margin-top:-11px; margin-bottom:0px; -webkit-text-stroke: 1px #29324B;
+                color: #f9bf17;font-size: 90px; margin-top:-11px; margin-bottom:0px; -webkit-text-stroke: 2px #29324B;
             }
             .up-to img{
                 vertical-align: text-top;
@@ -458,7 +458,7 @@ wp_head();
             <div class="header-inner-wrapper">
                 <h1 class="smpFont ">DECLARE YOUR <br> <span style="color:#F9BF17;">INDEPENDENCE</span></h1>
                 <h2 class="smpFont mt-0 up-to">                    
-                    <img width="50" src="https://smpstage.wpengine.com/wp-content/uploads/2023/07/SMP-Up-To-Bubble.png" alt="">
+                    <img width="50" src="https://smpstage.wpengine.com/wp-content/uploads/2023/07/SMP-Up-To-Bubble.png" alt="get up to $6,000 off solar + battery storage">
                     $6,000 IN SAVINGS<span style="font-size:1.4rem;vertical-align: text-top;">*</span>
                 </h2>
                 
