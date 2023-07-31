@@ -1426,7 +1426,7 @@ get_template_part("template-parts/lead-source-setter");
                     month: 'long'
                 }) + " " + _lD.getDate() + ", " + _lD.getFullYear();
             </script>
-            <p id="disclaimerArea">&copy;<?php echo date('Y') ?> Semper Solaris. All Rights Reserved. | CSLB #978152 | <a style="color:white;" href="https://www.sempersolaris.com/privacy-notice/">Privacy Policy </a> | Call +1 (888) 210-3366 </p>
+            <p id="disclaimerArea">&copy;<?php echo date('Y') ?> Semper Solaris. All Rights Reserved.  | ROC# 336163 | ROC# 336306 | ROC# 336305| <a style="color:white;" href="https://www.sempersolaris.com/privacy-notice/">Privacy Policy </a> | Call +1 (888) 210-3366 </p>
             <p id="disclaimerArea">This site is protected by reCAPTCHA and the Google <a style="color:white;" href="https://policies.google.com/privacy">Privacy Policy</a> and <a style="color:white;" href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
 
             <p id="disclaimerArea">
