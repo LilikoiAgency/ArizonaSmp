@@ -1125,7 +1125,7 @@ get_template_part("template-parts/lead-source-setter");
         <div class="header-inner-wrapper col-md-7 pt-md-4">
 
             <h1 class="smpFont ">DECLARE YOUR <span style="color:#F9BF17; text-shadow: 1px 1px 5px #000;">INDEPENDENCE</span></h1>
-            <img src="/wp-content/uploads/2023/07/SMP-Upto-6000-in-savings.png" title="Get up to $7,200 off Solar + Battery" alt="Get Up To $7,200 Off Solar + Battery Storage">
+            <img src="/wp-content/uploads/2023/07/SMP-Upto-6000-in-savings.png" title="Get up to $6,000 off Solar + Battery" alt="Get Up To $6,000 Off Solar + Battery Storage">
             <p class="left d-none d-md-block">
                 Are your energy bills skyrocketing every month? Say goodbye to outrageous electricity bills in <?php echo $content_array['city-name'] ?>. Go solar and start saving! Act now and save up to $6,000!
             </p>
