@@ -454,7 +454,7 @@ wp_head();
                 <h1 class="smpFont ">DECLARE YOUR <br> <span style="color:#F9BF17;">INDEPENDENCE</span></h1>
                 <h2 class="smpFont mt-0 up-to" style="color: #f9bf17;font-size: 95px; margin-top:0px; margin-bottom:0px;">                    
                     <img width="50" src="https://smpstage.wpengine.com/wp-content/uploads/2023/07/SMP-Up-To-Bubble.png" alt="">
-                    $6,000 IN SAVINGS
+                    $6,000 IN SAVINGS<span style="font-size:1.4rem;vertical-align: text-top;">*</span>
                 </h2>
                 
                 <!-- <img src="/wp-content/uploads/2023/07/SMP-Upto-6000-in-savings.png" title="Get up to $6,000 off Solar + Battery" alt="Get Up To $6,000 Off Solar + Battery Storage"> -->
