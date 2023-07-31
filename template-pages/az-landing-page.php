@@ -1312,7 +1312,7 @@ get_template_part("template-parts/lead-source-setter");
                 <br>
                 <div class="container pl-4 pr-4" align="center">
                     <p class="" style="line-height:1.2 !important"> Semper Solaris makes the process very streamlined and easy, so the permitting process is quick</p>
-                    <img loading="lazy" src="/wp-content/themes/semper-arizona-child/assets/icons/location-pages/08 16 22 SMP 30TaxCredit AUG 2022 (3).svg" alt="best solar coupon" />
+                    <img loading="lazy" src="/wp-content/themes/semper-arizona-child/assets/img/location/08 16 22 SMP 30TaxCredit AUG 2022 (3).svg" alt="best solar coupon" />
 
                 </div>
             </div>
