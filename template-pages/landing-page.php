@@ -325,7 +325,7 @@ wp_head();
                 margin: auto;
             }
             .up-to{
-                color: #f9bf17;font-size: 90px; margin-top:-11px; margin-bottom:0px;
+                color: #f9bf17;font-size: 90px; margin-top:-11px; margin-bottom:0px; -webkit-text-stroke: 1px #29324B;
             }
             .up-to img{
                 vertical-align: text-top;
@@ -337,8 +337,9 @@ wp_head();
 
             @media only screen and (max-width:600px) {
                 .up-to{
-                    font-size: 55px !important;
+                    font-size: 50px !important;
                     margin-left: -15px;
+                    margin-top: -3px;
                 }
                 .up-to img {
                     margin-right: -30px;
