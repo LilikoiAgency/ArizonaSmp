@@ -1098,7 +1098,7 @@ get_template_part("template-parts/lead-source-setter");
         .main-header-section ul {
             text-align: start;
             color: white;
-            font-size: 22px;
+            font-size: 20px;
             font-weight: 600;
             text-shadow: 1px 1px 5px #000;
             padding-left: 2%;
