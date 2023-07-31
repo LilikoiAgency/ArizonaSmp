@@ -1413,7 +1413,7 @@ get_template_part("template-parts/lead-source-setter");
 </style>
 
 <footer>
-    <p>*On approved credit. Savings based on system size, some restrictions apply. Present downloadable Digital Coupon at time of appointment. **30 percent federal tax credit based on eligibility, consult your tax advisor. New customers only. Call or see website for details, <a style="color:white !important;" href="https://www.tesla.com/support/energy/powerwall/order/rebate#combined-offer-incentive" target="_blank">https://www.tesla.com/support/energy/powerwall/order/rebate#combined-offer-incentive</a>.</p>
+    <p>*On approved credit. 15-panel minimum. Some restrictions apply. **30 percent federal tax credit based on eligibility, consult your tax advisor. New customers only. Call or see website for details, www.sempersolaris.com. ***Call or see website for details <a style="color:white !important;" href="https://www.tesla.com/support/energy/powerwall/order/rebate#combined-offer-incentive" target="_blank">https://www.tesla.com/support/energy/powerwall/order/rebate#combined-offer-incentive</a>.</p>
 
     <div id="disclaimerArea" class="disclaimerArea" style="color:white !important">
         <div class="text-center mx-auto container " role="contentinfo" aria-label="Site issue" style="max-width: 1000px; margin:auto;">
@@ -1426,7 +1426,7 @@ get_template_part("template-parts/lead-source-setter");
                     month: 'long'
                 }) + " " + _lD.getDate() + ", " + _lD.getFullYear();
             </script>
-            <p id="disclaimerArea">&copy;<?php echo date('Y') ?> Semper Solaris. All Rights Reserved. | CSLB #978152 | <a style="color:white;" href="https://www.sempersolaris.com/privacy-notice/">Privacy Policy </a> | Call +1 (888) 210-3366 </p>
+            <p id="disclaimerArea">&copy;<?php echo date('Y') ?> Semper Solaris. All Rights Reserved.  | ROC# 336163 | ROC# 336306 | ROC# 336305| <a style="color:white;" href="https://www.sempersolaris.com/privacy-notice/">Privacy Policy </a> | Call +1 (888) 210-3366 </p>
             <p id="disclaimerArea">This site is protected by reCAPTCHA and the Google <a style="color:white;" href="https://policies.google.com/privacy">Privacy Policy</a> and <a style="color:white;" href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
 
             <p id="disclaimerArea">
