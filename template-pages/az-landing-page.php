@@ -1216,7 +1216,7 @@ get_template_part("template-parts/lead-source-setter");
                     </div>
 
                     <h4 style="text-align:center;"><strong>How Much Will A Solar System Cost Me? </strong></h4>
-                    <p>Semper Solaris can offer you options for a solar system that not only meets your electricity needs but also fits your budget. You can also take advantage of solar tax credits available to Texas residents. There are state and federal rebates available that can make putting solar panels in your home an affordable option for you, and will help defer some of the up-front solar costs, until the system "pays for itself", which usually happens in as little as 5 years. Our solar panel installation will meet HOA and all jurisdiction requirements.</p>
+                    <p>Semper Solaris can offer you options for a solar system that not only meets your electricity needs but also fits your budget. You can also take advantage of solar tax credits available to Arizona residents. There are state and federal rebates available that can make putting solar panels in your home an affordable option for you, and will help defer some of the up-front solar costs, until the system "pays for itself", which usually happens in as little as 5 years. Our solar panel installation will meet HOA and all jurisdiction requirements.</p>
 
                 </div>
 
