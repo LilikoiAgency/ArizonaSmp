@@ -324,11 +324,15 @@ wp_head();
             .disclaimerArea {
                 margin: auto;
             }
+            .up-to{
+                color: #f9bf17;font-size: 90px; margin-top:-11px; margin-bottom:0px;
+            }
             .up-to img{
                 vertical-align: text-top;
-                margin-right: -45px;
+                margin-right: -38px;
                 position: relative;
                 z-index: 1;
+                margin-top: -12px;
             }
 
             @media only screen and (max-width:600px) {
@@ -338,7 +342,7 @@ wp_head();
                 }
                 .up-to img {
                     margin-right: -30px;
-                    width: 45px;
+                    width: 38px;
                 }
              
                 h1 {
@@ -452,7 +456,7 @@ wp_head();
         <header>
             <div class="header-inner-wrapper">
                 <h1 class="smpFont ">DECLARE YOUR <br> <span style="color:#F9BF17;">INDEPENDENCE</span></h1>
-                <h2 class="smpFont mt-0 up-to" style="color: #f9bf17;font-size: 95px; margin-top:0px; margin-bottom:0px;">                    
+                <h2 class="smpFont mt-0 up-to">                    
                     <img width="50" src="https://smpstage.wpengine.com/wp-content/uploads/2023/07/SMP-Up-To-Bubble.png" alt="">
                     $6,000 IN SAVINGS<span style="font-size:1.4rem;vertical-align: text-top;">*</span>
                 </h2>
