@@ -28,3 +28,5 @@
     <h4 class="h1 my-auto"> <strong >AMERICAS #1 </strong> <br> SOLAR  + BATTERY INSTALLERS</h4>
     <img width="120" src="https://smpstage.wpengine.com/wp-content/uploads/2023/08/SMP-Solar-Power-World-Award-2023.png" alt="Americas #1 Solar + Battery installers">
 </div>
+
+
