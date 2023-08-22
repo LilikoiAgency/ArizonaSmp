@@ -6,7 +6,7 @@
         <div class="hero-black-box-container">
             <p class="font-size-36" role="heading">Reap the benefits of Solar!</p>
             <p class="font-size-66" role="heading"> Arizona's Solar Experts </p>
-            <p class="font-size-28" >Get A FREE Consultation <br class="br"> <a style="color:#f78000; text-decoration:none; border-bottom:solid 3px #f78000;" href="https://sempersolaris.my.salesforce-sites.com/newapp/">Schedule Today!</a></p>
+            <p class="font-size-28" >Get A FREE Consultation <br class="br"> <a style="color:#f78000; text-decoration:none; border-bottom:solid 3px #f78000;" href="https://appointment.sempersolaris.com/">Schedule Today!</a></p>
         </div>
 
         <a href="/solar-panels/" class="red-banner-container">
@@ -53,6 +53,6 @@
 
 <?php if(wp_is_mobile()) : ?>
 <div class="p-4 pt-5 text-center">
-		<a class="red-btn btn text-center mx-auto" style="background-color: #e65b12; color:white; font-size: 18px;" href="https://sempersolaris.my.salesforce-sites.com/newapp/" target="_blank"> Book Appointment Today → </a>
+		<a class="red-btn btn text-center mx-auto" style="background-color: #e65b12; color:white; font-size: 18px;" href="https://appointment.sempersolaris.com/" target="_blank"> Book Appointment Today → </a>
 </div>
 <?php endif; ?>

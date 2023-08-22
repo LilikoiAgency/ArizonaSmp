@@ -252,7 +252,7 @@ endif;
                 <p style="margin-bottom: 7px;"><strong>Resources</strong></p>
                 <hr>
                 <ul class="list-unstyled mx-0">
-                    <li> <a href="https://sempersolaris.my.salesforce-sites.com/newapp/">Book an Appointment</a></li>
+                    <li> <a href="https://appointment.sempersolaris.com/">Book an Appointment</a></li>
                     <li> <a href="https://www.sempersolaris.com/semper-cares-initiative/">Semper Cares Initiative</a></li>
                     <li> <a href="/blog/">Blog</a></li>
                     <li> <a href="/careers/">Careers</a></li>

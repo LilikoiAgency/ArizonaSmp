@@ -11,12 +11,12 @@ $offers_array = [
 		[
             "image" => "/wp-content/uploads/2023/06/SMP-Internet-Coupon-Telsa-500-Powerwall-Rebate.png",
             "alt_title" => "Limited Time Offer! $500 Rebate when you get a Tesla Powerwall! Expires October 2023",
-            "link" => "https://sempersolaris.my.salesforce-sites.com/newapp/",
+            "link" => "https://appointment.sempersolaris.com/",
         ],
         [
             "image" => "/wp-content/uploads/2022/11/11-09-22-SMPAZ-Digital-Internet-Coupon-Military-Nov2022.png",
             "alt_title" => "$500 off for military and first responders",
-            "link" => "https://sempersolaris.my.salesforce-sites.com/newapp/",
+            "link" => "https://appointment.sempersolaris.com/",
         ],
         [
             "image" => "https://www.sempersolaris.com/wp-content/uploads/2021/01/SMP-Digital-Internet-Coupon-ReferFriend-Solar-Jan2021-320x282.jpg",
@@ -43,36 +43,36 @@ $offers_array = [
         [
             "image" => "/wp-content/uploads/2022/11/11-09-22-SMPAZ-Digital-Internet-Coupon-GoingSolar-Nov2022.png",
             "alt_title" => "Thinking about going solar? get $500 off just by getting solar",
-            "link" => "https://sempersolaris.my.salesforce-sites.com/newapp/",
+            "link" => "https://appointment.sempersolaris.com/",
         ],
         [
             "image" => "/wp-content/uploads/2022/11/11-09-22-SMPAZ-Digital-Internet-Coupon-TuneUp-Nov2022.png",
             "alt_title" => "Having an existing solar system? Get a solar tune-up & Diagnosis for only $199!",
-            "link" => "https://sempersolaris.my.salesforce-sites.com/newapp/",
+            "link" => "https://appointment.sempersolaris.com/",
         ],
         [
             "image" => "/wp-content/uploads/2022/11/11-09-22-SMPAZ-Digital-Internet-Coupon-SolarCredit-Nov2022.png",
             "alt_title" => "The 30% Federal Solar Tax Credit",
-            "link" => "https://sempersolaris.my.salesforce-sites.com/newapp/",
+            "link" => "https://appointment.sempersolaris.com/",
         ]
     ],
     "battery" => [
 		[
             "image" => "/wp-content/uploads/2023/06/SMP-Internet-Coupon-Telsa-500-Powerwall-Rebate.png",
             "alt_title" => "Limited Time Offer! $500 Rebate when you get a Tesla Powerwall! Expires October 2023",
-            "link" => "https://sempersolaris.my.salesforce-sites.com/newapp/",
+            "link" => "https://appointment.sempersolaris.com/",
         ],
         [
             "image" => "/wp-content/uploads/2022/11/11-09-22-SMPAZ-Digital-Internet-Coupon-Battery-Nov2022.png",
             "alt_title" => "financing for tesla battery storage powerwall",
-            "link" => "https://sempersolaris.my.salesforce-sites.com/newapp/",
+            "link" => "https://appointment.sempersolaris.com/",
         ]
     ],
  	"hvac" => [
         [
             "image" => "/wp-content/uploads/2022/10/new-hvac-offer.webp",
             "alt_title" => "Complete A/C And Heating System 74.95",
-            "link" => "https://sempersolaris.my.salesforce-sites.com/newapp/",
+            "link" => "https://appointment.sempersolaris.com/",
         ]
     ],
     "roofing" => [
@@ -80,7 +80,7 @@ $offers_array = [
         [
             "image" => "/wp-content/uploads/2023/01/SMPCA-Digital-Internet-Coupon-Roofing-Jan2023.png",
             "alt_title" => "Replace your old roof andGet the upgraded Platinum Warranty FREE! plus upgraded to a cool roof",
-            "link" => "https://sempersolaris.my.salesforce-sites.com/newapp/",
+            "link" => "https://appointment.sempersolaris.com/",
         ]
     ],
 ];
