@@ -155,7 +155,7 @@ $home = home_url();
                         <img style="vertical-align: sub;" src="/wp-content/themes/semper-arizona-child/assets/logo/SMP Phone Icon.svg" alt="Phone Icon to for service">
                         (480) 863-0024</a>
 
-                    <a itemprop="url" href="https://sempersolaris.my.salesforce-sites.com/newapp/" class="d-none d-md-inline learn-more-btn mx-auto text-white text-decoration-none ">
+                    <a itemprop="url" href="https://appointment.sempersolaris.com/" class="d-none d-md-inline learn-more-btn mx-auto text-white text-decoration-none ">
                         <span class="learn-more-text ">Book Now</span>
                         <span class=" learn-more-icon">
                             <img style="margin-top: 10px;" src="/wp-content/themes/semper-arizona-child/assets/icons/horizontal form/SMP CTA Button Circle Arrow.svg" alt=" White Arrow inside circle ">

@@ -293,7 +293,7 @@ get_header();
 						<li>Among the Top Solar Companies in Arizona </li>
                     </ul>
 
-                    <a itemprop="url" href="https://sempersolaris.my.salesforce-sites.com/newapp/" class="learn-more-btn text-white text-decoration-none" >
+                    <a itemprop="url" href="https://appointment.sempersolaris.com/" class="learn-more-btn text-white text-decoration-none" >
                         <span class="learn-more-text ">Book Appointment</span>
                         <span class=" learn-more-icon">
                             <img loading="lazy" style="margin-top: 10px;" src="/wp-content/themes/semper-arizona-child/assets/icons/horizontal form/SMP CTA Button Circle Arrow.svg" alt=" White Arrow inside circle " />
@@ -385,7 +385,7 @@ get_header();
 						<li>One of the Top Solar Companies in Arizona </li>
                     </ul>
 
-                    <a itemprop="url" href="https://sempersolaris.my.salesforce-sites.com/newapp/" class="learn-more-btn text-white text-decoration-none">
+                    <a itemprop="url" href="https://appointment.sempersolaris.com/" class="learn-more-btn text-white text-decoration-none">
                         <span class="learn-more-text ">Book Appointment</span>
                         <span class=" learn-more-icon">
                             <img loading="lazy" style="margin-top: 10px;" src="/wp-content/themes/semper-arizona-child/assets/icons/horizontal form/SMP CTA Button Circle Arrow.svg" alt=" White Arrow inside circle " />
@@ -431,7 +431,7 @@ get_header();
                         <li>Total Protection Roofing System </li>
                     </ul>
 
-                    <a itemprop="url" href="https://sempersolaris.my.salesforce-sites.com/newapp/" class="learn-more-btn text-white text-decoration-none">
+                    <a itemprop="url" href="https://appointment.sempersolaris.com/" class="learn-more-btn text-white text-decoration-none">
                         <span class="learn-more-text ">Book Appointment</span>
                         <span class=" learn-more-icon">
                             <img loading="lazy" style="margin-top: 10px;" src="/wp-content/themes/semper-arizona-child/assets/icons/horizontal form/SMP CTA Button Circle Arrow.svg" alt=" White Arrow inside circle " />

@@ -90,7 +90,7 @@ get_header();
                 <div class="col p-4 d-flex flex-column justify-content-center position-static bg-white">
                     <h2 class="m-0 fw-bold">Semper Solaris</h2>
                     <p style="margin: 0 0 10px;font-style:italic;">Solar, Roofing, and Battery Storage</p>
-                    <a href="https://sempersolaris.my.salesforce-sites.com/newapp/" class="rounded"><button type="button" class="btn btn-danger text-uppercase fw-bold w-100 py-3 fs-5">Book An Appointment</button></a>
+                    <a href="https://appointment.sempersolaris.com/" class="rounded"><button type="button" class="btn btn-danger text-uppercase fw-bold w-100 py-3 fs-5">Book An Appointment</button></a>
                 </div>
                 <div class="col-auto d-none d-xl-block p-0">
 
@@ -161,7 +161,7 @@ get_header();
 
     <section id="not_a_customer">
         <div class="py-5 border mx-auto">
-            <h3 class="text-center"><a href="https://sempersolaris.my.salesforce-sites.com/newapp/" class="text-decoration-none text-black"><strong>Not yet a customer?</strong> Click here to start your project!</a></h3>
+            <h3 class="text-center"><a href="https://appointment.sempersolaris.com/" class="text-decoration-none text-black"><strong>Not yet a customer?</strong> Click here to start your project!</a></h3>
         </div>
     </section>
     <section class="container" style="margin-bottom: 40px;">

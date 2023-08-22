@@ -619,7 +619,7 @@ wp_head();
             <h2 CLASS="smpFont">BATTERY STORAGE IN STOCK NOW!!!</h2>
 
             <div class="btn-holder">
-                <a class="orange-btn" href="https://sempersolaris.my.salesforce-sites.com/newapp/">BOOK YOUR APPOINTMENT NOW!</a>
+                <a class="orange-btn" href="https://appointment.sempersolaris.com/">BOOK YOUR APPOINTMENT NOW!</a>
 
                 <a href="tel:+18332904200" target="_self" class="green-button">
                     <span class="fl-button-text">CALL (833) 290-4200</span>
@@ -644,7 +644,7 @@ wp_head();
             <p>Sick & tired of soaring energy bills? Take charge and declare your independence from the electric companies with the help of the #1 Solar & Battery installer in the Nation!</p>
             <p>Semper Solaris will design and install a Solar and Battery system customized for your individual energy needs. Tesla Powerwalls are in stock and ready for installation, so now's the time to say goodbye to costly utility bills and embrace a sustainable future. Take control of your energy costs. Go solar today with Semper Solaris!</p>
             <div class="btn-holder" style="text-align:center">
-                <a class="orange-btn mt-5" href="https://sempersolaris.my.salesforce-sites.com/newapp/"> BOOK YOUR APPOINTMENT NOW </a>
+                <a class="orange-btn mt-5" href="https://appointment.sempersolaris.com/"> BOOK YOUR APPOINTMENT NOW </a>
                 <a href="tel:+18332904200" target="_self" class="green-button">
                     <span class="fl-button-text">CALL (833) 290-4200</span>
                     <i class="fl-button-icon fl-button-icon-after dashicons dashicons-before dashicons-phone" aria-hidden="true"></i>
