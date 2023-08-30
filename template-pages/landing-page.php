@@ -54,21 +54,28 @@ wp_head();
 
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
-        <style>
+    <style>
             @import url('https://fonts.cdnfonts.com/css/american-captain-2');
             .smpFont,
             .smpFont p {
                 font-family: 'American Captain', sans-serif !important;
-                color: #FEF4D9;
+                color: white;
                 font-weight: 500;
             }
 
             h1 {
-                font-size: 8rem;
-                line-height: 8rem;
+                font-size: 180px;
+                line-height: 150px;
                 margin-bottom: 0;
                 margin-top: 0;
             }
+			.smpFont .top{
+				font-size: 175px;
+			}
+			.smpFont .bottom{
+				font-size: 105px;
+			}
+
 
             h2 {
                 font-weight: 500;
@@ -76,8 +83,8 @@ wp_head();
 
             header {
                 padding: 50px 10px;
-                background: linear-gradient(0deg, rgba(84,134,134,0.66), rgba(84,134,134,0.66)), url(https://smpstage.wpengine.com/wp-content/uploads/2023/05/stars-1-140x57.png);
-                background-color: #77998D;
+                background: linear-gradient(0deg, rgba(37,60,78,0.66), rgba(37,60,78,0.66)), url(https://smpstage.wpengine.com/wp-content/uploads/2023/05/stars-1-140x57.png);
+                background-color: #263D4E;
                 background-repeat: repeat;
                 background-position: center center;
                 background-attachment: fixed;
@@ -86,14 +93,14 @@ wp_head();
             }
 
             .header-inner-wrapper {
-                max-width: 800px;
+/*                 max-width: 800px; */
                 margin: auto;
             }
 
             .logo-wrapper {
                 border-top: 20px solid #7F363C;
                 border-bottom: 20px solid #7F363C;
-                background-color: #FEF4D9;
+                background-color: white;
                 text-align: center;
             }
 
@@ -107,21 +114,22 @@ wp_head();
             }
 
             .logo-wrapper img {
-                margin-top: -45px;
+                margin-top: -76px;
+				margin-bottom:-33px;
             }
 
             .main-section {
-                background-image: url(https://smpstage.wpengine.com/wp-content/uploads/2023/07/08-23-SMP-Primary-Web-Image-Asset-Horizontal-Layout-1400-x-756.png);
+                background-image: url(/wp-content/uploads/2023/08/09-23-SMP-Primary-Web-Image-Asset-Horizontal-Layout-1400-x-756-1.png);
                 background-position: left bottom;
                 background-repeat: no-repeat;
-                background-color: #77998D;
+                background-color: #263D4E;
                 background-size: contain;
                	padding: 50px 10px 90px 10px;
                 min-height: 1000px;
             }
 
             .main-section h2 {
-                max-width: 800px;
+                max-width: 990px;
                 text-align: center;
                 font-size: 5rem;
                 margin: 0 auto;
@@ -131,15 +139,18 @@ wp_head();
                 display: flex;
             }
             #main > section.main-section > h2{
-                color: #7F363C;
+                color: white;
             }
 
             .ptag-wrapper .smpFont {
-                font-size: 2rem;
-                line-height: 2rem;
-                padding-left: 10px;
-                color: #7F363C;
+                font-size: 2.7rem;
+                line-height: 2.4rem;
+                padding-right: 40px;
+                color: white;
+				text-align: center;
+				
             }
+			
 
             .row {
                 display: flex;
@@ -154,11 +165,15 @@ wp_head();
                 flex-basis: 100%;
                 flex: 1;
             }
+			.ptag-wrapper{
+				justify-content: flex-end;
+    			flex-direction: initial;
+			}
 
             .star-bg-container {
                 padding: 50px 10px;
-                background: linear-gradient(0deg, rgba(84,134,134,0.66), rgba(84,134,134,0.66)), url(https://smpstage.wpengine.com/wp-content/uploads/2023/05/stars-1-140x57.png);
-                background-color: #77998D;
+                background: linear-gradient(0deg, rgba(37,60,78,0.66), rgba(37,60,78,0.66)), url(https://smpstage.wpengine.com/wp-content/uploads/2023/05/stars-1-140x57.png);
+                background-color: #263D4E;
                 background-repeat: repeat;
                 background-position: center center;
                 background-attachment: fixed;
@@ -268,8 +283,8 @@ wp_head();
                 font-size: 7rem;
                 text-align: center;
                 padding: 50px 10px;
-                background: linear-gradient(0deg, rgba(84,134,134,0.66), rgba(84,134,134,0.66)), url(https://smpstage.wpengine.com/wp-content/uploads/2023/05/stars-1-140x57.png);
-                background-color: #77998D;
+                background: linear-gradient(0deg, rgba(37,60,78,0.66), rgba(37,60,78,0.66)), url(https://smpstage.wpengine.com/wp-content/uploads/2023/05/stars-1-140x57.png);
+                background-color: #263D4E;
                 background-repeat: repeat;
                 background-position: center center;
                 background-attachment: fixed;
@@ -325,7 +340,7 @@ wp_head();
                 margin: auto;
             }
             .up-to{
-                color: #f9bf17;font-size: 90px; margin-top:-11px; margin-bottom:0px; -webkit-text-stroke: 2px #29324B;
+                color: #f9bf17;font-size: 105px; margin-top:-11px; margin-bottom:0px; -webkit-text-stroke: 2px #29324B;
             }
             .up-to img{
                 vertical-align: text-top;
@@ -336,6 +351,16 @@ wp_head();
             }
 
             @media only screen and (max-width:600px) {
+				.ptag-wrapper {
+					flex-direction: column;
+					padding-bottom: 80px;
+					-webkit-text-stroke: 2px #29324B;
+					
+				}
+				.ptag-wrapper .smpFont{
+					text-align:left
+				}
+				
                 .up-to{
                     font-size: 50px !important;
                     margin-left: -15px;
@@ -347,8 +372,8 @@ wp_head();
                 }
              
                 h1 {
-                    font-size: 4.5rem;
-                    line-height: 4.4rem;
+                    font-size: 89px;
+                    line-height: 81px;
                 }
 
                 .content-area {
@@ -361,7 +386,9 @@ wp_head();
                 }
 
                 .main-section h2 {
-                    font-size: 2.5rem;
+                        font-size: 45px;
+						line-height: 44px;
+						margin-bottom: 13px;
                 }
 
                 .row {
@@ -445,7 +472,7 @@ wp_head();
                     border-radius: 4px;
                 }
                 .main-section {
-                background-image: url(https://smpstage.wpengine.com/wp-content/uploads/2023/07/08-23-SMP-Primary-Web-Image-Asset-Vertical-Layout-600-x-1200.png);
+                background-image: url(/wp-content/uploads/2023/08/mobiel-solar-sale-2.png);
             
             }
 
@@ -456,13 +483,11 @@ wp_head();
 
         <header>
             <div class="header-inner-wrapper">
-                <h1 class="smpFont ">DECLARE YOUR <br> <span style="color:#F9BF17;">INDEPENDENCE</span></h1>
+                <h1 class="smpFont"> HUGE <span style="color:#F9BF17;"> LABOR <?php if(wp_is_mobile()): echo "<br>"; endif;  ?> DAY </span> SALE </h1>
                 <h2 class="smpFont mt-0 up-to">                    
                     <img width="50" src="https://smpstage.wpengine.com/wp-content/uploads/2023/07/SMP-Up-To-Bubble.png" alt="get up to $6,000 off solar + battery storage">
                     $6,000 IN SAVINGS<span style="font-size:1.4rem;vertical-align: text-top;">*</span>
                 </h2>
-                
-                <!-- <img src="/wp-content/uploads/2023/07/SMP-Upto-6000-in-savings.png" title="Get up to $6,000 off Solar + Battery" alt="Get Up To $6,000 Off Solar + Battery Storage"> -->
             </div>
         </header>
 
@@ -471,7 +496,7 @@ wp_head();
                 <h2>VETERAN OWNED</h2>
                 <h2>LOCAL BUSINESS</h2>
             </div>
-            <img src="https://smpstage.wpengine.com/wp-content/uploads/2023/06/semper-solaris-best-solar-company.png" alt="Semper Solaris the best Solar Company in Arizona">
+            <img width="350" src="https://smpstage.wpengine.com/wp-content/uploads/2023/05/05-24-2023-SMP-Webform-Logo-with-White-Background-June-2023.png" alt="Semper Solaris the best Solar Company in Arizona">
         </div>
 
         <section class="main-section">
@@ -485,7 +510,7 @@ wp_head();
                 <div class="column">
                     <style>
                         .form-wrapper {
-                            max-width: 371px;
+                            max-width: 420px;
                             background-color: #FEF4D9;
                             border: solid 5px #29324B;
                             position: relative;
@@ -585,6 +610,9 @@ wp_head();
                                 background-color: #26D367;
                                 border-radius: 8px;
                             }
+                            .form-wrapper{
+							 	margin: auto;
+							}
                         }
                     </style>
                     <div class="form-wrapper" id="landingPage-form">
@@ -599,6 +627,7 @@ wp_head();
                     </div>
                 </div>
             </div>
+			
         </section>
 
         <section class="star-bg-container">
@@ -610,6 +639,7 @@ wp_head();
         </section>
 
         <section class="offer-section">
+			<h2 class="smpFont"> DECLARE YOUR ENERGY INDEPENDENCE! </h2>
             <div class="offer-wrapper">
                 <img loading="lazy" class="img-1" src="https://smpstage.wpengine.com/wp-content/uploads/2023/06/SMP-30-offer.png" alt="Get 30% Federal Solar Tax Credit when you go solar!">
                 <img loading="lazy" class="img-2" src="https://smpstage.wpengine.com/wp-content/uploads/2023/06/july-colors.png" alt="Plus symbol">
