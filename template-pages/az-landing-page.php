@@ -871,13 +871,11 @@ get_template_part("template-parts/lead-source-setter");
         /* margin: auto; */
     }
 
-    h1 {
-        font-size: 64px;
-        margin-bottom: 0;
-        margin-top: 0;
-        color: #0c4e97;
-        text-shadow: 1px 1px 5px #fff;
-    }
+      h1.smpFont {
+            font-size: 86px;
+            margin: 0;
+            color: white;
+        }
 
     .top-callout {
         font-size: 1.8rem;
@@ -1028,12 +1026,12 @@ get_template_part("template-parts/lead-source-setter");
     }
 
     .main-header-section {
-        background-image: url('https://smpstage.wpengine.com/wp-content/uploads/2023/07/08-23-SMP-Primary-Web-Image-Asset-Horizontal-Layout-1400-x-756.png');
+        background-image: url('/wp-content/uploads/2023/08/09-23-SMP-Primary-Web-Image-Asset-Horizontal-Layout-1400-x-756-1.png');
         overflow: hidden;
         background-size: contain;
         background-position: bottom left;
         background-repeat: no-repeat;
-        background-color: #75998D;
+        background-color: #273E4F;
     }
 
     .main-header-section .left {
@@ -1055,7 +1053,7 @@ get_template_part("template-parts/lead-source-setter");
     }
 
     .main-header-section ul li {
-        list-style-image: url(/wp-content/themes/semper-arizona-child/assets/icons/blue-star-list-icon.svg);
+        list-style-image: url(/wp-content/themes/semper-texas-child/assets/icons/red-star-list-icon.svg);
         padding-bottom: 5px;
     }
 
@@ -1080,9 +1078,9 @@ get_template_part("template-parts/lead-source-setter");
             padding: 10px; 
             padding-bottom: 50px;
 			background-attachment: fixed;
-			background-size:contain;
+			background-size: auto 95%;
 			background-position: top center;
-			background-image: url("https://smpstage.wpengine.com/wp-content/uploads/2023/07/08-23-SMP-Primary-Web-Image-Asset-Vertical-Layout-600-x-1200-1-e1690502207407.png");
+			background-image: url("/wp-content/uploads/2023/08/mobiel-solar-sale-2.png");
         }
 
         .main-header-section h1 {
@@ -1098,7 +1096,7 @@ get_template_part("template-parts/lead-source-setter");
         .main-header-section ul {
             text-align: start;
             color: white;
-            font-size: 20px;
+            font-size: 22px;
             font-weight: 600;
             text-shadow: 1px 1px 5px #000;
             padding-left: 2%;
@@ -1106,7 +1104,7 @@ get_template_part("template-parts/lead-source-setter");
         }
 
         .main-header-section ul li {
-            list-style-image: url(/wp-content/themes/semper-arizona-child/assets/icons/red-star-list-icon.svg);
+            list-style-image: url(/wp-content/themes/semper-texas-child/assets/icons/red-star-list-icon.svg);
         }
     }
 </style>
@@ -1124,7 +1122,7 @@ get_template_part("template-parts/lead-source-setter");
     <div class="row m-auto pt-md-4 pb-md-5" style="max-width: 1100px;">
         <div class="header-inner-wrapper col-md-7 pt-md-4">
 
-            <h1 class="smpFont ">DECLARE YOUR <span style="color:#F9BF17; text-shadow: 1px 1px 5px #000;">INDEPENDENCE</span></h1>
+            <h1 class="smpFont">HUGE <span style="color:#F9BF17;">LABOR DAY </span> SALE</h1>
             <img src="/wp-content/uploads/2023/07/SMP-Upto-6000-in-savings.png" title="Get up to $6,000 off Solar + Battery" alt="Get Up To $6,000 Off Solar + Battery Storage">
             <p class="left d-none d-md-block">
                 Are your energy bills skyrocketing every month? Say goodbye to outrageous electricity bills in <?php echo $content_array['city-name'] ?>. Go solar and start saving! Act now and save up to $6,000!
