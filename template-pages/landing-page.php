@@ -619,7 +619,26 @@ wp_head();
                         <div class="top-form-callout">
                             <h3 style="color:#7F363C; font-size:24px; margin-top:0;"> Homeowners: </h3>
                             <h3 style="font-size:24px;margin-top:0;"> Start Saving Now! </h3>
-                            <h4 style="margin-top:0;"><a href="tel:+18332904200" style="color:white; text-decoration:none;"> Call (833) 290-4200 </a> </h4>
+                            <h4 style="margin-top:0;">
+                            <?php
+                                    // Get the current URL
+                                    $currentURL = $_SERVER['REQUEST_URI'];
+
+                                    // Define the string to check for in the URL
+                                    $checkString = "fb-solar-sale";
+
+                                    // Define the HTML for the phone numbers
+                                    $phoneNumHTML1 = '<a href="tel:+18332904200" style="color:white; text-decoration:none;"> Call (833) 290-4200 </a>';
+
+                                    $phoneNumHTML2 = '<a href="tel:+18888705159" style="color:white; text-decoration:none;"> Call (888) 870-5159 </a>  ';
+
+                                    // Check if the checkString appears anywhere in the URL
+                                    if (strpos($currentURL, $checkString) !== false) {
+                                        echo $phoneNumHTML2;
+                                    } else {
+                                        echo $phoneNumHTML1;
+                                    }
+                                    ?> </h4>
                             <p style="margin-bottom:-20px;margin-top:0;"> or fill-out form below</p>
                         </div>
                         <?php echo do_shortcode('[contact-form-7 id="925" title="landing page"]'); ?>
@@ -643,7 +662,7 @@ wp_head();
             <div class="offer-wrapper">
                 <img loading="lazy" class="img-1" src="https://smpstage.wpengine.com/wp-content/uploads/2023/06/SMP-30-offer.png" alt="Get 30% Federal Solar Tax Credit when you go solar!">
                 <img loading="lazy" class="img-2" src="https://smpstage.wpengine.com/wp-content/uploads/2023/06/july-colors.png" alt="Plus symbol">
-                <img loading="lazy" class="img-3" src="https://smpstage.wpengine.com/wp-content/uploads/2023/06/SMP-0-0-0-Offer-July2023.png" alt="0 Down 0 Interest and 0 Payments until 2024!">
+                <img loading="lazy" class="img-3" src="/wp-content/uploads/2023/08/000.png" alt="0 Down 0 Interest and 0 Payments until 2025!">
             </div>
             <img loading="lazy" style="margin-top:4%;" width="450" src="https://smpstage.wpengine.com/wp-content/uploads/2023/06/SMP-Tesla-Rebate-Internet-Coupon-2.png" alt="Get Tesla Rebate offer for Tesla Powerwall">
             <h2 CLASS="smpFont">BATTERY STORAGE IN STOCK NOW!!!</h2>
@@ -651,15 +670,54 @@ wp_head();
             <div class="btn-holder">
                 <a class="orange-btn" href="https://appointment.sempersolaris.com/">BOOK YOUR APPOINTMENT NOW!</a>
 
-                <a href="tel:+18332904200" target="_self" class="green-button">
-                    <span class="fl-button-text">CALL (833) 290-4200</span>
-                    <i class="fl-button-icon fl-button-icon-after dashicons dashicons-before dashicons-phone" aria-hidden="true"></i>
-                </a>
+                <?php
+                    // Get the current URL
+                    $currentURL = $_SERVER['REQUEST_URI'];
+
+                    // Define the string to check for in the URL
+                    $checkString = "fb-solar-sale";
+
+                    // Define the HTML for the phone numbers
+                    $phoneNumHTML1 = '<a href="tel:+18332904200" target="_self" class="green-button">
+                                        <span class="fl-button-text">CALL (833) 290-4200</span>
+                                        <i class="fl-button-icon fl-button-icon-after dashicons dashicons-before dashicons-phone" aria-hidden="true"></i>
+                                    </a>';
+
+                    $phoneNumHTML2 = '<a href="tel:+18888705159" target="_self" class="green-button">
+                                        <span class="fl-button-text">CALL (888) 870-5159</span>
+                                        <i class="fl-button-icon fl-button-icon-after dashicons dashicons-before dashicons-phone" aria-hidden="true"></i>
+                                    </a>';
+
+                    // Check if the checkString appears anywhere in the URL
+                    if (strpos($currentURL, $checkString) !== false) {
+                        echo $phoneNumHTML2;
+                    } else {
+                        echo $phoneNumHTML1;
+                    }
+                    ?>
             </div>
         </section>
 
         <section class="call-now-section">
-            <a class="smpFont" href="tel:8332904200">CALL NOW (833)290-4200</a>
+            <?php
+            // Get the current URL
+            $currentURL = $_SERVER['REQUEST_URI'];
+
+            // Define the string to check for in the URL
+            $checkString = "fb-solar-sale";
+
+            // Define the HTML for the phone numbers
+            $phoneNumHTML1 = '<a class="smpFont" href="tel:8332904200">CALL NOW (833) 290-4200</a>';
+
+            $phoneNumHTML2 = '<a class="smpFont" href="tel:+18888705159">CALL NOW (888) 870-5159</a>';
+
+            // Check if the checkString appears anywhere in the URL
+            if (strpos($currentURL, $checkString) !== false) {
+                echo $phoneNumHTML2;
+            } else {
+                echo $phoneNumHTML1;
+                    }
+            ?>
 
             <div class="img-wrapper">
                 <img loading="lazy" src="https://smpstage.wpengine.com/wp-content/uploads/2023/05/Pink-Panther.png" alt="Get 50 Year Platnium Warranty protection for your roof!">
@@ -675,10 +733,31 @@ wp_head();
             <p>Semper Solaris will design and install a Solar and Battery system customized for your individual energy needs. Tesla Powerwalls are in stock and ready for installation, so now's the time to say goodbye to costly utility bills and embrace a sustainable future. Take control of your energy costs. Go solar today with Semper Solaris!</p>
             <div class="btn-holder" style="text-align:center">
                 <a class="orange-btn mt-5" href="https://appointment.sempersolaris.com/"> BOOK YOUR APPOINTMENT NOW </a>
-                <a href="tel:+18332904200" target="_self" class="green-button">
-                    <span class="fl-button-text">CALL (833) 290-4200</span>
-                    <i class="fl-button-icon fl-button-icon-after dashicons dashicons-before dashicons-phone" aria-hidden="true"></i>
-                </a>
+                <?php
+                    // Get the current URL
+                    $currentURL = $_SERVER['REQUEST_URI'];
+
+                    // Define the string to check for in the URL
+                    $checkString = "fb-solar-sale";
+
+                    // Define the HTML for the phone numbers
+                    $phoneNumHTML1 = '<a href="tel:+18332904200" target="_self" class="green-button">
+                                        <span class="fl-button-text">CALL (833) 290-4200</span>
+                                        <i class="fl-button-icon fl-button-icon-after dashicons dashicons-before dashicons-phone" aria-hidden="true"></i>
+                                    </a>';
+
+                    $phoneNumHTML2 = '<a href="tel:+18888705159" target="_self" class="green-button">
+                                        <span class="fl-button-text">CALL (888) 870-5159</span>
+                                        <i class="fl-button-icon fl-button-icon-after dashicons dashicons-before dashicons-phone" aria-hidden="true"></i>
+                                    </a>';
+
+                    // Check if the checkString appears anywhere in the URL
+                    if (strpos($currentURL, $checkString) !== false) {
+                        echo $phoneNumHTML2;
+                    } else {
+                        echo $phoneNumHTML1;
+                    }
+                    ?>
             </div>
         </article>
 

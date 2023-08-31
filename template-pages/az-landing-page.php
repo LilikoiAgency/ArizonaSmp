@@ -1053,7 +1053,7 @@ get_template_part("template-parts/lead-source-setter");
     }
 
     .main-header-section ul li {
-        list-style-image: url(/wp-content/themes/semper-texas-child/assets/icons/red-star-list-icon.svg);
+        list-style-image: url(/wp-content/themes/semper-arizona-child/assets/icons/red-star-list-icon.svg);
         padding-bottom: 5px;
     }
 
@@ -1104,7 +1104,7 @@ get_template_part("template-parts/lead-source-setter");
         }
 
         .main-header-section ul li {
-            list-style-image: url(/wp-content/themes/semper-texas-child/assets/icons/red-star-list-icon.svg);
+            list-style-image: url(/wp-content/themes/semper-arizona-child/assets/icons/red-star-list-icon.svg);
         }
     }
 </style>
