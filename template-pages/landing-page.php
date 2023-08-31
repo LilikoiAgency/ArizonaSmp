@@ -493,7 +493,7 @@ wp_head();
 
         <div class="logo-wrapper">
             <div class="smpFont veteranOwned">
-                <h2>VETERAN OWNED</h2>
+                <h2>VETERAN-OWNED</h2>
                 <h2>LOCAL BUSINESS</h2>
             </div>
             <img width="350" src="https://smpstage.wpengine.com/wp-content/uploads/2023/05/05-24-2023-SMP-Webform-Logo-with-White-Background-June-2023.png" alt="Semper Solaris the best Solar Company in Arizona">
