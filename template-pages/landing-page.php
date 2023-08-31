@@ -500,8 +500,7 @@ wp_head();
         </div>
 
         <section class="main-section">
-            <h2 class="smpFont">GO SOLAR AMERICAN STYLE</h2>
-
+        <h2 class="smpFont">GO <span style="color:#F9BF17;"> SOLAR </span> AMERICAN STYLE !</h2>
             <div class="wrapper row">
                 <div class="ptag-wrapper column">
                     <p class="smpFont">SAY GOODBYE <br> TO OUTRAGEOUS <br>ELECTRIC BILLS. <br>START SAVING <br>WITH US TODAY.</p>
