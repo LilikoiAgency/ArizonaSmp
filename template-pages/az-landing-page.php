@@ -1125,7 +1125,7 @@ get_template_part("template-parts/lead-source-setter");
         <img class="m-auto" width="250" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/logo/semper-solaris_logo-hd.svg" alt="">
     </div>
     <div class="text-center p-2" style="background-color: #004c97; color:white;">
-        <h2 class="m-auto top-callout">Top Residential Solar + Battery Storage Installer in Arizona </h2>
+        <h2 class="m-auto top-callout">Top Residential Solar + Battery Storage Installer in America </h2>
     </div>
 </header>
 
