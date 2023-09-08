@@ -484,6 +484,7 @@ wp_head();
 			font-size: 45px; 
 			text-align:center;
 			color:white !important;
+            margin-top: 0px;
             }
             @media only screen and (max-width: 500px){
                 .extended-top-sale{margin-bottom: 2px;

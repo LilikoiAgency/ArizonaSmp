@@ -1107,6 +1107,17 @@ get_template_part("template-parts/lead-source-setter");
             list-style-image: url(/wp-content/themes/semper-arizona-child/assets/icons/red-star-list-icon.svg);
         }
     }
+    .extended-top-sale{
+			margin-bottom:-5px;
+			font-size: 45px; 
+			text-align:center;
+			color:white !important;
+            margin-top: 0px;
+            }
+            @media only screen and (max-width: 500px){
+                .extended-top-sale{margin-bottom: 2px;
+                font-size: 27px;}
+            }
 </style>
 
 <header>
@@ -1121,7 +1132,7 @@ get_template_part("template-parts/lead-source-setter");
 <div class="main-header-section">
     <div class="row m-auto pt-md-4 pb-md-5" style="max-width: 1100px;">
         <div class="header-inner-wrapper col-md-7 pt-md-4">
-
+            <h3 class="smpFont extended-top-sale">Extended for a limited time!</h3>
             <h1 class="smpFont">HUGE <span style="color:#F9BF17;">LABOR DAY </span> SALE</h1>
             <img src="/wp-content/uploads/2023/07/SMP-Upto-6000-in-savings.png" title="Get up to $6,000 off Solar + Battery" alt="Get Up To $6,000 Off Solar + Battery Storage">
             <p class="left d-none d-md-block">
