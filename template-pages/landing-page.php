@@ -479,10 +479,21 @@ wp_head();
 
 
             }
+            .extended-top-sale{
+			margin-bottom:-5px;
+			font-size: 45px; 
+			text-align:center;
+			color:white !important;
+            }
+            @media only screen and (max-width: 500px){
+                .extended-top-sale{margin-bottom: 2px;
+                font-size: 27px;}
+            }
         </style>
 
         <header>
             <div class="header-inner-wrapper">
+                <h3 class="smpFont extended-top-sale">Extended for a limited time!</h3>
                 <h1 class="smpFont"> HUGE <span style="color:#F9BF17;"> LABOR <?php if(wp_is_mobile()): echo "<br>"; endif;  ?> DAY </span> SALE </h1>
                 <h2 class="smpFont mt-0 up-to">                    
                     <img width="50" src="https://smpstage.wpengine.com/wp-content/uploads/2023/07/SMP-Up-To-Bubble.png" alt="get up to $6,000 off solar + battery storage">
