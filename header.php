@@ -17,18 +17,14 @@ endif;
 
 $logo_margin = (wp_is_mobile()) ? '' : 'style="margin-top: -9px;"';
 $home = home_url();
-?>
 
+?>
 <!DOCTYPE html>
 <html lang="en">
-<style>
-	html, body{
-/* 		overflow-x: hidden; */
-		
-	}	
-</style>
+
 <head>
     <?php
+
     function echoDomainName($echo = 1)
     {
         // $home_url = "https://www.sempersolaris.com";
@@ -39,27 +35,30 @@ $home = home_url();
             return $home_url;
         endif;
     }
+
     ?>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
-    <link rel="alternate" hreflang="x-default" href="<?= 'https://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]; ?>">
     <link rel="alternate" hreflang="en-US" href="<?= 'https://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]; ?>">
     <meta name="google-site-verification" content="n2EP8YNrqE9aGJdyXIvdYGdNikl3a1pWDU-VydiJN4k" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <?php
+
     get_template_part("template-parts/global", "head_scripts");
     wp_head();
+
     ?>
     <link href="/wp-content/themes/semper-arizona-child/css/global.min.css" rel="stylesheet" />
     <script async src="//70499.cctm.xyz/t.js"></script>
     <link href="/wp-content/themes/semper-arizona-child/css/forms.css" rel="stylesheet" />
-
 </head>
 
 <body class="mb-0" <?php body_class(); ?>>
-	<?php wp_body_open(); ?>
     <?php
+
+    wp_body_open();
+
     /**
      * SET LEAD SOURCE BASED UPON PRIORITY
      */
@@ -131,7 +130,7 @@ $home = home_url();
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
                                 <li><a class="dropdown-item" href="/about-us/">About Us</a></li>
                                 <li><a class="dropdown-item" href="/meet-our-vets/"> Meet Ours Vets </a></li>
-								<li><a class="dropdown-item" href="/locations/"> Locations </a></li>
+                                <li><a class="dropdown-item" href="/locations/"> Locations </a></li>
                                 <li><a class="dropdown-item" href="https://www.sempersolaris.com/semper-cares-initiative/"> Semper Cares Initiative </a></li>
                                 <li><a class="dropdown-item" href="/careers/"> Careers </a></li>
                                 <li><a class="dropdown-item" href="/contact/"> Contact Us </a></li>
@@ -143,10 +142,10 @@ $home = home_url();
                                 <li><a class="dropdown-item" href="/blog/">Blog</a></li>
                                 <li><a class="dropdown-item" href="/frequently-asked-questions/">FAQs</a></li>
                                 <li><a class="dropdown-item" href="/refer-friend/">Refer a Friend</a></li>
-								<li><a class="dropdown-item" href="/solar-101-solar-for-beginners-in-arizona/">Solar for beginners</a></li>
+                                <li><a class="dropdown-item" href="/solar-101-solar-for-beginners-in-arizona/">Solar for beginners</a></li>
                             </ul>
                         </li>
-                        
+
                         <li class="nav-item">
                             <a class="nav-link" href="https://help.sempersolaris.com/s/">Customer Support</a>
                         </li>
