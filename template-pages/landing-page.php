@@ -675,7 +675,6 @@ wp_head();
                 <img loading="lazy" class="img-2" src="https://smpstage.wpengine.com/wp-content/uploads/2023/06/july-colors.png" alt="Plus symbol">
                 <img loading="lazy" class="img-3" src="/wp-content/uploads/2023/08/000.png" alt="0 Down 0 Interest and 0 Payments until 2025!">
             </div>
-            <img loading="lazy" style="margin-top:4%;" width="450" src="https://smpstage.wpengine.com/wp-content/uploads/2023/06/SMP-Tesla-Rebate-Internet-Coupon-2.png" alt="Get Tesla Rebate offer for Tesla Powerwall">
             <h2 CLASS="smpFont">BATTERY STORAGE IN STOCK NOW!!!</h2>
 
             <div class="btn-holder">
@@ -774,7 +773,7 @@ wp_head();
 
 		
         <footer>
-            <p>*On approved credit. 15-panel minimum. Some restrictions apply. **30 percent federal tax credit based on eligibility, consult your tax advisor. New customers only. Call or see website for details, www.sempersolaris.com. ***Call or see website for details <a style="color:white !important;" href="https://www.tesla.com/support/energy/powerwall/order/rebate#combined-offer-incentive" target="_blank">https://www.tesla.com/support/energy/powerwall/order/rebate#combined-offer-incentive</a>.</p>
+            <p>*On approved credit. 15-panel minimum. Some restrictions apply. **30 percent federal tax credit based on eligibility, consult your tax advisor. New customers only. Call or see website for details, www.sempersolaris.com. </p>
 
             <div id="disclaimerArea" class="disclaimerArea" style="color:white !important">
                 <div class="text-center mx-auto container " role="contentinfo" aria-label="Site issue" style="max-width: 1000px; margin:auto;">
