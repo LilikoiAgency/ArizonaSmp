@@ -66,10 +66,6 @@ get_header();
 
         </div>
         <p class="p-2 yellow-container rounded m-3 mt-md-5 mx-md-auto"> <b>Bundling all Tesla products:</b> Solar energy is an Arizona homeowner's ultimate dream come true. The Copper State boasts an abundance of sunshine, positioning it as an ideal destination for harnessing this plentiful and environmentally-friendly energy source. By embracing solar power and selecting a solar inverter with battery storage, Arizonans can attain energy independence and free themselves from the constant weight of escalating energy expenses.</p>
-    </section>
-    <section class="container m-auto text-center">
-        <img  width="400" src="/wp-content/uploads/2023/06/SMP-Website-Graphic-500-Telsa-Powerwall-Rebate-1.png" alt="Act now and get a $500 Rebate for your Tesla Powerwall!">
-        <p style="font-weight:bold;"> Fill out form below </p>
     </section>	
     <div class=" container p-0 mb-0 pb-0 pb-md-5 mb-md-4 mb-md-5" style="max-width: 1140px; ">
         <style>
