@@ -1178,10 +1178,6 @@ get_template_part("template-parts/lead-source-setter");
             </a>
 
             <a href="#landingPage-form">
-                <img width="256px" height="218px" loading="lazy" src="/wp-content/uploads/2023/07/tesla-powerwall-500-rebate-offer.png" alt="Best Battery Storage offer in arizona, 500$ off with tesla powerwall rebate" />
-            </a>
-
-            <a href="#landingPage-form">
                 <img width="256px" height="218px" loading="lazy" src="/wp-content/uploads/2023/01/SMP-Roofing-Offer-Location-Pgs-Jan2023.png" alt="Best Roofing offer in arizona, replace your old roof and get your free upgrade" />
             </a>
         </div>
@@ -1447,7 +1443,7 @@ get_template_part("template-parts/lead-source-setter");
 </style>
 
 <footer>
-    <p>*On approved credit. 15-panel minimum. Some restrictions apply. **30 percent federal tax credit based on eligibility, consult your tax advisor. New customers only. Call or see website for details, www.sempersolaris.com. ***Call or see website for details <a style="color:white !important;" href="https://www.tesla.com/support/energy/powerwall/order/rebate#combined-offer-incentive" target="_blank">https://www.tesla.com/support/energy/powerwall/order/rebate#combined-offer-incentive</a>.</p>
+    <p>*On approved credit. 15-panel minimum. Some restrictions apply. **30 percent federal tax credit based on eligibility, consult your tax advisor. New customers only. Call or see website for details, www.sempersolaris.com.</p>
 
     <div id="disclaimerArea" class="disclaimerArea" style="color:white !important">
         <div class="text-center mx-auto container " role="contentinfo" aria-label="Site issue" style="max-width: 1000px; margin:auto;">

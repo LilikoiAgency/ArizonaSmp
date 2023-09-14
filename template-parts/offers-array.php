@@ -8,11 +8,6 @@
 
 $offers_array = [
     "special" => [
-		[
-            "image" => "/wp-content/uploads/2023/06/SMP-Internet-Coupon-Telsa-500-Powerwall-Rebate.png",
-            "alt_title" => "Limited Time Offer! $500 Rebate when you get a Tesla Powerwall! Expires October 2023",
-            "link" => "https://appointment.sempersolaris.com/",
-        ],
         [
             "image" => "/wp-content/uploads/2022/11/11-09-22-SMPAZ-Digital-Internet-Coupon-Military-Nov2022.png",
             "alt_title" => "$500 off for military and first responders",
@@ -57,11 +52,6 @@ $offers_array = [
         ]
     ],
     "battery" => [
-		[
-            "image" => "/wp-content/uploads/2023/06/SMP-Internet-Coupon-Telsa-500-Powerwall-Rebate.png",
-            "alt_title" => "Limited Time Offer! $500 Rebate when you get a Tesla Powerwall! Expires October 2023",
-            "link" => "https://appointment.sempersolaris.com/",
-        ],
         [
             "image" => "/wp-content/uploads/2022/11/11-09-22-SMPAZ-Digital-Internet-Coupon-Battery-Nov2022.png",
             "alt_title" => "financing for tesla battery storage powerwall",
