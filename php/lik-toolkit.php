@@ -9,7 +9,7 @@ class likToolkit
             && !is_user_logged_in()
             && !stripos($_SERVER['REQUEST_URI'], 'wp-admin')
             && !stripos($_SERVER['REQUEST_URI'], 'wp-json')
-			&& !stripos($_SERVER['REQUEST_URI'], '.xml')
+            && !stripos($_SERVER['REQUEST_URI'], '.xml')
         ) {
             /**
              * DON'T RUN IN ADMIN DASHBOARD.
@@ -23,7 +23,6 @@ class likToolkit
     private static $LINK_EXCLUSIONS = ["bing", "facebook", "g.page", "google", "hotjar", "instagram", "linkedin", "nextdoor", "pinterest", "tiktok", "twitter", "t.co", "weather-us", "yoa.st", "youtube"];
     private static $CLASS_EXCLUSIONS = ["toggle"];
     private static $PARAM_EXCLUSIONS = ["trust", "tcpa", "00N1P00000A2CfC", "post_type", "chat_with_us", "location"];
-    private static $PARAM_VAL_EXCLUSIONS = ["web-stories"];
     private static $CHAR_EXCLUSIONS = ['.asp', '.ca', '.css', '.edu', '.gov', '.htm', '.jpeg', '.jpg', '.jsp', '.mp3', '.mp4', '.org', '.pdf', '.php', '.png', '.txt', '.us', '.xml', '.xsl', 'bloomberg', 'fanniemae', 'usclimatedata', 'wikipedia'];
 
     private static function excluded_character_check($s)
@@ -47,7 +46,8 @@ class likToolkit
         }, $c);
     }
 
-    private static function add_forward_slash_to_wp_pathways($c) {
+    private static function add_forward_slash_to_wp_pathways($c)
+    {
         return preg_replace_callback('/(?<=href=["|\'])[^tel|sms|mailto](.*?)(?=[\"|\'])/', function ($links) {
             if (
                 strlen($links[1]) > 1
@@ -78,7 +78,7 @@ class likToolkit
         $css = preg_replace('/and\(/', 'and (', $css);          // ADD SPACE AFTER and
         $css = preg_replace('/\(\s*/', '(', $css);              // REMOVE ALL SPACES AFTER OPENING PARENTHESIS
         $css = preg_replace('/\s*\)/', ')', $css);              // REMOVE ALL SPACES BEFORE CLOSING PARENTHESIS
-        $css = preg_replace('/\)\s*(?!-|\+)/', ')', $css);      // REMOVE ALL SPACES AFTER CLOSING PARENTHESIS EXPECT WHEN FOLLOWED BY - OR +
+        $css = preg_replace('/\)\s*(?!-|\+|\.)/', ')', $css);   // REMOVE ALL SPACES AFTER CLOSING PARENTHESIS EXPECT WHEN FOLLOWED BY - OR + OR .
         $css = preg_replace('/\s*>/', '>', $css);               // REMOVE ALL SPACES BEFORE GREATER-THAN SELECTOR
         $css = preg_replace('/>\s*/', '>', $css);               // REMOVE ALL SPACES AFTER GREATER-THAN SELECTOR
         return $css;
@@ -90,11 +90,10 @@ class likToolkit
             '/contact-form-7/includes/css/styles.css',
         ];
         foreach ($files_to_minify as $path) {
-            if (file_exists(WP_PLUGIN_DIR . $path) && file_exists(ABSPATH . $path)) continue;
+            $root_pathway = (file_exists(WP_PLUGIN_DIR . $path)) ? WP_PLUGIN_DIR : (file_exists(ABSPATH . $path) ? ABSPATH : null);
+            if ($root_pathway == null) continue;
             if (stripos($path, '.css') > -1) :
-                $css = file_get_contents(WP_PLUGIN_DIR . $path);
-                $css = likToolkit::minify_css($css);
-                file_put_contents(WP_PLUGIN_DIR . $path, $css);
+                file_put_contents($root_pathway . $path, likToolkit::minify_css(file_get_contents($root_pathway . $path)));
             endif;
         }
     }
@@ -155,9 +154,6 @@ class likToolkit
             if (likToolkit::checkForExclusions($key, likToolkit::$PARAM_EXCLUSIONS)) {
                 continue;
             }
-            if (likToolkit::checkForExclusions($value, likToolkit::$PARAM_VAL_EXCLUSIONS)) {
-                continue;
-            }
             $parameters .= $key . '=' . $value . ($index < (count($param_array) - 1) ? '&' : '');
             $index++;
         }
@@ -188,14 +184,10 @@ class likToolkit
                 $scheme = isset($link_array['scheme']) ? $link_array['scheme'] . '://' : '';
                 $host = isset($link_array['host']) ? $link_array['host'] : '';
                 $path = isset($link_array['path']) ? $link_array['path'] : '';
-                $query = isset($link_array['query']) ? '?' . $link_array['query'] . '&' : '';
+                $query = isset($link_array['query']) ? $link_array['query'] . '&' : '';
                 $fragment = isset($link_array['fragment']) ? '#' . $link_array['fragment'] : '';
 
-                if (($parameters && $parameters[0] != '?') && !$query) {
-                    $parameters = '?' . $parameters;
-                }
-
-                $_href = $scheme . $host . $path . $query . $parameters . $fragment;
+                $_href = $scheme . $host . $path . '?' . $query . $parameters . $fragment;
 
                 $_a->setAttribute("href", $_href);
             }
@@ -218,10 +210,10 @@ class likToolkit
                 $scheme = isset($link_array['scheme']) ? $link_array['scheme'] . '://' : '';
                 $host = isset($link_array['host']) ? $link_array['host'] : '';
                 $path = isset($link_array['path']) ? $link_array['path'] : '';
-                $query = isset($link_array['query']) ? '?' . $link_array['query'] . '&' : '?';
+                $query = isset($link_array['query']) ? $link_array['query'] . '&' : '';
                 $fragment = isset($link_array['fragment']) ? '#' . $link_array['fragment'] : '';
 
-                $_src = $scheme . $host . $path . $query . $parameters . $fragment;
+                $_src = $scheme . $host . $path . '?' . $query . $parameters . $fragment;
 
                 $_f->setAttribute("src", $_src);
             }
@@ -257,7 +249,7 @@ class likToolkit
         }
     }
 
-	public static function add_accessibility_attributes_to_tags($page)
+    public static function add_accessibility_attributes_to_tags($page)
     {
         $DOM = new DOMDocument;
         $DOM->loadHTML($page, LIBXML_NOERROR);
@@ -315,7 +307,7 @@ class likToolkit
         likToolkit::$contents = ob_get_contents();
         if (!empty(likToolkit::$contents)) {
             likToolkit::$contents = likToolkit::add_accessibility_attributes_to_tags(likToolkit::$contents);
-//             likToolkit::$contents = likToolkit::remove_css_spaces(likToolkit::$contents);
+            likToolkit::$contents = likToolkit::remove_css_spaces(likToolkit::$contents);
             likToolkit::$contents = likToolkit::add_query_parameters_to_links(likToolkit::$contents);
         }
     }
@@ -332,6 +324,3 @@ class likToolkit
     }
 }
 new likToolkit();
-/**
- * END DIZZY'S CLASS
- */
