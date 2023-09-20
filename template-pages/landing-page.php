@@ -653,7 +653,7 @@ wp_head();
                             <p style="margin-bottom:-20px;margin-top:0;"> or fill-out form below</p>
                         </div>
                         <?php echo do_shortcode('[contact-form-7 id="925" title="landing page"]'); ?>
-                        <p style="padding: 5px;line-height: 12px; text-align: center;margin-top:-20px;"><span style="color: rgb(0, 0, 0); font-size: 10px;">By clicking, you agree to receive marketing emails, text messages, and phone calls are recorded. You may opt-out at anytime.</span></p>
+                        <p style="padding: 5px;line-height: 12px; text-align: center;margin-top:-20px;"><span style="color: rgb(0, 0, 0); font-size: 10px;">By clicking, you agree to receive marketing emails, text messages, and phone calls and chats are recorded. You may opt-out at anytime.</span></p>
                     </div>
                 </div>
             </div>
