@@ -195,7 +195,7 @@ get_header();
                     <br />
 
                     <input value="Submit" type="submit" name="submit" class="btn btn-red">
-                    <p style="font: normal normal normal 12px/12px Barlow, sans-serif">By clicking, you agree to receive marketing emails, text messages, and phone calls are recorded. You may opt-out at anytime.</p>
+                    <p style="font: normal normal normal 12px/12px Barlow, sans-serif">By clicking, you agree to receive marketing emails, text messages, and phone calls and chats are recorded. You may opt-out at anytime.</p>
                     <input type="hidden" id="lead_source_semso" name="lead_source_semso" value="WEBSITE REFERAFRIEND ALL">
                 </form>
             </div>

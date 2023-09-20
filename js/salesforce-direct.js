@@ -111,7 +111,7 @@ const VERTICAL_FORM = `
             <div id="submit_container_v">
                 <input style="width:100%;padding:20px" value="Submit" type="submit" name="formSubmitBtn" class="btn btn-red" disabled="" aria-label="Submit Form" />
             </div>
-            <p style="font: normal normal normal 12px/12px Barlow, sans-serif">By clicking, you agree to receive marketing emails, text messages, and phone calls are recorded. You may opt-out at anytime.</p>
+            <p style="font: normal normal normal 12px/12px Barlow, sans-serif">By clicking, you agree to receive marketing emails, text messages, and phone calls and chats are recorded. You may opt-out at anytime.</p>
 
             <input type="hidden" id="current_page" name="current_page" value="${document.location}" />
             <input type="hidden" id="referrer" name="referrer" value="${referrer + location.search}" />
@@ -225,7 +225,7 @@ const POPUP_FORM = `
                 <img loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP-CTA-White-Arrow.svg" class="submit-arrow" alt="Right arrow" width="21px" height="21px">
                 <input class="btn btn-red" type="submit" name="formSubmitBtn" disabled="" aria-label="Submit Form" value="Get FREE Estimate" />
             </div>
-            <p class="text-center" style="margin:0;font: normal normal normal 8pt/8pt Barlow, sans-serif">By clicking, you agree to receive marketing emails, text messages, and phone calls are recorded. You may opt-out at anytime.</p>
+            <p class="text-center" style="margin:0;font: normal normal normal 8pt/8pt Barlow, sans-serif">By clicking, you agree to receive marketing emails, text messages, and phone calls and chats are recorded. You may opt-out at anytime.</p>
 
             <input type="hidden" id="current_page" name="current_page" value="${document.location}" />
             <input type="hidden" id="referrer" name="referrer" value="${referrer + location.search}" />
