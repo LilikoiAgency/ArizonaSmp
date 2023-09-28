@@ -122,7 +122,7 @@ wp_head();
                 background-image: url(/wp-content/uploads/2023/09/10-23-SMP-Primary-Web-Image-Asset-Horizontal-Layout-1400-x-756-1.png);
                 background-position: left bottom;
                 background-repeat: no-repeat;
-                background-color: #654535;
+                background-color: #644234;
                 background-size: contain;
                	padding: 50px 10px 90px 10px;
                 min-height: 1000px;
