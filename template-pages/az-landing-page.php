@@ -872,7 +872,8 @@ get_template_part("template-parts/lead-source-setter");
     }
 
       h1.smpFont {
-            font-size: 86px;
+            font-size: 127px;
+            line-height: 108px;
             margin: 0;
             color: white;
         }
@@ -1026,12 +1027,12 @@ get_template_part("template-parts/lead-source-setter");
     }
 
     .main-header-section {
-        background-image: url('/wp-content/uploads/2023/08/09-23-SMP-Primary-Web-Image-Asset-Horizontal-Layout-1400-x-756-1.png');
+        background-image: url('/wp-content/uploads/2023/09/10-23-SMP-Primary-Web-Image-Asset-Horizontal-Layout-1400-x-756-1.png');
         overflow: hidden;
         background-size: contain;
         background-position: bottom left;
         background-repeat: no-repeat;
-        background-color: #273E4F;
+        background-color: #654535;
     }
 
     .main-header-section .left {
@@ -1078,14 +1079,17 @@ get_template_part("template-parts/lead-source-setter");
             padding: 10px; 
             padding-bottom: 50px;
 			background-attachment: fixed;
-			background-size: auto 95%;
+			background-size: cover;
 			background-position: top center;
-			background-image: url("/wp-content/uploads/2023/08/mobiel-solar-sale-2.png");
+			background-image: url("/wp-content/uploads/2023/09/10-23-SMP-Primary-Web-Image-Asset-Vertical-Layout-600-x-1200.png");
+            background-color: #090f19;
         }
 
         .main-header-section h1 {
             text-align: center;
             color: white;
+            font-size: 70px;
+            line-height: 70px;
         }
 
         .main-header-section img {
@@ -1132,8 +1136,9 @@ get_template_part("template-parts/lead-source-setter");
 <div class="main-header-section">
     <div class="row m-auto pt-md-4 pb-md-5" style="max-width: 1100px;">
         <div class="header-inner-wrapper col-md-7 pt-md-4">
-            <h3 class="smpFont extended-top-sale">Extended for a limited time!</h3>
-            <h1 class="smpFont">HUGE <span style="color:#F9BF17;">LABOR DAY </span> SALE</h1>
+
+            <h1 class="smpFont"> DECLARE YOUR <br> <span style="color:#F9BF16"> INDEPENDENCE </span> </h1>
+            
             <img src="/wp-content/uploads/2023/07/SMP-Upto-6000-in-savings.png" title="Get up to $6,000 off Solar + Battery" alt="Get Up To $6,000 Off Solar + Battery Storage">
             <p class="left d-none d-md-block">
                 Are your energy bills skyrocketing every month? Say goodbye to outrageous electricity bills in <?php echo $content_array['city-name'] ?>. Go solar and start saving! Act now and save up to $6,000!
@@ -1448,13 +1453,13 @@ get_template_part("template-parts/lead-source-setter");
     <div id="disclaimerArea" class="disclaimerArea" style="color:white !important">
         <div class="text-center mx-auto container " role="contentinfo" aria-label="Site issue" style="max-width: 1000px; margin:auto;">
             <p class="site-disclaimer" style="color:white;"><small>
-                    Expires <span id="_expiry_">at the end of this month</span>.</small></p> <br>
+                    Expires <span id="_expiry_">10/10/2023</span>.</small></p> <br>
             <script defer>
-                let _d = new Date(),
-                    _lD = new Date(_d.getFullYear(), _d.getMonth() + 1, 0);
-                document.getElementById("_expiry_").innerText = _lD.toLocaleString('default', {
-                    month: 'long'
-                }) + " " + _lD.getDate() + ", " + _lD.getFullYear();
+                // let _d = new Date(),
+                //     _lD = new Date(_d.getFullYear(), _d.getMonth() + 1, 0);
+                // document.getElementById("_expiry_").innerText = _lD.toLocaleString('default', {
+                //     month: 'long'
+                // }) + " " + _lD.getDate() + ", " + _lD.getFullYear();
             </script>
             <p id="disclaimerArea">&copy;<?php echo date('Y') ?> Semper Solaris. All Rights Reserved.  | ROC# 336163 | ROC# 336306 | ROC# 336305| <a style="color:white;" href="https://www.sempersolaris.com/privacy-notice/">Privacy Policy </a> | Call +1 (888) 210-3366 </p>
             <p id="disclaimerArea">This site is protected by reCAPTCHA and the Google <a style="color:white;" href="https://policies.google.com/privacy">Privacy Policy</a> and <a style="color:white;" href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
