@@ -1032,7 +1032,7 @@ get_template_part("template-parts/lead-source-setter");
         background-size: contain;
         background-position: bottom left;
         background-repeat: no-repeat;
-        background-color: #654535;
+        background-color: #644234;
     }
 
     .main-header-section .left {
