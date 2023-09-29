@@ -20,7 +20,7 @@ class likToolkit
     }
 
     private static $contents;
-    private static $LINK_EXCLUSIONS = ["bing", "facebook", "g.page", "google", "hotjar", "instagram", "linkedin", "nextdoor", "pinterest", "tiktok", "twitter", "t.co", "weather-us", "yoa.st", "youtube"];
+    private static $LINK_EXCLUSIONS = ["bing", "britannica", "facebook", "g.page", "google", "hotjar", "instagram", "linkedin", "nextdoor", "pinterest", "tiktok", "twitter", "t.co", "weather-us", "yoa.st", "youtube"];
     private static $CLASS_EXCLUSIONS = ["toggle"];
     private static $PARAM_EXCLUSIONS = ["trust", "tcpa", "00N1P00000A2CfC", "post_type", "chat_with_us", "location"];
     private static $CHAR_EXCLUSIONS = ['.asp', '.ca', '.css', '.edu', '.gov', '.htm', '.jpeg', '.jpg', '.jsp', '.mp3', '.mp4', '.org', '.pdf', '.php', '.png', '.txt', '.us', '.xml', '.xsl', 'bloomberg', 'fanniemae', 'usclimatedata', 'wikipedia'];
@@ -237,7 +237,10 @@ class likToolkit
                     if (false != array_search($child->nodeName, $headings) && $child->hasChildNodes()) {
                         if (false != array_search($child->nodeName, $headings)) {
                             for ($i = 0; $i < count($child->childNodes); $i++) {
-                                if ($child->childNodes->item($i)->nodeName != '#text' && $child->nodeName != 'br') $child->childNodes->item($i)->setAttribute('role', 'heading');
+                                if ($child->childNodes->item($i)->nodeName != '#text' && $child->nodeName != 'br') {
+                                    $child->childNodes->item($i)->setAttribute('role', 'heading');
+                                    $child->childNodes->item($i)->setAttribute('aria-level', $child->nodeName[1]);
+                                }
                             }
                         }
                     }
@@ -255,6 +258,7 @@ class likToolkit
         $DOM->loadHTML($page, LIBXML_NOERROR);
 
         $anchor_tags = $DOM->getElementsByTagName('a');
+        $unordered_list = $DOM->getElementsByTagName('ul');
         $list_item_tags = $DOM->getElementsByTagName('li');
 
         if (isset($anchor_tags) && !empty($anchor_tags)) {
@@ -266,6 +270,12 @@ class likToolkit
                 ) {
                     $_a->setAttribute('aria-label', 'Opens in new tab.');
                 }
+            }
+        }
+
+        if (isset($unordered_list) && !empty($unordered_list)) {
+            foreach ($unordered_list as $_ul) {
+                $_ul->setAttribute('role', 'menu');
             }
         }
 
@@ -285,7 +295,7 @@ class likToolkit
                 }
 
                 if ($has_anchor == true) {
-                    $_li->setAttribute('role', 'none');
+                    $_li->setAttribute('role', 'presentation');
                 }
 
                 if ($has_dropdown == true) {
@@ -302,6 +312,28 @@ class likToolkit
         return $DOM->saveHTML();
     }
 
+    public static function remove_recaptcha_from_non_cf7_pages($page)
+    {
+        $DOM = new DOMDocument;
+        $DOM->loadHTML($page, LIBXML_NOERROR);
+
+        $forms = $DOM->getElementsByTagName('form');
+        $cf7_count = 0;
+
+        if (!empty($forms)) {
+            foreach ($forms as $_f) {
+                if (stripos($_f->getAttribute('class'), 'wpcf7') > -1) {
+                    $cf7_count++;
+                }
+            }
+        }
+        if ($cf7_count == 0) {
+            $DOM->getElementById('google-recaptcha-js')->setAttribute('src', '');
+            $DOM->getElementById('wpcf7-recaptcha-js')->setAttribute('src', '');
+        }
+        return $DOM->saveHTML();
+    }
+
     public static function callback()
     {
         likToolkit::$contents = ob_get_contents();
@@ -309,6 +341,7 @@ class likToolkit
             likToolkit::$contents = likToolkit::add_accessibility_attributes_to_tags(likToolkit::$contents);
             likToolkit::$contents = likToolkit::remove_css_spaces(likToolkit::$contents);
             likToolkit::$contents = likToolkit::add_query_parameters_to_links(likToolkit::$contents);
+            likToolkit::$contents = likToolkit::remove_recaptcha_from_non_cf7_pages(likToolkit::$contents);
         }
     }
 
