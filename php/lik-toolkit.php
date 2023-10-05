@@ -2,7 +2,13 @@
 
 class likToolkit
 {
-    function __construct()
+    private static string $contents;
+    private static string $site_domain;
+    private static array $CLASS_EXCLUSIONS = ["toggle"];
+    private static array $PARAM_EXCLUSIONS = ["trust", "tcpa", "00N1P00000A2CfC", "post_type", "chat_with_us", "location"];
+    private static array $CHAR_EXCLUSIONS = ['.asp', '.ca', '.css', '.edu', '.gov', '.htm', '.jpeg', '.jpg', '.jsp', '.mp3', '.mp4', '.org', '.pdf', '.php', '.png', '.txt', '.us', '.xml', '.xsl', 'bloomberg', 'fanniemae', 'usclimatedata', 'wikipedia'];
+
+    public function __construct()
     {
         if (
             !is_admin()
@@ -16,14 +22,17 @@ class likToolkit
              */
             add_action('init', array('likToolkit', 'start_buffer'));
             add_action('shutdown', array('likToolkit', 'dump_buffer'));
+            $this->get_site_domain();
         }
     }
 
-    private static $contents;
-    private static $LINK_EXCLUSIONS = ["bing", "britannica", "facebook", "g.page", "google", "hotjar", "instagram", "linkedin", "nextdoor", "pinterest", "tiktok", "twitter", "t.co", "weather-us", "yoa.st", "youtube"];
-    private static $CLASS_EXCLUSIONS = ["toggle"];
-    private static $PARAM_EXCLUSIONS = ["trust", "tcpa", "00N1P00000A2CfC", "post_type", "chat_with_us", "location"];
-    private static $CHAR_EXCLUSIONS = ['.asp', '.ca', '.css', '.edu', '.gov', '.htm', '.jpeg', '.jpg', '.jsp', '.mp3', '.mp4', '.org', '.pdf', '.php', '.png', '.txt', '.us', '.xml', '.xsl', 'bloomberg', 'fanniemae', 'usclimatedata', 'wikipedia'];
+    public static function get_site_domain()
+    {
+        $siteurl = get_option('siteurl');
+        $https = 'https://';
+        $http = 'http://';
+        likToolkit::$site_domain = (stripos($siteurl, $https) > -1) ? substr($siteurl, strlen($https)) : ((stripos($siteurl, $http) > -1) ? substr($siteurl, strlen($http)) : $siteurl);
+    }
 
     private static function excluded_character_check($s)
     {
@@ -46,14 +55,30 @@ class likToolkit
         }, $c);
     }
 
+    private static function is_link_internal($link)
+    {
+        if (substr($link, 0, 2) == '//') {
+            return false;
+        } else if (substr($link, 0, 1) == '/' || substr($link, 0, 1) == '#') {
+            return true;
+        }
+
+        $link_no_query = substr($link, 0, strpos($link, '?'));
+        $link = (!empty($link_no_query)) ? $link_no_query : $link;
+
+        if (stripos($link, likToolkit::$site_domain) >= -1) {
+            return true;
+        }
+        return false;
+    }
+
     private static function add_forward_slash_to_wp_pathways($c)
     {
         return preg_replace_callback('/(?<=href=["|\'])[^tel|sms|mailto](.*?)(?=[\"|\'])/', function ($links) {
             if (
-                strlen($links[1]) > 1
-                && substr($links[1], -1) != '/'
+                likToolkit::is_link_internal($links[0]) === true
+                && substr($links[0], -1) != '/'
                 && likToolkit::excluded_character_check($links[0]) === false
-                && likToolkit::urlBasedExclusions($links[0]) === false
             ) :
                 $links[1] = $links[1] . '/';
             endif;
@@ -100,28 +125,17 @@ class likToolkit
 
     private static function urlBasedExclusions($_href)
     {
-        /**
-         * PRE-CALCULATING ARRAY LENGTH PREVENTS THE FOR LOOP
-         * FROM CALLING COUNT() EACH ITERATION.
-         */
-        $link_length = count(likToolkit::$LINK_EXCLUSIONS);
-        /**
-         * 
-         */
-        for ($i = 0; $i < $link_length; $i++) {
-            if (gettype($_href) == "object") {
-                continue;
-            } else if (
-                stripos($_href, likToolkit::$LINK_EXCLUSIONS[$i]) > -1
-                || stripos($_href, "tel") === 0
-                || stripos($_href, "sms") === 0
-                || stripos($_href, "mailto") === 0
-                || stripos($_href, "#") === 0
-                || stripos($_href, "data") === 0
-                || $_href == ""
-            ) {
-                return true;
-            }
+        if (gettype($_href) == "object") {
+            return false;
+        } else if (
+            stripos($_href, "tel") === 0
+            || stripos($_href, "sms") === 0
+            || stripos($_href, "mailto") === 0
+            || stripos($_href, "#") === 0
+            || stripos($_href, "data") === 0
+            || $_href == ""
+        ) {
+            return true;
         }
         return false;
     }
@@ -237,7 +251,7 @@ class likToolkit
                     if (false != array_search($child->nodeName, $headings) && $child->hasChildNodes()) {
                         if (false != array_search($child->nodeName, $headings)) {
                             for ($i = 0; $i < count($child->childNodes); $i++) {
-                                if ($child->childNodes->item($i)->nodeName != '#text' && $child->nodeName != 'br') {
+                                if ($child->childNodes->item($i)->nodeName != '#text' && $child->childNodes->item($i)->nodeName != 'br') {
                                     $child->childNodes->item($i)->setAttribute('role', 'heading');
                                     $child->childNodes->item($i)->setAttribute('aria-level', $child->nodeName[1]);
                                 }
@@ -256,6 +270,7 @@ class likToolkit
     {
         $DOM = new DOMDocument;
         $DOM->loadHTML($page, LIBXML_NOERROR);
+        likToolkit::add_role_attribute_to_elements($DOM);
 
         $anchor_tags = $DOM->getElementsByTagName('a');
         $unordered_list = $DOM->getElementsByTagName('ul');
@@ -268,7 +283,8 @@ class likToolkit
                     && $_a->getAttribute('target') == "_blank"
                     && !$_a->hasAttribute('aria-label')
                 ) {
-                    $_a->setAttribute('aria-label', 'Opens in new tab.');
+                    $label_text = ($_a->textContent) ? trim($_a->textContent) . ' (opens in new tab).' : 'Opens in new tab.';
+                    $_a->setAttribute('aria-label', $label_text);
                 }
             }
         }
@@ -308,7 +324,6 @@ class likToolkit
                 }
             }
         }
-        likToolkit::add_role_attribute_to_elements($DOM);
         return $DOM->saveHTML();
     }
 
@@ -327,9 +342,13 @@ class likToolkit
                 }
             }
         }
-        if ($cf7_count == 0) {
-            $DOM->getElementById('google-recaptcha-js')->setAttribute('src', '');
-            $DOM->getElementById('wpcf7-recaptcha-js')->setAttribute('src', '');
+
+        $google_recaptcha = $DOM->getElementById('google-recaptcha-js');
+        $wpcf7_recaptcha = $DOM->getElementById('wpcf7-recaptcha-js');
+
+        if ($cf7_count == 0 && !empty($google_recaptcha) && !empty($wpcf7_recaptcha)) {
+            $google_recaptcha->setAttribute('src', '');
+            $wpcf7_recaptcha->setAttribute('src', '');
         }
         return $DOM->saveHTML();
     }
