@@ -6,7 +6,7 @@ class likToolkit
     private static string $site_domain;
     private static array $CLASS_EXCLUSIONS = ["toggle"];
     private static array $PARAM_EXCLUSIONS = ["trust", "tcpa", "00N1P00000A2CfC", "post_type", "chat_with_us", "location"];
-    private static array $CHAR_EXCLUSIONS = ['.asp', '.ca', '.css', '.edu', '.gov', '.htm', '.jpeg', '.jpg', '.jsp', '.mp3', '.mp4', '.org', '.pdf', '.php', '.png', '.txt', '.us', '.xml', '.xsl', 'bloomberg', 'fanniemae', 'usclimatedata', 'wikipedia'];
+    private static array $CHAR_EXCLUSIONS = ['.asp', '.ca', '.css', '.edu', '.gov', '.htm', '.jpeg', '.jpg', '.jsp', '.mp3', '.mp4', '.org', '.pdf', '.php', '.png', '.txt', '.us', '.xml', '.xsl'];
 
     public function __construct()
     {
@@ -299,6 +299,9 @@ class likToolkit
             foreach ($list_item_tags as $_li) {
                 $has_anchor = false;
                 $has_dropdown = false;
+                if (!$_li->getAttribute('role')) {
+                    $_li->setAttribute('role', 'menuitem');
+                }
 
                 foreach ($_li->childNodes as $node) {
                     if ($node->nodeName == 'a') {
