@@ -1,4 +1,4 @@
-<aside class="position-fixed shadow bg-white p-0 p-md-3" style="z-index:999;right:0;bottom:0;border-radius:5px 0 0 0" id="quick" role="navigation" aria-label="Quick Links">
+<aside class="position-fixed shadow bg-white p-0 p-md-3" style="z-index:999;right:0;bottom:0;border-radius:5px 0 0 0" id="quick">
     <div id="mobile_quick_buttons">
         <img src="/wp-content/themes/semper-arizona-child/assets/icons/quick-buttons-mobile.svg" style="width:100%;height:auto" alt="Quick links: chat, book now, phone, contact." />
         <nav class="container-image-map" aria-label="quick links">

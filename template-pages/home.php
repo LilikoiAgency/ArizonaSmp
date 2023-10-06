@@ -356,8 +356,8 @@ get_header();
     </section>
     <div class="px-md-4 py-5 my-md-5 text-start">
         <div class="col-lg-10 mx-auto ">
-            <h2 class="display-5 text-md-center px-2"> Home Battery Storage </h2>
-            <h6 class="h4 text-md-center mb-md-0 px-2">Say No To Power Outages Say Yes To Energy Security! </h6>
+            <h2 class="display-5 text-md-center px-2">Home Battery Storage</h2>
+            <h3 class="h4 text-md-center mb-md-0 px-2">Say No To Power Outages Say Yes To Energy Security!</h3>
             <div class="d-grid gap-md-5 pt-md-5 d-sm-flex justify-content-sm-center">
 
                 <?php if (wp_is_mobile()) : ?>
