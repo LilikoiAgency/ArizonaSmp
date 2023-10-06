@@ -19,10 +19,9 @@
     <div class="other-vertical-holder">
         <div class="other-vertical-cards">
             <?php if (wp_is_mobile()) :  ?>
-                <p class="hero-vertical-title" role="heading">Battery Backup</p>
-
+                <h3 class="hero-vertical-title">Battery Backup</h3>
             <?php else : ?>
-                <p class="hero-vertical-title" role="heading">Tesla Powerwall now in stock!</p>
+                <h3 class="hero-vertical-title">Tesla Powerwall now <br>in stock!</h3>
             <?php endif; ?>
             <picture>
                 <source srcset="https://floridastge.wpengine.com/wp-content/uploads/2023/03/battery-storage-for-home-owners.jpg" media="(min-width: 600px)">
@@ -30,22 +29,27 @@
             </picture>
 
             <a href="/battery-storage/" class="red-banner-container font-size-14">
-                <p><img src="/wp-content/themes/semper-arizona-child/assets/icons/12-09-22-SMPAZ-White-Circle-Arrow-Dec2022.svg" alt="Battery back up storage in arizona"> Battery Storage</p>
+                <p>
+                    <img src="/wp-content/themes/semper-arizona-child/assets/icons/12-09-22-SMPAZ-White-Circle-Arrow-Dec2022.svg" alt="Battery back up storage in arizona">
+                    Battery Storage
+                </p>
             </a>
         </div>
         <div class="other-vertical-cards">
             <?php if (wp_is_mobile()) :  ?>
-                <p class="hero-vertical-title" style="text-shadow: 0px 2px 15px black;" role="heading">50 Year Warranty</p>
-
+                <h3 class="hero-vertical-title" style="text-shadow: 0px 2px 15px black;">50 Year Warranty</h3>
             <?php else : ?>
-                <p class="hero-vertical-title" style="text-shadow: 0px 2px 15px black;" role="heading"> 50 Year Warranty with your <br> Roof installation. </p>
+                <h3 class="hero-vertical-title" style="text-shadow: 0px 2px 15px black;"> 50 Year Warranty with your <br> Roof installation.</h3>
             <?php endif; ?>
             <picture>
                 <source srcset="/wp-content/uploads/2023/04/top_roofers_in_az_582x340.jpg" media="(min-width: 600px)">
                 <img width="582" height="340" src="/wp-content/uploads/2023/04/top_roofers_in_az_582x340.jpg" alt="roof solar panels in arizona" />
             </picture>
             <a href="/roofing/" class="red-banner-container font-size-14">
-                <p><img src="/wp-content/themes/semper-arizona-child/assets/icons/12-09-22-SMPAZ-White-Circle-Arrow-Dec2022.svg" alt="best roofers"> Roofing Services </p>
+                <p>
+                    <img src="/wp-content/themes/semper-arizona-child/assets/icons/12-09-22-SMPAZ-White-Circle-Arrow-Dec2022.svg" alt="best roofers">
+                    Roofing Services
+                </p>
             </a>
         </div>
     </div>
