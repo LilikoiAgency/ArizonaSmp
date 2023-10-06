@@ -1,5 +1,3 @@
-</body>
-
 <div class="the-bottom-line w-100 bg-white"></div>
 <?php
 // get_template_part( "template-parts/salesforce", "direct" );
@@ -67,10 +65,10 @@ endif;
     <?php if (!wp_is_mobile()) : ?>
         <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet" as="style">
     <?php endif; ?>
-    <div class="banner mx-auto" style="">
+    <div class="banner mx-auto">
         <div class="banner-menu-blue">
             <a href="/" title="Semper Solaris">
-                <img loading="lazy" src="/wp-content/themes/semper-arizona-child/assets/logo/SMP FooterLogo.svg" alt="Semper Solaris arizona" />
+                <img loading="lazy" src="/wp-content/themes/semper-arizona-child/assets/logo/SMP FooterLogo.svg" alt="Semper Solaris Logo Arizona" />
             </a>
         </div>
         <div class="banner-menu-red">
@@ -161,12 +159,11 @@ endif;
             </g>
         </svg>
 <?php */ ?>
-        <svg class="semper-services-footer-banner mt-2" xmlns="http://www.w3.org/2000/svg" width="710.302" height="61.915" viewBox="0 0 710.302 61.915" style=" width:90%; height:45%; margin:0; ">
+        <svg class="semper-services-footer-banner mt-2" xmlns="http://www.w3.org/2000/svg" width="710.302" height="61.915" viewBox="0 0 710.302 61.915" style="width:90%;height:45%;margin:0" role="img" aria-labelledby="serviceLinksTitleMobile">
+            <title id="serviceLinksTitleMobile">Service Links: Solar, Battery Storage, Roofing</title>
             <g id="Group_6255" data-name="Group 6255" transform="translate(-663.287 -3201.338)">
                 <path id="Path_9187" data-name="Path 9187" d="M16.021.062,687.754-.059,659.74,60.667l-670.91.105Z" transform="translate(680.076 3201.396)" fill="#ce0109" />
-
                 <a id="footer-solar-link" href="<?php echo $solar; ?>">
-
                     <g id="Group_6251" data-name="Group 6251" transform="translate(722.795 3217.052)">
                         <path id="Path_136" data-name="Path 136" d="M93.758,37.544,92.6,31.511h6.97c.581,0,.76-.179.76-.67v-5.9c0-.892-.313-.938-1.207-.938h-3.35c-1.922,0-3.621-.445-3.621-3.664V9.347c0-2.546,1.341-4.2,4.379-4.2h8.938l1.117,6.033H99.253c-.536,0-.8.223-.8.715v5.9c0,.672.313.851.983.851H103.5c2.056,0,3.218.892,3.218,3.307V32.628c0,3.575-1.251,4.916-4.96,4.916Z" transform="translate(-92.148 -5.146)" fill="#fff" />
                         <path id="Path_137" data-name="Path 137" d="M120.531,32.941c0,2.459-1.028,4.6-4.648,4.6h-7.508c-3.62,0-4.648-2.144-4.648-4.6V9.347c0-2.546,1.341-4.2,4.379-4.2h8.044c3.039,0,4.379,1.655,4.379,4.2Zm-9.7-22.119c-.447,0-.581.223-.581.626V31.2c0,.493.089.672.626.672h2.458c.536,0,.626-.179.626-.672V11.447c0-.4-.134-.626-.581-.626Z" transform="translate(-86.478 -5.146)" fill="#fff" />
@@ -320,5 +317,6 @@ endif;
 
     ?>
 </footer>
+</body>
 
 </html>
