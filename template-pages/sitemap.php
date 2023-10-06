@@ -4,8 +4,6 @@
  * Template Name: Sitemap
  */
 
-get_header();
-
 global $wpdb, $omit_these_pages;
 $omit_these_pages = ['thank-you'];
 $page_categories = [
@@ -105,9 +103,8 @@ foreach ($pages_categorized as $cat => $pages) {
     usort($pages_categorized[$cat], 'callback_sort');
 }
 
-?>
-
-<style>
+$style = <<<STYLE
+<style class="page-css">
     .tab-content a {
         color: var(--bs-link-color) !important;
     }
@@ -135,51 +132,62 @@ foreach ($pages_categorized as $cat => $pages) {
         background-color: rgba(0, 0, 0, .05);
     }
 </style>
-<div id="primary">
-    <main id="main" class="section-lg container content-with-sidebar no-tablet py-5">
-        <div class="container">
-            <h2 class="border-bottom pb-3"><span class="search-title text-body-tertiary">Search</span> <strong>Sitemap</strong> <span class="search-title text-body-tertiary">by Keyword</span></h2>
-            <div class="container d-flex flex-column flex-lg-row flex-wrap justify-content-start">
-                <input type="text" id="search_keywords" class="col col-lg-3 px-2 border border-dark" style="border-width: 3px!important" placeholder="Search by keyword..." />
-                <div class="col-sm-2 ms-3 pt-1"><i>Count: <strong id="count_amount"></strong></i></div>
-            </div>
-        </div>
-        <div class="container mt-5">
-            <ul class="nav nav-tabs m-0 w-100" id="linkTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="page-tab" data-bs-toggle="tab" data-bs-target="#page-tab-pane" type="button" role="tab" aria-controls="page-tab-pane" aria-selected="true">Pages</button>
-                </li>
-                <!-- <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="post-tab" data-bs-toggle="tab" data-bs-target="#post-tab-pane" type="button" role="tab" aria-controls="post-tab-pane" aria-selected="false">Blog Posts</button>
-                </li> -->
-            </ul>
+STYLE;
+new Page_CSS($style);
 
-            <div class="tab-content container pt-3 px-0" style="min-height: 50vh;" id="linkTabContent">
-                <div class="tab-pane fade text-columns show active" id="page-tab-pane" role="tabpanel" aria-labelledby="page-tab" tabindex="0">
-                    <?php
+get_header();
 
-                    foreach ($pages_categorized as $cat => $posts) {
-                        echo '<h3 class="' . ('Solar Panels' == $cat ?: 'mt-5') . '">' . $cat . "</h3>";
-                        echo_sitemap_items($posts);
-                    }
-
-                    echo '<h3 class="mt-5">Miscellaneous</h3>';
-                    echo_sitemap_items($all_pages);
-
-                    ?>
-                </div>
-                <div class="tab-pane fade text-columns" id="post-tab-pane" role="tabpanel" aria-labelledby="post-tab" tabindex="0">
-                    <?php
-
-                    echo_sitemap_items($all_posts);
-
-                    ?>
+?>
+<main>
+    <div id="primary">
+        <main id="main" class="section-lg container content-with-sidebar no-tablet py-5">
+            <div class="container">
+                <h2 class="border-bottom pb-3"><span class="search-title text-body-tertiary">Search</span> <strong>Sitemap</strong> <span class="search-title text-body-tertiary">by Keyword</span></h2>
+                <div class="container d-flex flex-column flex-lg-row flex-wrap justify-content-start">
+                    <input type="text" id="search_keywords" class="col col-lg-3 px-2 border border-dark" style="border-width: 3px!important" placeholder="Search by keyword..." />
+                    <div class="col-sm-2 ms-3 pt-1"><i>Count: <strong id="count_amount"></strong></i></div>
                 </div>
             </div>
-        </div>
-    </main>
-</div>
-<script>
+            <div class="container mt-5">
+                <ul class="nav nav-tabs m-0 w-100" id="linkTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="page-tab" data-bs-toggle="tab" data-bs-target="#page-tab-pane" type="button" role="tab" aria-controls="page-tab-pane" aria-selected="true">Pages</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="post-tab" data-bs-toggle="tab" data-bs-target="#post-tab-pane" type="button" role="tab" aria-controls="post-tab-pane" aria-selected="false">Blog Posts</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content container pt-3 px-0" style="min-height: 50vh;" id="linkTabContent">
+                    <div class="tab-pane fade text-columns show active" id="page-tab-pane" role="tabpanel" aria-labelledby="page-tab" tabindex="0">
+                        <?php
+
+                        foreach ($pages_categorized as $cat => $posts) {
+                            echo '<h3 class="' . ('Solar Panels' == $cat ?: 'mt-5') . '">' . $cat . "</h3>";
+                            echo_sitemap_items($posts);
+                        }
+
+                        echo '<h3 class="mt-5">Miscellaneous</h3>';
+                        echo_sitemap_items($all_pages);
+
+                        ?>
+                    </div>
+                    <div class="tab-pane fade text-columns" id="post-tab-pane" role="tabpanel" aria-labelledby="post-tab" tabindex="0">
+                        <?php
+
+                        echo_sitemap_items($all_posts);
+
+                        ?>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</main>
+<?php
+
+$script = <<<SCRIPT
+<script class="footer-script">
     //////////////////////////
     // SEARCH by KEYWORD
     const KEYWORDS = document.querySelectorAll(".searchable");
@@ -231,6 +239,7 @@ foreach ($pages_categorized as $cat => $pages) {
     });
     //////////////////////////////////////////////////////
 </script>
-<?php
+SCRIPT;
+new Page_Scripts($script);
 
 get_footer();
