@@ -85,7 +85,7 @@ endif;
 
         ?>
             <div class="banner-menu-red">
-                <a id="footer-solar-link" href="<?= $solar; ?>"><strong>SOLAR</strong> </a>
+                <a id="footer-solar-link" href="<?= $solar; ?>"><strong>SOLAR</strong></a>
             </div>
             <div class="banner-menu-red">
                 <a id="footer-battery-link" href="<?= $battery; ?>"><strong>BATTERY STORAGE</strong></a>
@@ -111,7 +111,7 @@ endif;
                 <title id="serviceLinksTitleMobile">Service Links: Solar, Battery Storage, Roofing</title>
                 <g id="Group_6255" data-name="Group 6255" transform="translate(-663.287 -3201.338)">
                     <path id="Path_9187" data-name="Path 9187" d="M16.021.062,687.754-.059,659.74,60.667l-670.91.105Z" transform="translate(680.076 3201.396)" fill="#ce0109" />
-                    <a id="footer-solar-link" href="<?= $solar; ?>">
+                    <a id="footer-solar-link" href="<?= $solar; ?>" aria-label="Solar Panels">
                         <g id="Group_6251" data-name="Group 6251" transform="translate(722.795 3217.052)">
                             <path id="Path_136" data-name="Path 136" d="M93.758,37.544,92.6,31.511h6.97c.581,0,.76-.179.76-.67v-5.9c0-.892-.313-.938-1.207-.938h-3.35c-1.922,0-3.621-.445-3.621-3.664V9.347c0-2.546,1.341-4.2,4.379-4.2h8.938l1.117,6.033H99.253c-.536,0-.8.223-.8.715v5.9c0,.672.313.851.983.851H103.5c2.056,0,3.218.892,3.218,3.307V32.628c0,3.575-1.251,4.916-4.96,4.916Z" transform="translate(-92.148 -5.146)" fill="#fff" />
                             <path id="Path_137" data-name="Path 137" d="M120.531,32.941c0,2.459-1.028,4.6-4.648,4.6h-7.508c-3.62,0-4.648-2.144-4.648-4.6V9.347c0-2.546,1.341-4.2,4.379-4.2h8.044c3.039,0,4.379,1.655,4.379,4.2Zm-9.7-22.119c-.447,0-.581.223-.581.626V31.2c0,.493.089.672.626.672h2.458c.536,0,.626-.179.626-.672V11.447c0-.4-.134-.626-.581-.626Z" transform="translate(-86.478 -5.146)" fill="#fff" />
@@ -120,7 +120,7 @@ endif;
                             <path id="Path_140" data-name="Path 140" d="M156.936,24.362a2.8,2.8,0,0,1-2.9,2.86l3.4,10.322h-6.7L147.6,27.222h-.849V37.544h-6.48V5.146h12.289c3.039,0,4.379,1.655,4.379,4.2ZM146.747,10.821V21.994h3.173c.492,0,.626-.179.626-.67V11.492c0-.4-.179-.67-.626-.67Z" transform="translate(-68.588 -5.146)" fill="#fff" />
                         </g>
                     </a>
-                    <a id="footer-roofing-link" href="<?= $roofing; ?>">
+                    <a id="footer-roofing-link" href="<?= $roofing; ?>" aria-label="Roofing">
                         <g id="Group_6254" data-name="Group 6254" transform="translate(1197.227 3217.052)">
                             <g id="Group_1554" data-name="Group 1554">
                                 <path id="Path_142" data-name="Path 142" d="M600.9,24.362a2.8,2.8,0,0,1-2.9,2.86l3.4,10.322h-6.7l-3.128-10.322h-.849V37.544h-6.48V5.146h12.289c3.039,0,4.379,1.655,4.379,4.2ZM590.716,10.821V21.994h3.173c.492,0,.626-.179.626-.67V11.492c0-.4-.179-.67-.626-.67Z" transform="translate(-584.236 -5.146)" fill="#fff" />
@@ -133,7 +133,7 @@ endif;
                             </g>
                         </g>
                     </a>
-                    <a id="footer-battery-link" href="<?= $battery; ?>">
+                    <a id="footer-battery-link" href="<?= $battery; ?>" aria-label="Battery Storage">
                         <g id="Group_6252" data-name="Group 6252" transform="translate(883.017 3217.052)">
                             <path id="Path_151" data-name="Path 151" d="M216.2,17.972c0,1.609-.536,2.86-2.234,3.305a2.612,2.612,0,0,1,2.547,2.86v8.4c0,3.574-1.341,5-5.05,5H199.707V5.146h12.645c2.547,0,3.843,1.564,3.843,3.933Zm-10.055-7.15v8.491h3.039a.764.764,0,0,0,.8-.849V11.447c0-.4-.134-.626-.581-.626Zm3.934,14.345c0-.717-.4-.938-.985-.938h-2.949V31.87H209.4c.536,0,.672-.179.672-.672Z" transform="translate(-199.707 -5.146)" fill="#fff" />
                             <path id="Path_152" data-name="Path 152" d="M218.991,33.522l-.581,4.022h-6.525l5.854-32.4h6.927l5.854,32.4H224l-.581-4.022Zm.715-5.138H222.7L221.226,16.9Z" transform="translate(-193.744 -5.146)" fill="#fff" />
