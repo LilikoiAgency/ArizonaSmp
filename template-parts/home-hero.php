@@ -6,7 +6,7 @@
         <div class="hero-black-box-container">
             <p class="font-size-36 m-0">Reap the benefits of Solar!</p>
             <h1 class="font-size-66 m-0 mb-1 mb-sm-3"><strong>Arizona's Solar Experts</strong></h1>
-            <h2 class="font-size-28">Get A FREE Consultation <br class="br"> <a style="color:#f78000; text-decoration:none; border-bottom:solid 3px #f78000;" href="https://appointment.sempersolaris.com/">Schedule Today!</a></h2>
+            <h2 class="font-size-28">Get A FREE Consultation <br class="br"> <a style="color:#f78000;text-decoration:none;border-bottom:solid 3px #f78000" href="https://appointment.sempersolaris.com/">Schedule Today!</a></h2>
         </div>
 
         <a href="/solar-panels/" class="red-banner-container">
