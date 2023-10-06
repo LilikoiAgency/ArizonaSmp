@@ -1,12 +1,12 @@
-<section class="mx-auto" style="text-align:center;font-family: 'Barlow';">
-    <div class="">
+<section class="mx-auto" style="text-align:center;font-family:'Barlow'">
+    <div>
 
         <div class="solar-header" title="Solar image of a beautiful florida home with solar panels"> </div>
 
         <div class="hero-black-box-container">
-            <p class="font-size-36" role="heading">Reap the benefits of Solar!</p>
-            <p class="font-size-66" role="heading"> Arizona's Solar Experts </p>
-            <p class="font-size-28" >Get A FREE Consultation <br class="br"> <a style="color:#f78000; text-decoration:none; border-bottom:solid 3px #f78000;" href="https://sempersolaris.my.salesforce-sites.com/newapp/">Schedule Today!</a></p>
+            <h2 class="font-size-36 m-0" role="heading">Reap the benefits of Solar!</h2>
+            <h1 class="font-size-66 m-0 mb-1 mb-sm-3" role="heading"> Arizona's Solar Experts </h1>
+            <h3 class="font-size-28" role="heading">Get A FREE Consultation <br class="br"> <a style="color:#f78000; text-decoration:none; border-bottom:solid 3px #f78000;" href="https://appointment.sempersolaris.com/">Schedule Today!</a></h3>
         </div>
 
         <a href="/solar-panels/" class="red-banner-container">
@@ -38,7 +38,7 @@
                 <p class="hero-vertical-title" style="text-shadow: 0px 2px 15px black;" role="heading">50 Year Warranty</p>
 
             <?php else : ?>
-                <p class="hero-vertical-title" style="text-shadow: 0px 2px 15px black;" role="heading"> 50 Year Warranty with your <br> Roof installation.  </p>
+                <p class="hero-vertical-title" style="text-shadow: 0px 2px 15px black;" role="heading"> 50 Year Warranty with your <br> Roof installation. </p>
             <?php endif; ?>
             <picture>
                 <source srcset="/wp-content/uploads/2023/04/top_roofers_in_az_582x340.jpg" media="(min-width: 600px)">
@@ -51,8 +51,8 @@
     </div>
 </section>
 
-<?php if(wp_is_mobile()) : ?>
-<div class="p-4 pt-5 text-center">
-		<a class="red-btn btn text-center mx-auto" style="background-color: #e65b12; color:white; font-size: 18px;" href="https://sempersolaris.my.salesforce-sites.com/newapp/" target="_blank"> Book Appointment Today → </a>
-</div>
+<?php if (wp_is_mobile()) : ?>
+    <div class="p-4 pt-5 text-center">
+        <a class="red-btn btn text-center mx-auto" style="background-color: #e65b12; color:white; font-size: 18px;" href="https://appointment.sempersolaris.com/" target="_blank"> Book Appointment Today → </a>
+    </div>
 <?php endif; ?>

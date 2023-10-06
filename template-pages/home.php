@@ -5,7 +5,7 @@
  */
 
 $style = <<<STYLE
-<style class="page-css" type="text/css">
+<style class="page-css">
     @media screen and (max-width: 740px){
         .top-banner p {
             margin: 0 !important;
@@ -257,6 +257,26 @@ $style = <<<STYLE
         font-size: 20px;
     }
 </style>
+<style class="page-css">
+    .news-section {
+        display: flex;
+        flex-direction: row;
+        max-width: 1200px;
+        justify-content: space-around;
+        padding: 30px 10px;
+        margin: 5% auto;
+        flex-wrap: wrap;
+        background-color: #D9CAB366;
+    }
+
+    .news-section video {
+        width: 100%;
+    }
+
+    .news-section h2 {
+        font-size: 2rem;
+    }
+</style>
 STYLE;
 new Page_CSS($style);
 
@@ -281,7 +301,7 @@ get_header();
 
                 <div class="col-md-6 d-flex flex-column justify-content-center mb-auto px-2 " style="max-width:600px;">
                     <h2 class="display-5 text-start"> Solar Panel Installation </h2>
-                    <h6 class="h4 text-start mb-0"> Helping Arizona Become Energy Independent! </h6>
+                    <h3 class="h4 text-start mb-0"> Helping Arizona Become Energy Independent! </h3>
                     <hr style="width:65px; border: 1px solid #19A33D; height:0px; opacity: 1;">
                     <p>Solar panels help offset energy costs by converting sunlight into electricity, which can be used to power your home. With the frequency of blackouts in Arizona, solar roofing with a backup battery is perfect for when the power goes out. Other benefits of solar panels include being low maintenance and cost-effective. Above all else, solar panels take advantage of Arizona’s copious sunshine and turn it into renewable energy.</p>
 
@@ -290,10 +310,10 @@ get_header();
                         <li>Solar Panels Made In America</li>
                         <li>Solar Experts </li>
                         <li>Award Winning Installation </li>
-						<li>Among the Top Solar Companies in Arizona </li>
+                        <li>Among the Top Solar Companies in Arizona </li>
                     </ul>
 
-                    <a itemprop="url" href="https://sempersolaris.my.salesforce-sites.com/newapp/" class="learn-more-btn text-white text-decoration-none" >
+                    <a itemprop="url" href="https://appointment.sempersolaris.com/" class="learn-more-btn text-white text-decoration-none">
                         <span class="learn-more-text ">Book Appointment</span>
                         <span class=" learn-more-icon">
                             <img loading="lazy" style="margin-top: 10px;" src="/wp-content/themes/semper-arizona-child/assets/icons/horizontal form/SMP CTA Button Circle Arrow.svg" alt=" White Arrow inside circle " />
@@ -304,51 +324,30 @@ get_header();
                 </div>
             </div>
         </div>
-		
     </div>
-	
-	
-		 <style>
-        .news-section{
-            display: flex;
-            flex-direction: row;
-            max-width: 1200px;
-            justify-content: space-around;
-            padding: 30px 10px;
-            margin: 5% auto;
-            flex-wrap: wrap;
-            background-color: #D9CAB366;
-            /* color:white; */
-        }
-        .news-section video{
-            width: 100%;;
-        }
-        .news-section h2{
-            font-size: 2rem;
-        }
-    </style>
 
-    <section class="news-section" >
+    <section class="news-section">
         <div class="" style="max-width:500px;">
             <h2 style="background-color: #ce0109;color: white;padding: 10px;">Watch The Latest Media Coverage For Project Uniform</h2>
             <h3> Semper Solaris Gives Back </h3>
             <p style="margin-bottom:0px;"> On Independence Day 2023, The Semper Cares Initiative and its partners give back to a Veteran with a complete solar system.</p>
         </div>
         <div class="">
-            <video  width="480" height="260" controls poster="/wp-content/uploads/2023/07/SMP-Cares-Project-Uniform-Thumbnail.png">
+            <video width="480" height="260" controls poster="/wp-content/uploads/2023/07/SMP-Cares-Project-Uniform-Thumbnail.png">
                 <source src="/wp-content/uploads/2023/07/ProjectUniformCompressed_07062023_1.mp4" type="video/mp4">
                 Your browser does not support the video tag.
-            </video>        </div>
+            </video>
+        </div>
     </section>
-	
-	
-		<div class="mx-auto text-center pt-4">
-			<?php if(wp_is_mobile()):?>
-           <img class="mx-auto" width="800" src="/wp-content/uploads/2023/07/07-23-SMP-Website_hero-images_Mobile-2.png" alt="Huge savings! Up to $5,000 in savings form solar + battery"/>
-			<?php else: ?>
-			<img class="mx-auto" width="800" src="/wp-content/uploads/2023/07/07-23-SMP-Website_hero-images_Desktop-1.png" alt="Huge savings! Up to $5,000 in savings form solar + battery"/>
-			<?php endif; ?>
-		</div>
+
+
+    <div class="mx-auto text-center pt-4">
+        <?php if (wp_is_mobile()) : ?>
+            <img class="mx-auto" width="800" src="/wp-content/uploads/2023/07/07-23-SMP-Website_hero-images_Mobile-2.png" alt="Huge savings! Up to $5,000 in savings form solar + battery" />
+        <?php else : ?>
+            <img class="mx-auto" width="800" src="/wp-content/uploads/2023/07/07-23-SMP-Website_hero-images_Desktop-1.png" alt="Huge savings! Up to $5,000 in savings form solar + battery" />
+        <?php endif; ?>
+    </div>
 
     <section class="container my-5">
         <?php
@@ -382,10 +381,10 @@ get_header();
                         <li>Reliable Battery Storage</li>
                         <li>Energy security </li>
                         <li>Award Winning Installation </li>
-						<li>One of the Top Solar Companies in Arizona </li>
+                        <li>One of the Top Solar Companies in Arizona </li>
                     </ul>
 
-                    <a itemprop="url" href="https://sempersolaris.my.salesforce-sites.com/newapp/" class="learn-more-btn text-white text-decoration-none">
+                    <a itemprop="url" href="https://appointment.sempersolaris.com/" class="learn-more-btn text-white text-decoration-none">
                         <span class="learn-more-text ">Book Appointment</span>
                         <span class=" learn-more-icon">
                             <img loading="lazy" style="margin-top: 10px;" src="/wp-content/themes/semper-arizona-child/assets/icons/horizontal form/SMP CTA Button Circle Arrow.svg" alt=" White Arrow inside circle " />
@@ -418,7 +417,7 @@ get_header();
                 </a>
                 <div class="col-md-6 d-flex flex-column justify-content-center my-auto px-2 " style="max-width:600px;">
                     <h2 class="display-5"> Complete Roofing Services </h2>
-                    <h6 class="h4 mb-0"> Top quality roofing services backed with a 50 year warranty </h6>
+                    <h3 class="h4 mb-0"> Top quality roofing services backed with a 50 year warranty </h3>
                     <hr style="width:65px; border: 1px solid #19A33D; height:0px; opacity: 1;">
 
                     <p>Your roof is a significant part of your home. Before adding solar paneling to your home, we analyze if your roof can bear their weight. If it can’t, it often means your roof needs repairs or replacing before installing solar panels. Still, having your roof repaired or replaced is a great long-term investment. It saves the hassle of removing solar panels to repair or replace the roof later. More, solar panels add another layer of protection and help extend the life of your roof. The solar experts at Semper Solaris have as much experience repairing and replacing roofs as they do in solar roof installation. Have a chat with our roofing experts today and form the foundation of your energy independence. Or, learn more about roofing.
@@ -431,15 +430,13 @@ get_header();
                         <li>Total Protection Roofing System </li>
                     </ul>
 
-                    <a itemprop="url" href="https://sempersolaris.my.salesforce-sites.com/newapp/" class="learn-more-btn text-white text-decoration-none">
+                    <a itemprop="url" href="https://appointment.sempersolaris.com/" class="learn-more-btn text-white text-decoration-none">
                         <span class="learn-more-text ">Book Appointment</span>
                         <span class=" learn-more-icon">
                             <img loading="lazy" style="margin-top: 10px;" src="/wp-content/themes/semper-arizona-child/assets/icons/horizontal form/SMP CTA Button Circle Arrow.svg" alt=" White Arrow inside circle " />
                         </span>
                     </a>
-                    <br />
                     <a class="vertical-link" href="/roofing/">Learn about our roofing services? ➜</a>
-                    <br>
                 </div>
             </div>
         </div>
