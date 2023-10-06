@@ -557,7 +557,7 @@ footer hr:before {
 .disclaimerArea,
 .disclaimerArea a {
     background-color: #000;
-    color: #fff;
+    color: #fff !important;
     margin: 0 !important
 }
 
