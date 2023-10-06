@@ -170,10 +170,10 @@ endif;
                 <p style="margin-bottom:7px"><strong>Arizona Office</strong></p>
                 <hr />
                 <address class="d-flex flex-column">
-                    <a onclick="ga('gtm1.send', 'event', 'Footer', 'Main', 'SanDiego')" href="/" title="Arizona Address" class="text-decoration-none">
+                    <a class="text-black" onclick="ga('gtm1.send', 'event', 'Footer', 'Main', 'SanDiego')" href="/" title="Arizona Address" class="text-decoration-none">
                         329 Lone Cactus Rd, Suite 8 <br />Phoenix, AZ 85027
                     </a>
-                    <a onclick="ga('gtm1.send', 'event', 'Footer', 'Main', 'Call')" href="tel:+14808630024" title="Call Semper Solaris arizona Office">(480) 863-0024</a>
+                    <a class="text-black" onclick="ga('gtm1.send', 'event', 'Footer', 'Main', 'Call')" href="tel:+14808630024" title="Call Semper Solaris arizona Office">(480) 863-0024</a>
                 </address>
             </div>
         </div>
@@ -182,13 +182,13 @@ endif;
                 <p style="margin-bottom:7px"><strong>Our Services</strong></p>
                 <hr>
                 <ul class="list-unstyled mx-0" role="navigation" aria-label="Services links">
-                    <li><a href="/solar-panels/">Solar Panels</a></li>
-                    <li><a href="/roofing/">Roofing Services</a></li>
-                    <li><a href="/battery-storage/">Battery Storage</a></li>
+                    <li><a href="/solar-panels/" class="text-black">Solar Panels</a></li>
+                    <li><a href="/roofing/" class="text-black">Roofing Services</a></li>
+                    <li><a href="/battery-storage/" class="text-black">Battery Storage</a></li>
                     <?php /* ?>
                     <li><a href="/heating-air-conditioning">Heating & Air Conditioning </a></li>
 					<?php */ ?>
-                    <li><a href="https://www.sempersolaris.com/warranties/">Warranties</a></li>
+                    <li><a href="https://www.sempersolaris.com/warranties/" class="text-black">Warranties</a></li>
                 </ul>
             </div>
         </div>
@@ -197,10 +197,10 @@ endif;
                 <p style="margin-bottom:7px"><strong>Resources</strong></p>
                 <hr>
                 <ul class="list-unstyled mx-0" role="navigation" aria-label="Resources links">
-                    <li> <a href="https://appointment.sempersolaris.com/">Book an Appointment</a></li>
-                    <li> <a href="https://www.sempersolaris.com/semper-cares-initiative/">Semper Cares Initiative</a></li>
-                    <li> <a href="/blog/">Blog</a></li>
-                    <li> <a href="/careers/">Careers</a></li>
+                    <li> <a href="https://appointment.sempersolaris.com/" class="text-black">Book an Appointment</a></li>
+                    <li> <a href="https://www.sempersolaris.com/semper-cares-initiative/" class="text-black">Semper Cares Initiative</a></li>
+                    <li> <a href="/blog/" class="text-black">Blog</a></li>
+                    <li> <a href="/careers/" class="text-black">Careers</a></li>
                 </ul>
             </div>
         </div>
