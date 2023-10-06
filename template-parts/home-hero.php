@@ -57,6 +57,6 @@
 
 <?php if (wp_is_mobile()) : ?>
     <div class="p-4 pt-5 text-center">
-        <a class="red-btn btn text-center mx-auto" style="background-color: #e65b12; color:white; font-size: 18px;" href="https://appointment.sempersolaris.com/" target="_blank"> Book Appointment Today → </a>
+        <a class="red-btn btn text-center mx-auto px-3" style="background-color:#b10007;color:white;font-size:18px" href="https://appointment.sempersolaris.com/" target="_blank"> Book Appointment Today → </a>
     </div>
 <?php endif; ?>
