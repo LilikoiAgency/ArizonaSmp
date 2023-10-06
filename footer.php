@@ -164,14 +164,14 @@ endif;
         ?>
         <div class="banner-menu-blue-2"></div>
     </div>
-    <div class="info-row mx-auto row" style="max-width: 1100px;">
+    <div class="info-row mx-auto row" style="max-width:1100px">
         <div class="col-12 col-md-3">
             <div class="sec-1">
-                <p style="margin-bottom: 7px;"><strong>Arizona Office</strong></p>
+                <p style="margin-bottom:7px"><strong>Arizona Office</strong></p>
                 <hr />
                 <address class="d-flex flex-column">
-                    <a onclick="ga('gtm1.send', 'event', 'Footer', 'Main', 'SanDiego');" href="/" target="_blank" title="arizona Address" class="text-decoration-none">
-                        329 Lone Cactus Rd, Suite 8<br />Phoenix, AZ 85027
+                    <a onclick="ga('gtm1.send', 'event', 'Footer', 'Main', 'SanDiego');" href="/" title="Arizona Address" class="text-decoration-none">
+                        329 Lone Cactus Rd, Suite 8 <br />Phoenix, AZ 85027
                     </a>
                     <a onclick="ga('gtm1.send', 'event', 'Footer', 'Main', 'Call');" href="tel:+14808630024" title="Call Semper Solaris arizona Office">(480) 863-0024</a>
                 </address>
