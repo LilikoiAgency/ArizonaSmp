@@ -89,9 +89,9 @@ const EXIT_FORM = `
             </div>
 
             <h3 class="text-center font-weight-bold pt-2 exit-pop-display"> Or Call (480) 863-0024 </h3>
-            <p class="m-auto text-center exit-pop-display" style="font-size:12px !important; max-width:280px; line-height:14px !important; ">By clicking, you agree to receive marketing emails, text messages, and phone calls are recorded. You may opt-out at anytime.</p>
+            <p class="m-auto text-center exit-pop-display" style="font-size:12px !important; max-width:280px; line-height:14px !important; ">By clicking, you agree to receive marketing emails, text messages, and phone calls and chats are recorded. You may opt-out at anytime.</p>
 
-            <p class="m-auto mb-none py-2 exit-pop-display-reverse text-center text-white" style="font-size:12px !important; max-width:320px; line-height:14px !important; ">*Present this at the time of your appointment. Call or see the website for further details www.sempersolaris.com | ROC# 336163 | ROC# 336306 | ROC# 336305. By clicking, you agree to receive marketing emails, text messages, and phone calls are recorded. You may opt-out at anytime.</p>
+            <p class="m-auto mb-none py-2 exit-pop-display-reverse text-center text-white" style="font-size:12px !important; max-width:320px; line-height:14px !important; ">*Present this at the time of your appointment. Call or see the website for further details www.sempersolaris.com | ROC# 336163 | ROC# 336306 | ROC# 336305. By clicking, you agree to receive marketing emails, text messages, and phone calls and chats are recorded. You may opt-out at anytime.</p>
             
             <input type="hidden" id="current_page" name="current_page" value="${document.location}" />
             <input type="hidden" id="referrer" name="referrer" value="${referrer2+location.search}" />

@@ -1,19 +1,22 @@
 <?php
 
 get_header();
-// $title = get_the_title();
+
 ?>
+<!-- hello world -->
 <div id="primary" class=" row container mx-auto p-2 justify-content-center">
-    <main id="main" class="col-md-8 p-0 m-auto d-flex">
+    <main id="main" class="col-md-8 p-0 m-auto">
+		
         <?php
+		
         while (have_posts()) :
             the_post();
-
-            get_template_part('template-parts/content');
-
+			the_post_thumbnail();
+			the_content();
         endwhile;
-
+		
         ?>
+		
     </main>
     <?php
 

@@ -80,6 +80,11 @@
                     <p  style="font-size: 28px;" role="heading"><strong role="heading"> Over the Years Semper Solaris Has Won Many Awards </strong></p>
                     <div class="d-flex flex-wrap  justify-content-center my-auto gap-2 ">
                         <figure class="col-2 p-0 mt-auto" role="none">
+                            <img loading="lazy" width="135" height="160" src="https://smpstage.wpengine.com/wp-content/uploads/2023/08/SMP-Solar-Power-World-Award-2023.png" alt="2023 Top Solar + Storage Residential Installer Award" style="margin-bottom: 9px;" />
+                            <figcaption style="line-height: 20px;">2023 Top Solar<br> + Storage <br>Residential Installer </figcaption>
+                        </figure>
+
+                        <figure class="col-2 p-0 mt-auto" role="none">
                             <img loading="lazy"  width="135" height="160" src="https://www.sempersolaris.com/wp-content/uploads/2022/08/SMP-Solar-Power-World-Top-Solar-Storage-Residential-Installer-2022.png" alt="2022 Top Solar + Storage Residential Installer Award" style="margin-bottom: 9px;" /> 
                             <figcaption style="line-height: 20px;">2022 Top Solar<br> + Storage <br>Residential Installer </figcaption>
                         </figure>
@@ -124,7 +129,7 @@
                     <p style="font-size: 28px;" role="heading"> <strong role="heading">And We're Just Warming Up </strong> </p>
                 </div>
             <?php else : ?> 
-                <img class="mx-auto" loading="lazy" src="https://www.sempersolaris.com/wp-content/uploads/2022/08/SMP-Solar-Awards-Mobile.jpg" alt="awards">   
+                <img class="mx-auto" loading="lazy" src="https://smpstage.wpengine.com/wp-content/uploads/2023/08/SMP-Solar-Awards-Mobile.jpg" alt="awards">   
             <?php endif; ?>
             </div>
         </section>
@@ -258,11 +263,16 @@
                     <p class="m-0" style="font-size: 20px;" role="heading">BATTERY-STORAGE AWARDS</p>
                     <p class="awards-text" style="font-size: 28px;" role="heading"><strong role="heading"> Over the Years Semper Solaris Has <br> Won Many Awards </strong></p>
                     <div class="d-flex flex-wrap  justify-content-center my-auto gap-2 ">
-                        <figure class="col-4 col-md-2 p-0 mt-auto" role="none">
+                        <figure class="col-md-2 p-0 mt-auto" role="none">
+                            <img loading="lazy" width="135" height="160" src="https://smpstage.wpengine.com/wp-content/uploads/2023/08/SMP-Solar-Power-World-Award-2023.png" alt="2023 Top Solar + Storage Residential Installer Award" style="margin-bottom: 9px;" />
+                            <figcaption style="line-height: 20px;">2023 Top Solar<br> + Storage <br>Residential Installer </figcaption>
+                        </figure>
+
+                        <figure class="col-md-2 p-0 mt-auto" role="none">
                             <img loading="lazy"  width="135" height="160" src="https://www.sempersolaris.com/wp-content/uploads/2022/08/SMP-Solar-Power-World-Top-Solar-Storage-Residential-Installer-2022.png" alt="2022 Top Solar + Storage Residential Installer Award" style="margin-bottom: 8px;" /> 
                             <figcaption style="line-height: 20px;">2022 Top Solar<br> + Storage <br>Residential Installer </figcaption>
                         </figure>
-                        <figure class="col-4 col-md-2 p-0 mt-auto" role="none">
+                        <figure class="col-md-2 p-0 mt-auto" role="none">
                             <img loading="lazy"  width="135" height="160" src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2021-Top-Solar-Storage-Installer.png" alt="2021 Top Solar + Storage Installer Award" /> 
                             <figcaption style="line-height: 20px;">2021 Top Solar<br> + Storage <br> Installer Award </figcaption>
                         </figure>

@@ -26,5 +26,7 @@
 <div class="d-flex justify-content-center text-center americas-best-banner">
     
     <h4 class="h1 my-auto"> <strong >AMERICAS #1 </strong> <br> SOLAR  + BATTERY INSTALLERS</h4>
-    <img width="120" src="https://www.sempersolaris.com/wp-content/uploads/2022/08/SMP-Solar-Power-World-Top-Solar-Storage-Residential-Installer-2022.png" alt="Americas #1 Solar + Battery installers">
+    <img width="120" src="https://www.sempersolaris.com/wp-content/uploads/2023/08/SMP-Solar-Power-World-Award-Jul-2023.png" alt="Americas #1 Solar + Battery installers">
 </div>
+
+

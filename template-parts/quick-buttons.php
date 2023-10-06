@@ -5,7 +5,7 @@
             <a href="#_drift_btn_2" id="_drift_btn_2">
                 <div class="image-map-chat"></div>
             </a>
-            <a href="https://sempersolaris.my.salesforce-sites.com/newapp/">
+            <a href="https://appointment.sempersolaris.com/">
                 <div class="image-map-book"></div>
             </a>
             <a href="tel:+18882103366">
@@ -33,7 +33,7 @@
                 </a>
             </li>
             <li class="list-group-item border-0 p-0 mb-2 text-center" id="book-icon">
-                <a class="text-decoration-none d-flex flex-column" rel="noopener" aria-label="book now - new window" href="https://sempersolaris.my.salesforce-sites.com/newapp/" target="_blank">
+                <a class="text-decoration-none d-flex flex-column" rel="noopener" aria-label="book now - new window" href="https://appointment.sempersolaris.com/" target="_blank">
                     <picture>
                         <source type="image/webp" media="(min-width: 240px)" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/book-now.webp 46w, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/book-now_2x.webp 2x" sizes="46w">
                         <source type="image/png" media="(min-width: 240px)" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/book-now.png 46w, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/book-now_2x.png 2x" sizes="46w">
