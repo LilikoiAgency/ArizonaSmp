@@ -170,7 +170,7 @@ endif;
                 <p style="margin-bottom:7px"><strong>Arizona Office</strong></p>
                 <hr />
                 <address class="d-flex flex-column">
-                    <a class="text-black" onclick="ga('gtm1.send', 'event', 'Footer', 'Main', 'SanDiego')" href="/" title="Arizona Address" class="text-decoration-none">
+                    <a class="text-decoration-none text-black" onclick="ga('gtm1.send', 'event', 'Footer', 'Main', 'SanDiego')" href="/" title="Arizona Address">
                         329 Lone Cactus Rd, Suite 8 <br />Phoenix, AZ 85027
                     </a>
                     <a class="text-black" onclick="ga('gtm1.send', 'event', 'Footer', 'Main', 'Call')" href="tel:+14808630024" title="Call Semper Solaris arizona Office">(480) 863-0024</a>
