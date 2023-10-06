@@ -173,7 +173,7 @@ endif;
                     <a class="text-decoration-none text-black" style="font-weight:600" onclick="ga('gtm1.send', 'event', 'Footer', 'Main', 'SanDiego')" href="/" title="Arizona Address">
                         329 Lone Cactus Rd, Suite 8 <br />Phoenix, AZ 85027
                     </a>
-                    <a class="text-black" onclick="ga('gtm1.send', 'event', 'Footer', 'Main', 'Call')" href="tel:+14808630024" title="Call Semper Solaris arizona Office">(480) 863-0024</a>
+                    <a class="text-black" onclick="ga('gtm1.send', 'event', 'Footer', 'Main', 'Call')" href="tel:+14808630024" title="Call Semper Solaris Arizona Office">(480) 863-0024</a>
                 </address>
             </div>
         </div>
