@@ -341,14 +341,6 @@ get_header();
             </video>        </div>
     </section>
 	
-	
-		<div class="mx-auto text-center pt-4">
-			<?php if(wp_is_mobile()):?>
-           <img class="mx-auto" width="800" src="/wp-content/uploads/2023/07/07-23-SMP-Website_hero-images_Mobile-2.png" alt="Huge savings! Up to $5,000 in savings form solar + battery"/>
-			<?php else: ?>
-			<img class="mx-auto" width="800" src="/wp-content/uploads/2023/07/07-23-SMP-Website_hero-images_Desktop-1.png" alt="Huge savings! Up to $5,000 in savings form solar + battery"/>
-			<?php endif; ?>
-		</div>
 
     <section class="container my-5">
         <?php

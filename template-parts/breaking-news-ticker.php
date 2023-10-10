@@ -115,11 +115,11 @@
         <div class="ticker-container  <?php if(!wp_is_mobile()): echo 'w-50'; endif; ?>">
             <div class="ticker-wrapper">
                 <div class="ticker-transition">
-                    <div class="ticker-item"><a class="learn-more-ticker-link" href="/solar-panels/"> <strong> HUGE SAVINGS: Save Up to $6,000 on Solar + Battery! </strong></a></div>
+                    <div class="ticker-item"><a class="learn-more-ticker-link" href="/solar-panels/"> <strong> HUGE SAVINGS: CUT YOUR ELECTRIC BILL UP TO HALF! </strong></a></div>
 					<div class="ticker-item"><a class="learn-more-ticker-link" href="/locations/phoenix-az/phoenix-solar-power/"><strong> Are you in Phoenix? Go solar with the best solar company in Phoenix! </strong></a></div>
-					<div class="ticker-item"><a class="learn-more-ticker-link" href="/solar-panels/"><strong> HUGE SAVINGS: Save Up to $6,000 on Solar + Battery! </strong></a></div>
+					<div class="ticker-item"><a class="learn-more-ticker-link" href="/solar-panels/"><strong> HUGE SAVINGS: CUT YOUR ELECTRIC BILL UP TO HALF! </strong></a></div>
 					<div class="ticker-item"><a class="learn-more-ticker-link" href="/about-arizona-solar-panels/"> <strong> Go solar with one of the best solar companies in Arizona!</strong></a></div>
-                    <div class="ticker-item"><strong>BREAKING NEWS!</strong> <a class="learn-more-ticker-link" href="/battery-storage/tesla-powerwall/"> Receive $500 for Your Tesla Powerwall | Tesla Powerwall in stock! | Order now click here </a></div>
+                    <div class="ticker-item"><strong>BREAKING NEWS!</strong> <a class="learn-more-ticker-link" href="/battery-storage/tesla-powerwall/"> Tesla Powerwall in stock! | Order now click here </a></div>
                 </div>
             </div>
         </div>
