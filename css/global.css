@@ -7,11 +7,6 @@
     left: 0
 }
 
-footer,
-footer i:hover {
-    background-color: #f5f5f5
-}
-
 #modal_container label,
 footer i:hover {
     font-weight: 700
@@ -557,7 +552,7 @@ footer hr:before {
 .disclaimerArea,
 .disclaimerArea a {
     background-color: #000;
-    color: #fff;
+    color: #fff !important;
     margin: 0 !important
 }
 

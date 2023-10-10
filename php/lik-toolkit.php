@@ -251,7 +251,11 @@ class likToolkit
                     if (false != array_search($child->nodeName, $headings) && $child->hasChildNodes()) {
                         if (false != array_search($child->nodeName, $headings)) {
                             for ($i = 0; $i < count($child->childNodes); $i++) {
-                                if ($child->childNodes->item($i)->nodeName != '#text' && $child->childNodes->item($i)->nodeName != 'br') {
+                                if (
+                                    $child->childNodes->item($i)->nodeName != '#text' 
+                                    && $child->childNodes->item($i)->nodeName != 'br'
+                                    && $child->childNodes->item($i)->nodeName != 'a'
+                                    ) {
                                     $child->childNodes->item($i)->setAttribute('role', 'heading');
                                     $child->childNodes->item($i)->setAttribute('aria-level', $child->nodeName[1]);
                                 }
