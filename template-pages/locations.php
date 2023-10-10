@@ -88,6 +88,8 @@ endif;
 global $wpdb;
 $office_info = $wpdb->get_results("SELECT * FROM smp_offices ORDER BY area = 'phoenix' DESC , area ASC;", ARRAY_A);
 
+// error_log(print_r($office_info, true));
+
 function format_phone_number($n)
 {
     return substr(substr_replace(substr_replace(substr_replace($n, "-", -4, 0), ") ", -8, 0), "(", 1, 0), 1);
@@ -143,7 +145,7 @@ get_header();
         <form id="find_your_office" action="#">
             <label for="your_zipcode">
                 <div class="font-sepia">Enter Your ZIP Code</div>
-                <input id="your_zipcode" class="p-2 text-center" type="text" maxlength="5" placeholder="85027" role="button"  />
+                <input id="your_zipcode" class="p-2 text-center" type="text" maxlength="5" placeholder="85027" role="button" />
             </label>
         </form>
     </div>
@@ -151,29 +153,27 @@ get_header();
     <div class="container">
         <h3 class="d-inline-block text-uppercase mb-n2 position-relative" style="border-bottom: 3px solid var(--smp-red);z-index:99">All Locations</h3>
         <hr class="mt-0" />
-
         <?php
-
-        $args = array(
-            'post_type'   => 'location_page',
-            'numberposts' => -1
-        );
-        $loc_posts = get_posts($args);
 
         echo '<div id="all_offices" class="row">';
         foreach ($office_info as $key => $value) :
             $page_id = '';
             $page_url = '';
-            $state = ($value['area'] != 'dallas' && $value['area'] != 'tampa' && $value['area'] != 'phoenix') ? 'CA' : (($value['area'] == 'dallas') ? 'TX' : (($value['area'] == 'tampa') ? 'FL' : 'AZ'));
-            $corrected_slug = ($value['area'] == "corporate-office") ? "el-cajon" : (($value['area'] == "bay-area") ? "hayward" : $value['area']);
+            $area = str_replace(' ', '-', trim(strtolower($value['area'])));
+            $corrected_slug = ($area == "corporate-office") ? "el-cajon" : (($area == "bay-area") ? "hayward" : $area);
+            $city_for_ui = ($area == 'corporate-office') ? 'Corporate Office' : (($area == 'los-angeles') ? 'Los Angeles' : $value['city']);
+            $state = $value['state'];
 
             /**
-             * REMOVE THIS LINE AFTER 
+             * REMOVE THIS LINE AFTER
              * DALLAS AND TAMPA PAGES
              * ARE CREATED. --d|22Y
              */
-            $page_url = ($corrected_slug == 'dallas') ? 'https://texas.sempersolaris.com/locations/dallas/' : (($corrected_slug == 'phoenix') ? '/phoenix-az/' : (($corrected_slug == 'tampa') ? 'https://florida.sempersolaris.com/locations/tampa/' :
-                        "https://www.sempersolaris.com/locations/" . $corrected_slug . "/"));
+            $page_url =
+                ($corrected_slug == 'dallas') ? 'https://texas.sempersolaris.com/locations/dallas/'
+                : (($corrected_slug == 'phoenix') ? '/locations/phoenix-az/'
+                    : (($corrected_slug == 'tampa') ? 'https://florida.sempersolaris.com/locations/tampa/'
+                        : "https://www.sempersolaris.com/locations/" . $corrected_slug . "/"));
             /**
              * 
              */
@@ -181,24 +181,22 @@ get_header();
             /**
              * CURL REDIRECT CHECK
              */
-            if (stripos($page_url, 'dallas') === false && stripos($page_url, 'tampa') === false) :
-                $ch = curl_init();
-                curl_setopt_array($ch, array(
-                    CURLOPT_URL => 'https://www.sempersolaris.com/wp-content/themes/semper-solaris/php/redirects.php?redirect_check=' . $page_url,
-                    CURLOPT_RETURNTRANSFER => 1,
-                    CURLOPT_SSL_VERIFYPEER => 0
-                ));
-                $exec = curl_exec($ch);
-                $redirect = json_decode(strip_tags($exec));
-                $page_url = ($corrected_slug == 'phoenix') ? $page_url : (($redirect != "") ? "https://www.sempersolaris.com" . $redirect : $page_url);
-                curl_close($ch);
-                unset($ch);
-            endif;
+            $ch = curl_init();
+            curl_setopt_array($ch, array(
+                CURLOPT_URL => 'https://www.sempersolaris.com/wp-content/themes/semper-solaris/php/redirects.php?redirect_check=' . $page_url,
+                CURLOPT_RETURNTRANSFER => 1,
+                CURLOPT_SSL_VERIFYPEER => 0
+            ));
+            $exec = curl_exec($ch);
+            $redirect = json_decode(strip_tags($exec));
+            $page_url = ($corrected_slug == 'phoenix') ? $page_url : (($redirect != "") ? "https://www.sempersolaris.com" . $redirect : $page_url);
+            curl_close($ch);
+            unset($ch);
             /**
              * 
              */
 
-            $card_title = str_replace("-", " ", $value['area']);
+            // $card_title = str_replace("-", " ", $value['area']) . (($corrected_slug == 'phoenix') ? ', Arizona' : '') . (($corrected_slug == 'dallas') ? '-Fort Worth' : '');
             $phone = format_phone_number($value['phone']);
             $is_toggler_open = "collapsed";
             $is_shown = "collapse";
@@ -211,8 +209,8 @@ get_header();
             <div class="office-location-container col-md-4">
                 <div class="card mb-4 rounded-0 border-0 card-bg">
                     <div class="card-body">
-                        <h5 class="card-title text-uppercase fw-bold text-capitalize" onclick="openCloseLocationCard({$key})">{$card_title}</h5>
-                        <h6 class="card-subtitle mb-2 text-muted fw-bold" onclick="openCloseLocationCard({$key})">{$value['city']}</h6>
+                        <h5 class="card-title text-uppercase fw-bold text-capitalize" onclick="openCloseLocationCard({$key})">{$city_for_ui}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted fw-bold" onclick="openCloseLocationCard({$key})">{$state}</h6>
                         <div class="d-flex">
                             <a class="toggle-details {$is_toggler_open}" data-num={$key} data-bs-toggle="collapse" href="#Details{$key}" role="button" aria-expanded="false" aria-controls="Details{$key}">+</a>
                         </div>
@@ -245,13 +243,13 @@ get_header();
                                 <a href="tel:+{$value['phone']}" class="col-9 text-muted">{$phone}</a>
                             </div>
                             <div class="row">
-                                <a href="#" class="detail-icon link col-2 text-center text-muted p-0 link-on-hover">
+                                <a href="{$page_url}" class="detail-icon link col-2 text-center text-muted p-0 link-on-hover">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z" />
                                         <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z" />
                                     </svg>
                                 </a>
-                                <a href="{$page_url}" class="col-9 text-muted link-on-hover"><strong>View <span class="text-capitalize">{$card_title}</span> Page</strong></a>
+                                <a href="{$page_url}" class="col-9 text-muted link-on-hover"><strong>View <span class="text-capitalize">{$city_for_ui}</span> Page</strong></a>
                             </div>
                         </div>
                     </div>
@@ -276,7 +274,12 @@ OFFICE;
         ?>
     </div>
 </main>
-<script>
+
+
+<?php
+
+$script = <<<SCRIPT
+<script class="footer-script">
     function openCloseLocationCard(num) {
         document.querySelector('[data-num="' + num + '"]').click();
     }
@@ -314,7 +317,11 @@ OFFICE;
         xhr.onreadystatechange = () => {
             if (document.getElementById('zip_warning')) return;
             if (xhr.readyState == 4 && xhr.status == 200) {
-                let sortedLocations = JSON.parse(xhr.responseText);
+                try {
+                    var sortedLocations = JSON.parse(xhr.responseText.replace(/<\/?[^>]+>/gi, ''));
+                } catch (error) {
+                    console.log('Error parsing JSON:', error, xhr.responseText);
+                }
 
                 if (sortedLocations[0] == -1) {
                     document.getElementById('find_your_office').insertAdjacentHTML('afterend', '<div id="zip_warning" class="alert alert-danger d-flex justify-content-center align-items-center mt-2 mx-auto" role="alert" style="max-width:500px"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16"><path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg><div class="mx-3">Please enter a valid ZIP code... <em><span id="countdown">3</span> seconds</em></div></div>');
@@ -354,9 +361,6 @@ OFFICE;
                 allOfficeCardContainer.insertAdjacentHTML('beforeend', '<div class="h4-container w-100 mt-2"><hr style="margin:0 0 -16px" /><h4 class="near-you d-inline-block position-relative pe-2">Locations Near You</h4></div>');
 
                 sortedLocations.forEach((loc, i) => {
-                    // if (i == 0) {
-                    //     document.getElementById("map_display").src = loc.map;
-                    // }
                     if (i == 3) {
                         allOfficeCardContainer.insertAdjacentHTML('beforeend', '<div class="h4-container w-100 mt-2"><hr style="margin:0 0 -16px" /><h4 class="near-you d-inline-block position-relative pe-2">Other Locations</h4></div>');
                     }
@@ -382,7 +386,7 @@ OFFICE;
         xhr.send(postData);
     });
 </script>
-
-<?php
+SCRIPT;
+new Page_Scripts($script);
 
 get_footer();

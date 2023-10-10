@@ -1,23 +1,23 @@
-<aside class="position-fixed shadow bg-white p-0 p-md-3" style="z-index:999;right:0;bottom:0;border-radius:5px 0 0 0" id="quick" role="navigation" aria-label="Quick Links">
+<aside class="position-fixed shadow bg-white p-0 p-md-3" style="z-index:999;right:0;bottom:0;border-radius:5px 0 0 0" id="quick">
     <div id="mobile_quick_buttons">
-        <img src="/wp-content/themes/semper-arizona-child/assets/icons/quick-buttons-mobile.svg" style="width:100%;height:auto" />
-        <div class="container-image-map">
-            <a href="#_drift_btn_2" id="_drift_btn_2">
+        <img src="/wp-content/themes/semper-arizona-child/assets/icons/quick-buttons-mobile.svg" style="width:100%;height:auto" alt="Quick links: chat, book now, phone, contact." />
+        <nav class="container-image-map" aria-label="quick links">
+            <a href="#_drift_btn_2" id="_drift_btn_2" aria-label="Start a chat">
                 <div class="image-map-chat"></div>
             </a>
-            <a href="https://appointment.sempersolaris.com/">
+            <a href="https://appointment.sempersolaris.com/" aria-label="Book an appointment">
                 <div class="image-map-book"></div>
             </a>
-            <a href="tel:+18882103366">
+            <a href="tel:+18882103366" aria-label="Call us now">
                 <div class="image-map-call"></div>
             </a>
-            <a href="/contact/">
+            <a href="/contact/" aria-label="Send us a message">
                 <div class="image-map-contact"></div>
             </a>
-            <a href="/refer-friend/">
+            <a href="/refer-friend/" aria-label="Refer a friend and get paid!">
                 <div class="image-map-refer"></div>
             </a>
-        </div>
+        </nav>
     </div>
 
     <nav class="d-none d-md-block" aria-label="Quick Access">
