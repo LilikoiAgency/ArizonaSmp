@@ -5,7 +5,7 @@
 
         <div class="hero-black-box-container">
             <p class="font-size-36" role="heading">Arizona's Solar Experts</p>
-            <p class="font-size-66" style="line-height: 0.95;" role="heading"> Cut You Electric Bill <br> Up To Half!<span style="font-size:2.4rem;vertical-align: top;">*</span> </p>
+            <p class="font-size-66" style="line-height: 0.95;" role="heading"> Cut You Electric Bill <br> Up To Half!<span style="font-size:2.4rem;vertical-align: top;">§</span> </p>
             <p class="font-size-28" >Get A FREE Consultation <br class="br"> <a style="color:#f78000; text-decoration:none; border-bottom:solid 3px #f78000;" href="https://appointment.sempersolaris.com/">Schedule Today!</a></p>
         </div>
 
