@@ -180,9 +180,9 @@ class likToolkit
 
         if ($anchor_tags) :
             foreach ($anchor_tags as $key => $_a) {
-
                 if (
                     !$_a->hasAttribute('href')
+                    || likToolkit::is_link_internal($_a->getAttribute('href')) == false
                     || likToolkit::urlBasedExclusions($_a->getAttribute('href')) == true
                     || likToolkit::checkForExclusions($_a->getAttribute('class'), likToolkit::$CLASS_EXCLUSIONS) == true
                     || likToolkit::checkForExclusions($_a->getAttribute('href'), likToolkit::$CHAR_EXCLUSIONS) == true
@@ -211,6 +211,7 @@ class likToolkit
             foreach ($iframe_tags as $key => $_f) {
                 if (
                     !$_f->hasAttribute('src')
+                    || likToolkit::is_link_internal($_f->getAttribute('src')) == false
                     || likToolkit::urlBasedExclusions($_f->getAttribute('src'))  == true
                 ) {
                     continue;
@@ -251,11 +252,7 @@ class likToolkit
                     if (false != array_search($child->nodeName, $headings) && $child->hasChildNodes()) {
                         if (false != array_search($child->nodeName, $headings)) {
                             for ($i = 0; $i < count($child->childNodes); $i++) {
-                                if (
-                                    $child->childNodes->item($i)->nodeName != '#text' 
-                                    && $child->childNodes->item($i)->nodeName != 'br'
-                                    && $child->childNodes->item($i)->nodeName != 'a'
-                                    ) {
+                                if ($child->childNodes->item($i)->nodeName != '#text' && $child->childNodes->item($i)->nodeName != 'br') {
                                     $child->childNodes->item($i)->setAttribute('role', 'heading');
                                     $child->childNodes->item($i)->setAttribute('aria-level', $child->nodeName[1]);
                                 }
@@ -379,7 +376,11 @@ class likToolkit
     public static function dump_buffer()
     {
         if (ob_get_level()) ob_end_clean();
-        echo likToolkit::$contents;
+        
+        # This check prevents the occasional non-fatal error.
+        if (!empty(likToolkit::$contents)) {
+            echo likToolkit::$contents;
+        }
     }
 }
 new likToolkit();
