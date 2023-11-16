@@ -13,23 +13,10 @@ $data = [];
 
 function getZIPLocation($zip)
 {
-    global $wpdb;
-    $results = '';
-    if ($zip >= 32003 && $zip <= 34997) :
-        $results = $wpdb->get_results(
-            $wpdb->prepare("SELECT * FROM fl_zipcodes WHERE zip=%d LIMIT 1", $zip)
-        );
-    elseif ($zip >= 73301 && $zip <= 88595) :
-        $results = $wpdb->get_results(
-            $wpdb->prepare("SELECT * FROM tx_zipcodes WHERE zip=%d LIMIT 1", $zip)
-        );
-    elseif ($zip >= 90001 && $zip <= 96162) :
-        $results = $wpdb->get_results(
-            $wpdb->prepare("SELECT * FROM ca_zipcodes WHERE zip=%d LIMIT 1", $zip)
-        );
-    endif;
+    include_once($_SERVER['DOCUMENT_ROOT'] . '/wp-content/themes/semper-arizona-child/php/zip_code_lookup.php');
+    $results = return_zip_coordinates($zip);
     if (empty($results)) return -1;
-    $lat_long = array("latitude" => $results[0]->latitude, "longitude" => $results[0]->longitude);
+    $lat_long = array("latitude" => (isset($results[0]->latitude) ? $results[0]->latitude : '0'), "longitude" => (isset($results[0]->longitude) ? $results[0]->longitude : '0'));
     return $lat_long;
 }
 
