@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template part for displaying posts
  *
@@ -10,8 +11,8 @@
 ?>
 
 <section id="post-<?php the_ID(); ?>" <?php post_class("container"); ?>>
-    <article >
-        <div class="entry-content">
+    <article>
+        <div class="entry-content m-0">
             <div class="">
                 <div class="content-image as-center">
                     <a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
@@ -33,10 +34,7 @@
                         ?>
                     </a>
                 </div>
-                <footer class="entry-footer p-2">
-                    <?php semper_arizona_entry_footer(); ?>
-                </footer><!-- .entry-footer -->
-                <div class="content-details as-center section-sm js-left">
+                <div class="content-details as-center section-sm js-left p-3 pb-0">
                     <?php
 
                     echo '<a class="text-decoration-none" href="' . get_permalink() . '" rel="bookmark">';
@@ -44,11 +42,11 @@
                     echo '</a>';
 
                     ?>
-                    <p><?php semper_arizona_posted_on(); ?></p>
+                    <p class="m-0 fw-bold fst-italic"><?php semper_arizona_posted_on(); ?></p>
                 </div>
             </div>
-            <p style="max-height:100px;overflow:hidden;margin:0 20px"><?= (wp_strip_all_tags((get_post(get_the_ID(), ARRAY_A)['post_content']))); ?></p>
-            <div class="learn-more-container"><?= '<a href="' . get_permalink() . '"><em>Learn More!</em></a>'; ?></div>
+            <p class="m-0 p-3 pb-0"><?= substr(wp_strip_all_tags((get_post(get_the_ID(), ARRAY_A)['post_content'])), 0, 520); ?> . . .</p>
+            <div class="learn-more-container d-flex justify-content-end py-3 px-4"><?= '<a href="' . get_permalink() . '"><em>Continue Reading</em></a>'; ?></div>
         </div><!-- .entry-content -->
     </article>
 

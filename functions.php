@@ -46,3 +46,5 @@ function wpdocs_add_menuitem_role_to_menu_anchors($atts)
     return $atts;
 }
 add_filter('nav_menu_link_attributes', 'wpdocs_add_menuitem_role_to_menu_anchors');
+
+get_template_part('template-parts/template', 'tags');
