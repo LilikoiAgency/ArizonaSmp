@@ -211,13 +211,13 @@ endif;
             <p style="margin-bottom:7px"><strong> Follow us on social media:</strong></p>
             <hr style="margin-bottom:7px">
             <nav class="d-flex justify-content-around" aria-label="Social Media Links">
-                <a href="https://www.tiktok.com/@sempersolaris" aria-label="Semper Solaris on TikTok"><i class="fab fa-tiktok fa-xl"></i></i><span style="visibility:hidden;position:absolute;z-index:0">TikTok</span></a>
-                <a href="https://www.facebook.com/SemperSolaris/" aria-label="Semper Solaris on Facebook"><i class="fab fa-facebook-f fa-xl"></i></i><span style="visibility:hidden;position:absolute;z-index:0">Facebook</span></a>
-                <a href="https://www.youtube.com/channel/UCXkXgYE1h5mw3DCs6Dnr5kg" aria-label="Semper Solaris on YouTube"><i class="fab fa-youtube fa-lg"></i></i><span style="visibility:hidden;position:absolute;z-index:0">YouTube</span></a>
-                <a href="https://www.instagram.com/sempersolaris/" aria-label="Semper Solaris on Instagram"><i class="fab fa-instagram fa-xl"></i></i><span style="visibility:hidden;position:absolute;z-index:0">Instagram</span></a>
-                <a href="https://twitter.com/sempersolarisco" aria-label="Semper Solaris on Twitter"><i class="fa-brands fa-x-twitter fa-xl"></i><span style="visibility:hidden;position:absolute;z-index:0">Twitter</span></a>
-                <a href="https://www.linkedin.com/company/semper-solaris" aria-label="Semper Solaris on LinkedIn"><i class="fab fa-linkedin-in fa-xl"></i><span style="visibility:hidden;position:absolute;z-index:0">LinkedIn</span></a>
-                <a href="https://www.pinterest.com/sempersolaris/" aria-label="Semper Solaris on Pinterest"><i class="fab fa-pinterest-p fa-xl"></i><span style="visibility:hidden;position:absolute;z-index:0;display:none">Pinterest</span></a>
+                <a href="https://www.tiktok.com/@sempersolaris" aria-label="Semper Solaris on TikTok" rel="external nofollow opener"><i class="fab fa-tiktok fa-xl"></i></i><span style="visibility:hidden;position:absolute;z-index:0">TikTok</span></a>
+                <a href="https://www.facebook.com/SemperSolaris/" aria-label="Semper Solaris on Facebook" rel="external nofollow opener"><i class="fab fa-facebook-f fa-xl"></i></i><span style="visibility:hidden;position:absolute;z-index:0">Facebook</span></a>
+                <a href="https://www.youtube.com/channel/UCXkXgYE1h5mw3DCs6Dnr5kg" aria-label="Semper Solaris on YouTube" rel="external nofollow opener"><i class="fab fa-youtube fa-lg"></i></i><span style="visibility:hidden;position:absolute;z-index:0">YouTube</span></a>
+                <a href="https://www.instagram.com/sempersolaris/" aria-label="Semper Solaris on Instagram" rel="external nofollow opener"><i class="fab fa-instagram fa-xl"></i></i><span style="visibility:hidden;position:absolute;z-index:0">Instagram</span></a>
+                <a href="https://twitter.com/sempersolarisco" aria-label="Semper Solaris on Twitter" rel="external nofollow opener"><i class="fa-brands fa-x-twitter fa-xl"></i><span style="visibility:hidden;position:absolute;z-index:0">Twitter</span></a>
+                <a href="https://www.linkedin.com/company/semper-solaris" aria-label="Semper Solaris on LinkedIn" rel="external nofollow opener"><i class="fab fa-linkedin-in fa-xl"></i><span style="visibility:hidden;position:absolute;z-index:0">LinkedIn</span></a>
+                <a href="https://www.pinterest.com/sempersolaris/" aria-label="Semper Solaris on Pinterest" rel="external nofollow opener"><i class="fab fa-pinterest-p fa-xl"></i><span style="visibility:hidden;position:absolute;z-index:0;display:none">Pinterest</span></a>
             </nav>
         </div>
     </div>
