@@ -9,7 +9,7 @@
 $offers_array = [
     "special" => [
         [
-            "image" => "/wp-content/uploads/2022/11/11-09-22-SMPAZ-Digital-Internet-Coupon-Military-Nov2022.png",
+            "image" => "/wp-content/uploads/2023/12/best-solar-company-for-military-and-first-responders.png",
             "alt_title" => "$500 off for military and first responders",
             "link" => "https://appointment.sempersolaris.com/",
         ],
@@ -36,7 +36,7 @@ $offers_array = [
     ],
     "solar" => [
         [
-            "image" => "/wp-content/uploads/2022/11/11-09-22-SMPAZ-Digital-Internet-Coupon-GoingSolar-Nov2022.png",
+            "image" => "/wp-content/uploads/2023/12/get-500-off-solar-panels.png",
             "alt_title" => "Thinking about going solar? get $500 off just by getting solar",
             "link" => "https://appointment.sempersolaris.com/",
         ],
@@ -53,7 +53,7 @@ $offers_array = [
     ],
     "battery" => [
         [
-            "image" => "/wp-content/uploads/2022/11/11-09-22-SMPAZ-Digital-Internet-Coupon-Battery-Nov2022.png",
+            "image" => "/wp-content/uploads/2023/12/special-battery-storage-financing-offer.png",
             "alt_title" => "financing for tesla battery storage powerwall",
             "link" => "https://appointment.sempersolaris.com/",
         ]
@@ -68,7 +68,7 @@ $offers_array = [
     "roofing" => [
       
         [
-            "image" => "/wp-content/uploads/2023/01/SMPCA-Digital-Internet-Coupon-Roofing-Jan2023.png",
+            "image" => "/wp-content/uploads/2023/12/12-23-SMPCA-Digital-Internet-Coupon-Roofing-Jan2023.png",
             "alt_title" => "Replace your old roof andGet the upgraded Platinum Warranty FREE! plus upgraded to a cool roof",
             "link" => "https://appointment.sempersolaris.com/",
         ]
