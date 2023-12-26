@@ -12,7 +12,7 @@
             </a>
 
             <a href="#location-form-wrapper">
-                <img width="256px" height="218px" loading="lazy" src="/wp-content/uploads/2023/01/SMP-Roofing-Offer-Location-Pgs-Jan2023.png" alt="Best Roofing offer in arizona" />
+                <img width="256px" height="218px" loading="lazy" src="/wp-content/uploads/2023/12/SMP-Roofing-Offer-Location-Pgs-Jan2023-1.png" alt="Best Roofing offer in arizona" />
             </a>
         </div>
     </div>
