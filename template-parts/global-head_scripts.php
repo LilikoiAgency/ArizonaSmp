@@ -19,10 +19,176 @@
 
 <!-- Meta Pixel Code -->
 <script async>
-    const _0x4edacd=_0x7286;(function(_0x1dc9f2,_0x4f0c44){const _0x37a724=_0x7286,_0x51dc0a=_0x1dc9f2();while(!![]){try{const _0xb4636f=-parseInt(_0x37a724(0x1c2))/0x1+-parseInt(_0x37a724(0x1d0))/0x2+-parseInt(_0x37a724(0x1e6))/0x3*(-parseInt(_0x37a724(0x1b8))/0x4)+-parseInt(_0x37a724(0x1e2))/0x5*(parseInt(_0x37a724(0x1eb))/0x6)+parseInt(_0x37a724(0x1e8))/0x7+parseInt(_0x37a724(0x1c4))/0x8*(parseInt(_0x37a724(0x1ca))/0x9)+parseInt(_0x37a724(0x1ea))/0xa;if(_0xb4636f===_0x4f0c44)break;else _0x51dc0a['push'](_0x51dc0a['shift']());}catch(_0x3cce4b){_0x51dc0a['push'](_0x51dc0a['shift']());}}}(_0x14aa,0x1bc3d),!function(_0x1aee63,_0x1189ee,_0xed1bb3,_0x30d201,_0x4b283f,_0x40b83b,_0x2567f7){const _0x165400=_0x7286;if(_0x1aee63[_0x165400(0x1bd)])return;_0x4b283f=_0x1aee63[_0x165400(0x1bd)]=function(){const _0x55399d=_0x165400;_0x4b283f[_0x55399d(0x1cf)]?_0x4b283f[_0x55399d(0x1cf)][_0x55399d(0x1cb)](_0x4b283f,arguments):_0x4b283f[_0x55399d(0x1d3)][_0x55399d(0x1c9)](arguments);};if(!_0x1aee63[_0x165400(0x1c8)])_0x1aee63['_fbq']=_0x4b283f;_0x4b283f['push']=_0x4b283f,_0x4b283f[_0x165400(0x1d5)]=!0x0,_0x4b283f[_0x165400(0x1e9)]=_0x165400(0x1de),_0x4b283f[_0x165400(0x1d3)]=[],_0x40b83b=_0x1189ee[_0x165400(0x1d6)](_0xed1bb3),_0x40b83b[_0x165400(0x1df)]=!0x0,_0x40b83b[_0x165400(0x1be)]=_0x30d201,_0x2567f7=_0x1189ee['getElementsByTagName'](_0xed1bb3)[0x0],_0x2567f7[_0x165400(0x1ce)]['insertBefore'](_0x40b83b,_0x2567f7);}(window,document,_0x4edacd(0x1b9),_0x4edacd(0x1c7)),fbq(_0x4edacd(0x1e1),'1720708031531884'));var event_info=[['PageView',generate_event_id()]];function generate_event_id(){const _0x1104ba=_0x4edacd;return _0x1104ba(0x1ba)+Date[_0x1104ba(0x1bf)]()+'_'+Math[_0x1104ba(0x1cd)]()*0x1869f;}location['pathname']['search']('thank-you')>=0x0&&event_info['push']([_0x4edacd(0x1dd),generate_event_id()]);event_info['forEach'](_0x3b6b0d=>{const _0x5ec195=_0x4edacd;let _0x235b38=document[_0x5ec195(0x1d6)]('SCRIPT');_0x235b38['id']=_0x3b6b0d[0x0],_0x235b38['innerHTML']=_0x5ec195(0x1b7)+_0x3b6b0d[0x0]+'\x22,\x20{},\x20{\x22eventID\x22:\x20\x22'+_0x3b6b0d[0x1]+_0x5ec195(0x1e3),document[_0x5ec195(0x1c0)]['appendChild'](_0x235b38),sendCAPI(_0x3b6b0d);});function sendCAPI(_0x2d9d54){const _0x58d35f=_0x4edacd;let _0x22fdb2=new XMLHttpRequest(),_0x5caa41=new FormData();_0x5caa41[_0x58d35f(0x1e5)](_0x58d35f(0x1d1),JSON[_0x58d35f(0x1c3)](_0x2d9d54)),_0x5caa41[_0x58d35f(0x1e5)](_0x58d35f(0x1d8),location[_0x58d35f(0x1e4)]);if(location[_0x58d35f(0x1cc)][_0x58d35f(0x1d2)]('thank')>=0x0)for(const [_0x21c68a,_0x27774c]of Object[_0x58d35f(0x1bb)](window[_0x58d35f(0x1d4)])){_0x5caa41[_0x58d35f(0x1e5)](_0x21c68a,_0x27774c);}_0x22fdb2[_0x58d35f(0x1d9)]('POST','/capi/curl_v2.php',!![]),_0x22fdb2[_0x58d35f(0x1dc)](_0x5caa41);}function setLocalStorageData(_0x465390,_0x44ded8){const _0x791e7c=_0x4edacd;window[_0x791e7c(0x1d4)][_0x791e7c(0x1bc)](_0x791e7c(0x1db)+_0x465390,_0x44ded8);}function _0x7286(_0x5e98c7,_0x43af74){const _0x14aa95=_0x14aa();return _0x7286=function(_0x728602,_0x17995f){_0x728602=_0x728602-0x1b7;let _0x3cf790=_0x14aa95[_0x728602];return _0x3cf790;},_0x7286(_0x5e98c7,_0x43af74);}window[_0x4edacd(0x1c6)](_0x4edacd(0x1e0),_0x358ee8=>{const _0x5c52d4=_0x4edacd;var _0xc81f46=document['querySelectorAll'](_0x5c52d4(0x1d7));_0xc81f46[_0x5c52d4(0x1da)](_0x5f3890=>{const _0x16c819=_0x5c52d4;_0x5f3890[_0x16c819(0x1c6)](_0x16c819(0x1e7),()=>{const _0x12bcae=_0x16c819;setLocalStorageData(_0x5f3890[_0x12bcae(0x1c5)](_0x12bcae(0x1c1)),_0x5f3890['value']);});});});function _0x14aa(){const _0x548722=['\x22});console.log(\x22Meta\x20Pixel\x22);','href','append','17196lUlMel','input','914200fWPwlJ','version','3176760WYuWMo','30DbmCVg','fbq(\x22track\x22,\x20\x22','68oDVJYt','script','capi_','entries','setItem','fbq','src','now','head','name','181181fIQsFC','stringify','264EZPNGc','getAttribute','addEventListener','https://connect.facebook.net/en_US/fbevents.js','_fbq','push','11061ZUKIEU','apply','pathname','random','parentNode','callMethod','434852rauHgV','event_info','search','queue','localStorage','loaded','createElement','input:not([type=\x22search\x22]),\x20select','location','open','forEach','_fb_','send','Lead','2.0','async','DOMContentLoaded','init','73945XzSEIg'];_0x14aa=function(){return _0x548722;};return _0x14aa();}
+    class UserData {
+
+        constructor() {
+            this.pixelID = '1720708031531884';
+            this.aprUrl = `/capi/${this.pixelID}.php`;
+            document.addEventListener('keyup', () => {
+                this.fbCookieCurrator()
+            }, false)
+            document.addEventListener('change', () => {
+                this.fbCookieCurrator()
+            }, false)
+            this.cookieData = this.getCookieByName('form_data')
+            this.fbqInitData = {
+                em: this.cookieData.em,
+                fn: this.cookieData.fn,
+                ln: this.cookieData.ln,
+                ph: this.cookieData.ph,
+                zp: this.cookieData.zp,
+                country: this.cookieData.country ? this.cookieData.country : 'us',
+                fbp: this.getCookieByName('_fbp'),
+                fbc: this.getCookieByName('_fbc'),
+            }
+            this.printFBQs(this.fbqInitData)
+        }
+
+        printFBQs(fbqData) {
+            this.EVENTID = this.generate_event_id();
+            this.data = (fbqData) ? JSON.stringify(fbqData) : {};
+            this.scriptTag = document.createElement('SCRIPT');
+            this.scriptTag.id = 'Meta-Pixel';
+            this.scriptTag.innerHTML = `!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');`;
+            this.scriptTag.innerHTML += 'f' + 'b' + 'q' + `("init", ${this.pixelID}, ${this.data});`;
+
+            this.event_info = [
+                ['PageView', this.EVENTID]
+            ];
+
+            if (location.pathname.search("thank") >= 0) {
+                this.event_info.push(["Lead", this.EVENTID]);
+            }
+
+            this.event_info.forEach(evnt => {
+                this.scriptTag.innerHTML += 'f' + 'b' + 'q' + `("track", "${evnt[0]}", ${this.data}, {"eventID": "${evnt[1]}"});`;
+                this.sendCAPI(evnt, this.data);
+            });
+
+            this.scriptTag.innerHTML += 'console.log("Meta Pixel");';
+            document.head.appendChild(this.scriptTag);
+        }
+
+        generate_event_id() {
+            return "capi_" + Date.now() + "_" + Math.random() * 99999;
+        }
+
+        ifJSONparseIt(str) {
+            let parsed = str;
+            try {
+                parsed = JSON.parse(str);
+            } catch (e) {
+                return str;
+            }
+            return parsed;
+        }
+
+        formatPhoneNumber(pn) {
+            // Remove non-numeric characters
+            pn = pn.replace(/\D/g, '');
+            // Ensure it starts with '1' if it doesn't already for country code
+            if (pn.charAt(0) !== '1') {
+                pn = '1' + pn;
+            }
+            return pn;
+        }
+
+        getCookieArray() {
+            let trimmedCookies = [];
+            let decodedCookies = decodeURIComponent(document.cookie);
+            decodedCookies = decodedCookies.split(';');
+            decodedCookies.forEach(cookie => {
+                trimmedCookies.push(cookie.trim());
+            });
+            return trimmedCookies;
+        }
+
+        createUpdateCookie(name, value, years) {
+            var expires = '';
+            if (years) {
+                var date = new Date();
+                date.setTime(date.getTime() + (years * 3.1536e10));
+                expires = '; expires=' + date.toUTCString();
+            }
+            document.cookie = name + '=' + value + expires + ';path=/';
+        }
+
+        getCookieByName(cookieName = null) {
+            let name = cookieName + "=";
+            let cookieArray = this.getCookieArray();
+            for (let i = 0; i < cookieArray.length; i++) {
+                let c = cookieArray[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    let value = c.substring(name.length, c.length);
+                    return this.ifJSONparseIt(value);
+                }
+            }
+            return (cookieName == 'form_data') ? {} : '';
+        }
+
+        fbCookieCurrator() {
+            // Get active input value
+            let focusedInput = document.activeElement;
+            let formCookie = this.getCookieArray().filter(cookie => cookie.includes('form_data'))[0];
+            try {
+                formCookie = JSON.parse(formCookie.substring('form_data='.length));
+                if (typeof(formCookie) == 'string') formCookie = JSON.parse('{}');
+            } catch (e) {
+                formCookie = JSON.parse('{}');
+            }
+
+            // Populate cookie data
+            switch (focusedInput.name) {
+                case 'first-name':
+                    formCookie.fn = focusedInput.value.toLowerCase();
+                    break;
+                case 'last-name':
+                    formCookie.ln = focusedInput.value.toLowerCase();
+                    break;
+                case 'phone':
+                    formCookie.ph = this.formatPhoneNumber(focusedInput.value);
+                    break;
+                case 'email':
+                    formCookie.em = focusedInput.value.toLowerCase();
+                    break;
+                case 'zip':
+                    formCookie.zp = focusedInput.value;
+                    break;
+                default:
+                    // Add more cases for other form inputs if needed
+                    formCookie[focusedInput.name] = focusedInput.value;
+                    break;
+            }
+            formCookie.country = "us";
+            formCookie.fbc = this.getCookieArray().filter(cookie => cookie.includes('_fbc'))[0];
+            formCookie.fbp = this.getCookieArray().filter(cookie => cookie.includes('_fbp'))[0];
+
+            this.createUpdateCookie('form_data', JSON.stringify(formCookie), 10);
+        }
+
+        sendCAPI(evnt, data) {
+            let ajax_request = new XMLHttpRequest();
+            let form_data = new FormData();
+            form_data.append("event_info", JSON.stringify(evnt));
+            form_data.append("user_data", data);
+            form_data.append("location", location.href);
+            form_data.append("time", Date.now());
+            if (location.pathname.search("thank") >= 0) {
+                for (const [key, value] of Object.entries(window.localStorage)) {
+                    form_data.append(key, value);
+                }
+            }
+            ajax_request.open("POST", this.aprUrl, true);
+            ajax_request.send(form_data);
+        }
+    }
+    new UserData();
 </script>
 <noscript>
     <img height="1" width="1" style="display:none" alt="fbpx" src="https://www.facebook.com/tr?id=1720708031531884&ev=PageView&noscript=1" />
-    <iframe height="1" width="1" style="display:none" title="capi" src="/capi/curl_v2.php?noscript=1"></iframe>
+    <iframe height="1" width="1" style="display:none" title="capi" src="/capi/1720708031531884.php?noscript=1"></iframe>
 </noscript>
 <!-- End Meta Pixal -->
