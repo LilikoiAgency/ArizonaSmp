@@ -18,7 +18,7 @@ class Meta_Description
     {
         $explode = explode(" ", get_the_title());
         shuffle($explode);
-        $shuffled = '(480) 863-0024 | ' . wp_get_document_title() . ' | #1 Top Residential Solar + Storage Installer in America';
+        $shuffled = '(480) 863-0024 | ' . wp_get_document_title() . ' | #1 Top Volume Residential Solar + Storage Installer in America';
         $trunc = (strlen($shuffled) > 70) ? substr($shuffled, 0, 67) . '...' : $shuffled;
         printf('<meta name="%s" content="%s">', esc_attr('description'), esc_attr($trunc));
     }
