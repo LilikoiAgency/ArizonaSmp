@@ -75,8 +75,6 @@ endif;
 global $wpdb;
 $office_info = $wpdb->get_results("SELECT * FROM smp_offices ORDER BY area = 'phoenix' DESC , area ASC;", ARRAY_A);
 
-// error_log(print_r($office_info, true));
-
 function format_phone_number($n)
 {
     return substr(substr_replace(substr_replace(substr_replace($n, "-", -4, 0), ") ", -8, 0), "(", 1, 0), 1);
@@ -111,9 +109,13 @@ get_header();
                 <a href="/roofing/" aria-label="learn about roofing installation in Arizona">
                     <div class="image-map-roofing"></div>
                 </a>
-                <!-- <a href="/heating-air-conditioning/">
-                    <div class="image-map-hvac"></div>
-                </a> -->
+                <?php
+
+                // <!-- <a href="/heating-air-conditioning/">
+                //     <div class="image-map-hvac"></div>
+                // </a> -->
+
+                ?>
             </div>
         </div>
     </header>
@@ -152,15 +154,9 @@ get_header();
             $state = $value['state'];
 
             /**
-             * REMOVE THIS LINE AFTER
-             * DALLAS AND TAMPA PAGES
-             * ARE CREATED. --d|22Y
+             * 
              */
-            $page_url =
-                ($corrected_slug == 'dallas') ? 'https://texas.sempersolaris.com/locations/dallas/'
-                : (($corrected_slug == 'phoenix') ? '/locations/phoenix-az/'
-                    : (($corrected_slug == 'tampa') ? 'https://florida.sempersolaris.com/locations/tampa/'
-                        : "https://www.sempersolaris.com/locations/" . $corrected_slug . "/"));
+            $page_url = ($corrected_slug == 'dallas') ? 'https://texas.sempersolaris.com/locations/dallas/' : (($corrected_slug == 'tampa') ? 'https://florida.sempersolaris.com/locations/tampa/' : "https://www.sempersolaris.com" . $value['url']);
             /**
              * 
              */
@@ -168,22 +164,21 @@ get_header();
             /**
              * CURL REDIRECT CHECK
              */
-            $ch = curl_init();
-            curl_setopt_array($ch, array(
-                CURLOPT_URL => 'https://www.sempersolaris.com/wp-content/themes/semper-solaris/php/redirects.php?redirect_check=' . $page_url,
-                CURLOPT_RETURNTRANSFER => 1,
-                CURLOPT_SSL_VERIFYPEER => 0
-            ));
-            $exec = curl_exec($ch);
-            $redirect = json_decode(strip_tags($exec));
-            $page_url = ($corrected_slug == 'phoenix') ? $page_url : (($redirect != "") ? "https://www.sempersolaris.com" . $redirect : $page_url);
-            curl_close($ch);
-            unset($ch);
+            // $ch = curl_init();
+            // curl_setopt_array($ch, array(
+            //     CURLOPT_URL => 'https://www.sempersolaris.com/wp-content/themes/semper-solaris/php/redirects.php?redirect_check=' . $page_url,
+            //     CURLOPT_RETURNTRANSFER => 1,
+            //     CURLOPT_SSL_VERIFYPEER => 0
+            // ));
+            // $exec = curl_exec($ch);
+            // $redirect = json_decode(strip_tags($exec));
+            // curl_close($ch);
+            // unset($ch);
+            $page_url = ($corrected_slug == 'phoenix') ? $page_url : ((!empty($redirect)) ? "https://www.sempersolaris.com" . $redirect : $page_url);
             /**
              * 
              */
 
-            // $card_title = str_replace("-", " ", $value['area']) . (($corrected_slug == 'phoenix') ? ', Arizona' : '') . (($corrected_slug == 'dallas') ? '-Fort Worth' : '');
             $phone = format_phone_number($value['phone']);
             $is_toggler_open = "collapsed";
             $is_shown = "collapse";
