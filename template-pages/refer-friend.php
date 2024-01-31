@@ -99,6 +99,7 @@ get_header();
         <div class="row">
             <div class="col col-md-8">
                 <p>We offer an excellent referral program at Semper Solaris that you and your loved ones will truly appreciate. Simply recommend a friend and you may earn up to $550 for each referral! That's a pretty good return for just helping out a friend! You’ll get paid and they will receive the same outstanding service we gave you! That’s a win-win! You can recommend as many individuals as you like, and you'll get paid roughly 4 to 6 weeks after your referral makes their final payment to us. Be aware: anyone getting more than $600 from the referral program must provide a Tax Identification Number.</p>
+                <p class="col-12 col-sm-6 p-3 bg-light" style="line-height:1"><small><i>$550 is the maximum referral credit for any one residence even if multiple products are purchased. Referrals are paid after installation and all payments have been collected.</i></small></p>
                 <h2>Referral Program FAQ</h2>
                 <p>Here are some of the most commonly asked questions about the solar referral program at Semper Solaris. If you have other questions or want more details, check out our <a href="https://help.sempersolaris.com/s/">virtual help desk.</a></p>
                 <div class="accordion" id="accordionReferFriend">

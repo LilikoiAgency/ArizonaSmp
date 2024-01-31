@@ -667,7 +667,7 @@ wp_head();
                 <h2 class="smpFont">SOLAR + BATTERY STORAGE</h2>
                 <h3 class="smpFont">OVER 30,000 SYSTEMS INSTALLED</h3>
             </div>
-            <img src="https://smpstage.wpengine.com/wp-content/uploads/2023/05/05-24-2023-SMP-Webform-Badge-June-2023.png" alt="America's #1 Solar + Battery Installer">
+            <img src="https://smpstage.wpengine.com/wp-content/uploads/2023/05/05-24-2023-SMP-Webform-Badge-June-2023.png" alt="America's #1 Volume Solar + Battery Installer">
         </section>
 
         <section class="offer-section">
@@ -741,7 +741,7 @@ wp_head();
 
         <article>
             <h2>Semper Solaris: Solar Panel, Battery Storage, Roofing, And HVAC Company</h2>
-            <p>Sick & tired of soaring energy bills? Take charge and declare your independence from the electric companies with the help of the #1 Solar & Battery installer in the Nation!</p>
+            <p>Sick & tired of soaring energy bills? Take charge and declare your independence from the electric companies with the help of the #1 Volume Solar & Battery installer in the Nation!</p>
             <p>Semper Solaris will design and install a Solar and Battery system customized for your individual energy needs. Tesla Powerwalls are in stock and ready for installation, so now's the time to say goodbye to costly utility bills and embrace a sustainable future. Take control of your energy costs. Go solar today with Semper Solaris!</p>
             <div class="btn-holder" style="text-align:center">
                 <a class="orange-btn mt-5" href="https://appointment.sempersolaris.com/"> BOOK YOUR APPOINTMENT NOW </a>
