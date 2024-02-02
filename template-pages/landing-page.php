@@ -64,10 +64,12 @@ wp_head();
             }
 
             h1 {
-                font-size: 180px;
-                line-height: 155px;
+                font-size: 7em;
+                line-height: 150px;
                 margin-bottom: 0;
                 margin-top: 0;
+                text-align:center;
+                text-shadow: 2px 2px 5px black;
             }
 			.smpFont .top{
 				font-size: 175px;
@@ -98,8 +100,8 @@ wp_head();
             }
 
             .logo-wrapper {
-                border-top: 20px solid #B73E25;
-                border-bottom: 20px solid #B73E25;
+                border-top: 20px solid #7e343b;
+                border-bottom: 20px solid #7e343b;
                 background-color: white;
                 text-align: center;
             }
@@ -119,12 +121,12 @@ wp_head();
             }
 
             .main-section {
-                background-image: url(/wp-content/uploads/2023/09/10-23-SMP-Primary-Web-Image-Asset-Horizontal-Layout-1400-x-756-1.png);
-                background-position: left bottom;
+                background-image: url(/wp-content/uploads/2024/02/SMP_Tesla_Powerwall_3_Product_Image_on_House-OPTIMIZED-scaled.webp);
+                background-position: left center;
                 background-repeat: no-repeat;
-                background-color: #644234;
-                background-size: contain;
-               	padding: 50px 10px 90px 10px;
+                background-color: #2d3b59;
+                background-size: cover;
+                padding: 30px 10px 90px 10px;
                 min-height: 1000px;
             }
 
@@ -179,8 +181,8 @@ wp_head();
                 background-attachment: fixed;
                 background-size: auto;
                 text-align: center;
-                border-top: 15px solid #B73E25;
-                border-bottom: 15px solid #B73E25;
+                border-top: 15px solid #7e343b;
+                border-bottom: 15px solid #7e343b;
                 position: relative;
 
             }
@@ -189,7 +191,7 @@ wp_head();
                 max-width: 800px;
                 margin: 0 auto;
                 background-color: white;
-                border: 15px solid #B73E25;
+                border: 15px solid #7e343b;
                 padding: 10px;
                 padding-bottom: 15px;
                 margin-top: -130px;
@@ -204,7 +206,7 @@ wp_head();
             }
 
             .solarplusbattery h3 {
-                background-color: #B73E25;
+                background-color: #7e343b;
                 max-width: fit-content;
                 padding: 2.5px 40px;
                 margin: 0 auto;
@@ -290,7 +292,7 @@ wp_head();
                 background-attachment: fixed;
                 background-size: auto;
                 text-align: center;
-                border-top: 15px solid #B73E25;
+                border-top: 15px solid #7e343b;
             }
 
             .call-now-section a {
@@ -357,9 +359,12 @@ wp_head();
 					-webkit-text-stroke: 2px #29324B;
 					
 				}
-				.ptag-wrapper .smpFont{
-					text-align:left
-				}
+                .ptag-wrapper .smpFont{
+                    text-align:left;
+                    padding-bottom: 100px;
+                    font-size: 1.8em;
+                    line-height:1;
+                }
 				
                 .up-to{
                     font-size: 50px !important;
@@ -396,12 +401,12 @@ wp_head();
                 }
 
                 .star-bg-container {
-                    border-top: 10px solid #B73E25;
-                    border-bottom: 10px solid #B73E25;
+                    border-top: 10px solid #7e343b;
+                    border-bottom: 10px solid #7e343b;
                 }
 
                 .solarplusbattery {
-                    border: 10px solid #B73E25;
+                    border: 10px solid #7e343b;
                     margin-top: -107px;
                 }
                 .star-bg-container img{
@@ -472,12 +477,10 @@ wp_head();
                     border-radius: 4px;
                 }
                 .main-section {
-                background-image: url(/wp-content/uploads/2023/09/10-23-SMP-Primary-Web-Image-Asset-Vertical-Layout-600-x-1200.png);
-                background-color: #090f19;
-            
-            }
-
-
+                    background-image: url(/wp-content/uploads/2024/02/testla3-mobile-introducing_1072x1096.webp);
+                    background-color: #161B21;  
+                    background-position: bottom;
+                }
 
             }
             .extended-top-sale{
@@ -495,13 +498,6 @@ wp_head();
 
         <header>
             <div class="header-inner-wrapper">
-
-                <h1 class="smpFont"> DECLARE YOUR <br> <span style="color:#F9BF16"> INDEPENDENCE </span> </h1>
-
-                <!-- <h2 class="smpFont mt-0 up-to">                    
-                    <img width="50" src="https://smpstage.wpengine.com/wp-content/uploads/2023/07/SMP-Up-To-Bubble.png" alt="get up to $6,000 off solar + battery storage">
-                    $6,000 IN SAVINGS<span style="font-size:1.4rem;vertical-align: text-top;">*</span>
-                </h2> -->
             </div>
         </header>
 
@@ -514,11 +510,18 @@ wp_head();
         </div>
 
         <section class="main-section">
-        <h2 class="smpFont">GO <span style="color:#F9BF17;"> SOLAR </span> AMERICAN STYLE !</h2>
+        <h1 class="smpFont">WE'VE GOT THE NEW POWERWALL 3!</h1>
             <div class="wrapper row">
                 <div class="ptag-wrapper column">
-                    <p class="smpFont">SAY GOODBYE <br> TO OUTRAGEOUS <br>ELECTRIC BILLS. <br>START SAVING <br>WITH US TODAY.</p>
+                <p class="smpFont" style="text-shadow: 2px 2px 5px black;">
+                        The most advanced<br> 
+                        battery storage is now<br> 
+                        available ACt now and get<br> 
+                        the new powerwall 3!
+                    </p>                
                 </div>
+                
+                <?php if(!wp_is_mobile()): ?>
 
                 <div class="column">
                     <style>
@@ -540,7 +543,7 @@ wp_head();
                             text-align: center;
                             margin-bottom: 0;
                             padding: 10px;
-                            background-color: #B73E25;
+                            background-color: #7e343b;
                             color: white;
                             font-weight: bold;
                             font-size: 1.5em;
@@ -630,7 +633,7 @@ wp_head();
                     </style>
                     <div class="form-wrapper" id="landingPage-form">
                         <div class="top-form-callout">
-                            <h3 style="color:#B73E25; font-size:24px; margin-top:0;"> Homeowners: </h3>
+                            <h3 style="color:#7e343b; font-size:24px; margin-top:0;"> Homeowners: </h3>
                             <h3 style="font-size:24px;margin-top:0;"> Start Saving Now! </h3>
                             <h4 style="margin-top:0;">
                             <?php
@@ -658,24 +661,169 @@ wp_head();
                         <p style="padding: 5px;line-height: 12px; text-align: center;margin-top:-20px;"><span style="color: rgb(0, 0, 0); font-size: 10px;">By clicking, you agree to receive marketing emails, text messages, and phone calls and chats are recorded. You may opt-out at anytime.</span></p>
                     </div>
                 </div>
+                <?php endif; ?>
+
             </div>
 			
         </section>
 
         <section class="star-bg-container">
             <div class="solarplusbattery">
-                <h2 class="smpFont">SOLAR + BATTERY STORAGE</h2>
-                <h3 class="smpFont">OVER 30,000 SYSTEMS INSTALLED</h3>
+                <h2 class="smpFont">We Pay Your Electric Bill</h2>
+                <h3 class="smpFont">For the next 3 months!*</h3>
             </div>
-            <img src="https://smpstage.wpengine.com/wp-content/uploads/2023/05/05-24-2023-SMP-Webform-Badge-June-2023.png" alt="America's #1 Volume Solar + Battery Installer">
+            <img src="/wp-content/uploads/2024/02/SMP-1-Volume-Residential-Solar-Battery-Badge.png" alt="America's #1 Volume Solar + Battery Installer">
         </section>
+
+        <?php if(wp_is_mobile()): ?>
+
+<div class="column">
+    <style>
+        .form-wrapper {
+            max-width: 420px;
+            background-color: #FEF4D9;
+            border: solid 5px #29324B;
+            position: relative;
+            z-index: 1;
+            margin: 0px 10px;
+        }
+
+        .form-wrapper h3 {
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        .form-wrapper h4 {
+            text-align: center;
+            margin-bottom: 0;
+            padding: 10px;
+            background-color: #7e343b;
+            color: white;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        .top-form-callout p {
+            text-align: center;
+        }
+
+        #wpcf7-f38666-p38685-o1 {
+            padding: 15px;
+            padding-top: 0;
+        }
+
+        .form-wrapper input {
+            font-size: 16px;
+            width: 100%;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #a2a2a2;
+            background-color: #e8f6ff;
+            color: #000;
+            box-shadow: inset 0px 2px 3px #c9d5dd;
+            -webkit-box-shadow: inset 0px 2px 3px #c9d5dd;
+            -moz-box-shadow: inset 0px 2px 3px #c9d5dd;
+        }
+
+        .wpcf7-list-item {
+            width: initial;
+            display: block;
+            margin:0;
+        }
+
+        .wpcf7-list-item input {
+            width: initial;
+        }
+
+        textarea {
+            display: none;
+
+        }
+
+        .wpcf7-form-control.wpcf7-checkbox {
+            display: flex;
+            gap: 10px;
+        }
+
+        form {
+            padding: 0px 10px;
+
+        }
+        form p{
+            margin-bottom:0;
+        }
+
+        .wpcf7-form input[type=submit] {
+            background-color: #FF7800;
+            color: #fff;
+            width: 80%;
+            padding: 10px 15px;
+            margin: auto;
+            display: block;
+        }
+
+        .wpcf7-form input[type=submit]:active {
+            outline: 0;
+            border-color: #FF8300;
+        }
+
+        .wpcf7-form input[type=submit]:focus,
+        .wpcf7-form input[type=submit]:hover {
+            background-color: #FF8300;
+            border-color: #FF8300;
+        }
+
+        @media only screen and (max-width: 500px) {
+            .form-wrapper h4 {
+                margin: 10px;
+                border: 4px solid white;
+                background-color: #26D367;
+                border-radius: 8px;
+            }
+            .form-wrapper{
+                 margin: auto;
+                 margin-top: 30px;
+            }
+        }
+    </style>
+    <div class="form-wrapper" id="landingPage-form">
+        <div class="top-form-callout">
+            <h3 style="color:#7e343b; font-size:24px; margin-top:0;"> Homeowners: </h3>
+            <h3 style="font-size:24px;margin-top:0;"> Start Saving Now! </h3>
+            <h4 style="margin-top:0;">
+            <?php
+                    // Get the current URL
+                    $currentURL = $_SERVER['REQUEST_URI'];
+
+                    // Define the string to check for in the URL
+                    $checkString = "fb-solar-sale";
+
+                    // Define the HTML for the phone numbers
+                    $phoneNumHTML1 = '<a href="tel:+18332904200" style="color:white; text-decoration:none;"> Call (833) 290-4200 </a>';
+
+                    $phoneNumHTML2 = '<a href="tel:+18888705159" style="color:white; text-decoration:none;"> Call (888) 870-5159 </a>  ';
+
+                    // Check if the checkString appears anywhere in the URL
+                    if (strpos($currentURL, $checkString) !== false) {
+                        echo $phoneNumHTML2;
+                    } else {
+                        echo $phoneNumHTML1;
+                    }
+                    ?> </h4>
+            <p style="margin-bottom:-20px;margin-top:0;"> or fill-out form below</p>
+        </div>
+        <?php echo do_shortcode('[contact-form-7 id="925" title="landing page"]'); ?>
+        <p style="padding: 5px;line-height: 12px; text-align: center;margin-top:-20px;"><span style="color: rgb(0, 0, 0); font-size: 10px;">By clicking, you agree to receive marketing emails, text messages, and phone calls and chats are recorded. You may opt-out at anytime.</span></p>
+    </div>
+</div>
+<?php endif; ?>
 
         <section class="offer-section">
 			<h2 class="smpFont"> DECLARE YOUR ENERGY INDEPENDENCE! </h2>
             <div class="offer-wrapper">
                 <img loading="lazy" class="img-1" src="/wp-content/uploads/2023/09/30-Federal-Solar-Tax-Credit-Oct2023.png" alt="Get 30% Federal Solar Tax Credit when you go solar!">
                 <img loading="lazy" class="img-2" src="/wp-content/uploads/2023/09/symbol.png" alt="Plus symbol">
-                <img loading="lazy" class="img-3" src="/wp-content/uploads/2023/09/000-Oct2023.png" alt="0 Down 0 Interest and 0 Payments until 2025!">
+                <img loading="lazy" class="img-3" src="/wp-content/uploads/2024/02/best-solar-offer-000.png" alt="0 Down 0 Interest and 0 Payments or 18 months">
             </div>
             <h2 CLASS="smpFont">BATTERY STORAGE IN STOCK NOW!!!</h2>
 
@@ -741,7 +889,7 @@ wp_head();
 
         <article>
             <h2>Semper Solaris: Solar Panel, Battery Storage, Roofing, And HVAC Company</h2>
-            <p>Sick & tired of soaring energy bills? Take charge and declare your independence from the electric companies with the help of the #1 Volume Solar & Battery installer in the Nation!</p>
+            <p>Sick & tired of soaring energy bills? Take charge and declare your independence from the electric companies with the help of the #1 Residential Volume Solar & Battery installer in the Nation!</p>
             <p>Semper Solaris will design and install a Solar and Battery system customized for your individual energy needs. Tesla Powerwalls are in stock and ready for installation, so now's the time to say goodbye to costly utility bills and embrace a sustainable future. Take control of your energy costs. Go solar today with Semper Solaris!</p>
             <div class="btn-holder" style="text-align:center">
                 <a class="orange-btn mt-5" href="https://appointment.sempersolaris.com/"> BOOK YOUR APPOINTMENT NOW </a>
@@ -775,18 +923,18 @@ wp_head();
 
 		
         <footer>
-            <p>*On approved credit. 15-panel minimum. Some restrictions apply. **30 percent federal tax credit based on eligibility, consult your tax advisor. New customers only. Call or see website for details, www.sempersolaris.com. </p>
+            <p>*On approved credit. Up to $500 reimbursement or discounted from sales price. Savings based on system size, some restrictions apply. Present downloadable Digital Coupon at time of appointment. **30 percent federal tax credit based on eligibility, consult your tax advisor. New customers only. Cannot be combined with other offers #1 Volume Residential Solar + Battery based on the volume of residential installations Call or see website for details, www.sempersolaris.com. </p>
 
             <div id="disclaimerArea" class="disclaimerArea" style="color:white !important">
                 <div class="text-center mx-auto container " role="contentinfo" aria-label="Site issue" style="max-width: 1000px; margin:auto;">
                     <p class="site-disclaimer" style="color:white;"><small>
                             Expires <span id="_expiry_">10/10/2023</span>.</small></p> <br>
                     <script defer>
-                        // let _d = new Date(),
-                        //     _lD = new Date(_d.getFullYear(), _d.getMonth() + 1, 0);
-                        // document.getElementById("_expiry_").innerText = _lD.toLocaleString('default', {
-                        //     month: 'long'
-                        // }) + " " + _lD.getDate() + ", " + _lD.getFullYear();
+                        let _d = new Date(),
+                            _lD = new Date(_d.getFullYear(), _d.getMonth() + 1, 0);
+                        document.getElementById("_expiry_").innerText = _lD.toLocaleString('default', {
+                            month: 'long'
+                        }) + " " + _lD.getDate() + ", " + _lD.getFullYear();
                     </script>
                     <p id="disclaimerArea">&copy;<?php echo date('Y') ?> Semper Solaris. All Rights Reserved. | ROC# 336163 | ROC# 336306 | ROC# 336305 | <a style="color:white;" href="https://www.sempersolaris.com/privacy-notice/">Privacy Policy </a> | Call +1 (888) 210-3366 </p>
                     <p id="disclaimerArea">This site is protected by reCAPTCHA and the Google <a style="color:white;" href="https://policies.google.com/privacy">Privacy Policy</a> and <a style="color:white;" href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
