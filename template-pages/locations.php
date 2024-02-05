@@ -152,11 +152,10 @@ get_header();
             $corrected_slug = ($area == "corporate-office") ? "el-cajon" : (($area == "bay-area") ? "hayward" : $area);
             $city_for_ui = ($area == 'corporate-office') ? 'Corporate Office' : (($area == 'los-angeles') ? 'Los Angeles' : $value['city']);
             $state = $value['state'];
-
             /**
              * 
              */
-            $page_url = ($corrected_slug == 'dallas') ? 'https://texas.sempersolaris.com/locations/dallas/' : (($corrected_slug == 'tampa') ? 'https://florida.sempersolaris.com/locations/tampa/' : "https://www.sempersolaris.com" . $value['url']);
+            $page_url = ($corrected_slug == 'dallas') ? 'https://texas.sempersolaris.com/locations/dallas/' : (($corrected_slug == 'tampa') ? 'https://florida.sempersolaris.com/locations/tampa/' : (($corrected_slug == 'phoenix') ? "https://arizona.sempersolaris.com" . $value['url'] : "https://www.sempersolaris.com" . $value['url']));
             /**
              * 
              */
@@ -174,6 +173,7 @@ get_header();
             // $redirect = json_decode(strip_tags($exec));
             // curl_close($ch);
             // unset($ch);
+            
             $page_url = ($corrected_slug == 'phoenix') ? $page_url : ((!empty($redirect)) ? "https://www.sempersolaris.com" . $redirect : $page_url);
             /**
              * 
