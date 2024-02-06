@@ -265,7 +265,7 @@ const POPUP_FORM = `
                                 <p style="font-size:.9em;margin:3px 0 0 2em;line-height: 1;">On The Job</p>
                             </div>
                             <div style="position: absolute;">
-                                <img src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/forms/01-23-SMP-Oorah-Text-Jan2023.svg" width="60" style="position: relative;left: 100%; transform: translate(100%, -80%);" />
+                                <img src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/forms/01-23-SMP-Oorah-Text-Jan2023.svg" width="60" style="position: relative;left: 100%; transform: translate(100%, -80%);" alt="Oorah!" />
                             </div>
                         </div>
                         <img src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/forms/01-23-SMP-Form-Solar-Installers-Image-Mobile-Jan2023.jpg" width="137" height="184" style="min-width: 137px;height: 184px;" />
@@ -287,7 +287,7 @@ const POPUP_FORM = `
                             </ul>
                             <div class="oorah">
                                 <p>The Only Team You Want On The Job</p>
-                                <img src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/forms/01-23-SMP-Oorah-Text-Jan2023.svg" width="80" />
+                                <img src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/forms/01-23-SMP-Oorah-Text-Jan2023.svg" width="80" alt="Oorah!" />
                             </div>
                         </div>
                        
