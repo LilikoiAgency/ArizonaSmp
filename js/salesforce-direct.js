@@ -268,7 +268,7 @@ const POPUP_FORM = `
                                 <img src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/forms/01-23-SMP-Oorah-Text-Jan2023.svg" width="60" style="position: relative;left: 100%; transform: translate(100%, -80%);" alt="Oorah!" />
                             </div>
                         </div>
-                        <img src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/forms/01-23-SMP-Form-Solar-Installers-Image-Mobile-Jan2023.jpg" width="137" height="184" style="min-width: 137px;height: 184px;" />
+                        <img src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/forms/01-23-SMP-Form-Solar-Installers-Image-Mobile-Jan2023.jpg" width="137" height="184" style="min-width: 137px;height: 184px;" alt="Two solar installers inspecting rooftop solar panels." />
                     </div>
                     <p class="save-big-mobile text-center"><strong><span style="color:#CE0109">SAVE BIG</span> On Solar Energy Today!</strong></p>
                 </div>
@@ -277,7 +277,7 @@ const POPUP_FORM = `
                 </div>
                 <div class="container-desktop">
                     <div style="max-height:629px; background-color:#0c4e97;">
-                        <img src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/forms/01-23-SMP-Form-Solar-Installers-Image-Desktop-Jan2023.jpg" width="500" height="305" />
+                        <img src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/forms/01-23-SMP-Form-Solar-Installers-Image-Desktop-Jan2023.jpg" width="500" height="305" alt="Two solar installers inspecting rooftop solar panels." />
                         <div class="content-container">
                             <h2 class="text-center">Semper Solaris Is At Your Side Every Step Of The Way!</h2>
                             <ul>
