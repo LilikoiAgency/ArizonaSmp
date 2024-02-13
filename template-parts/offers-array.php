@@ -41,8 +41,8 @@ $offers_array = [
             "link" => "https://appointment.sempersolaris.com/",
         ],
         [
-            "image" => "/wp-content/uploads/2022/11/11-09-22-SMPAZ-Digital-Internet-Coupon-TuneUp-Nov2022.png",
-            "alt_title" => "Having an existing solar system? Get a solar tune-up & Diagnosis for only $199!",
+            "image" => "/wp-content/uploads/2024/02/SMP-solar-tune-up-special-2024.png",
+            "alt_title" => "Having an existing solar system? Get a solar tune-up & Diagnosis for only $499!",
             "link" => "https://appointment.sempersolaris.com/",
         ],
         [
