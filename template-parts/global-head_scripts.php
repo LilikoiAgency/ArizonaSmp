@@ -18,7 +18,7 @@
 <!-- End Google Tag Manager -->
 
 <!-- Meta Pixel Code -->
-<script async>
+<script>
     class UserData {
 
         constructor() {
@@ -32,12 +32,12 @@
             }, false)
             this.cookieData = this.getCookieByName('form_data')
             this.fbqInitData = {
-                em: this.cookieData.em,
-                fn: this.cookieData.fn,
-                ln: this.cookieData.ln,
-                ph: this.cookieData.ph,
-                zp: this.cookieData.zp,
-                country: this.cookieData.country ? this.cookieData.country : 'us',
+                em: '<?= (!empty($_COOKIE['form_data']['em'])) ? hash('sha256', $_COOKIE['form_data']['em']) : hash('sha256', '') ?>',
+                fn: '<?= (!empty($_COOKIE['form_data']['fn'])) ? hash('sha256', $_COOKIE['form_data']['fn']) : hash('sha256', '') ?>',
+                ln: '<?= (!empty($_COOKIE['form_data']['ln'])) ? hash('sha256', $_COOKIE['form_data']['ln']) : hash('sha256', '') ?>',
+                ph: '<?= (!empty($_COOKIE['form_data']['ph'])) ? hash('sha256', $_COOKIE['form_data']['ph']) : hash('sha256', '') ?>',
+                zp: '<?= (!empty($_COOKIE['form_data']['zp'])) ? hash('sha256', $_COOKIE['form_data']['zp']) : hash('sha256', '') ?>',
+                country: '<?= (!empty($_COOKIE['form_data']['country'])) ? hash('sha256', $_COOKIE['form_data']['country']) : hash('sha256', 'us') ?>',
                 fbp: this.getCookieByName('_fbp'),
                 fbc: this.getCookieByName('_fbc'),
             }
@@ -62,7 +62,7 @@
 
             this.event_info.forEach(evnt => {
                 this.scriptTag.innerHTML += 'f' + 'b' + 'q' + `("track", "${evnt[0]}", ${this.data}, {"eventID": "${evnt[1]}"});`;
-                this.sendCAPI(evnt, this.data);
+                if (this.aprUrl !== '') this.sendCAPI(evnt, this.data);
             });
 
             this.scriptTag.innerHTML += 'console.log("Meta Pixel");';
@@ -188,7 +188,50 @@
     new UserData();
 </script>
 <noscript>
-    <img height="1" width="1" style="display:none" alt="fbpx" src="https://www.facebook.com/tr?id=1720708031531884&ev=PageView&noscript=1" />
-    <iframe height="1" width="1" style="display:none" title="capi" src="/capi/1720708031531884.php?noscript=1"></iframe>
+    <?php
+
+    $pixel_id = '1720708031531884';
+
+    function remove_special_whitespace($string)
+    {
+        return preg_replace('/[^A-Za-z0-9]/i', '', $string);
+    }
+
+    function format_fb_data_noscript()
+    {
+        $hash_these = ['fn', 'ln', 'em', 'ph', 'ge', 'db', 'zp', 'ct', 'st', 'country'];
+        $fb_data = 'user_data[country]=us&';
+        $form_data_cookie = json_decode(stripslashes($_COOKIE['form_data']));
+
+        foreach ($hash_these as $field) {
+            $hashing = (!empty($form_data_cookie->$field)) ? hash('sha256', $form_data_cookie->$field) : hash('sha256', '');
+            $fb_data .= 'user_data[' . $field . ']=' . $hashing . '&';
+        }
+
+        if (!empty($_COOKIE['_fbp'])) {
+            $fb_data .= 'fbp=' . $_COOKIE['_fbp'] . '&';
+        }
+
+        if (!empty($_COOKIE['_fbc'])) {
+            $fb_data .= 'fbc=' . $_COOKIE['_fbc'] . '&';
+        }
+
+        return $fb_data;
+    }
+
+    $fbdata = format_fb_data_noscript();
+
+    echo <<<PIXEL
+        <img height="1" width="1" style="display:none" alt="fbpx" src="https://www.facebook.com/tr?id={$pixel_id}&ev=PageView&noscript=1D&{$fbdata}" />
+        <iframe height="1" width="1" style="display:none" alt="capi" src="/capi/{$pixel_id}.php?noscript=1"></iframe>
+PIXEL;
+
+    if (stripos($_SERVER['REQUEST_URI'], 'thank') > -1) {
+        echo <<<PIXEL
+        <img height="1" width="1" style="display:none" alt="fbpx" src="https://www.facebook.com/tr?id={$pixel_id}&ev=Lead&noscript=1&{$fbdata}" />
+PIXEL;
+    }
+
+    ?>
 </noscript>
 <!-- End Meta Pixal -->
