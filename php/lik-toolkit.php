@@ -1,43 +1,69 @@
 <?php
 
-class likToolkit
+/**
+ * @author Kevin Gillispie
+ */
+
+class SEOtoolkit
 {
+    /**
+     * @var string  $contents               Output buffer contents
+     * @var string  $site_domain            Stores WordPress `siteurl` option
+     * @var array   $CLASS_EXCLUSIONS       HTML elements that should be ignored based on class
+     * @var array   $PARAM_EXCLUSIONS       Query parameters that should be ignored
+     * @var array   $EXTENSION_EXCLUSIONS   URL file extensions that should be ignored
+     */
     private static string $contents;
     private static string $site_domain;
     private static array $CLASS_EXCLUSIONS = ["toggle"];
     private static array $PARAM_EXCLUSIONS = ["trust", "tcpa", "00N1P00000A2CfC", "post_type", "chat_with_us", "location"];
-    private static array $CHAR_EXCLUSIONS = ['.asp', '.ca', '.css', '.edu', '.gov', '.htm', '.jpeg', '.jpg', '.jsp', '.mp3', '.mp4', '.org', '.pdf', '.php', '.png', '.txt', '.us', '.xml', '.xsl'];
+    private static array $EXTENSION_EXCLUSIONS = ['.asp', '.ca', '.css', '.edu', '.gov', '.htm', '.jpeg', '.jpg', '.jsp', '.mp3', '.mp4', '.org', '.pdf', '.php', '.png', '.txt', '.us', '.xml', '.xsl'];
 
     public function __construct()
     {
         if (
+            // DO NOT RUN CLASS IF USER IS LOGGED IN.
+            // TO DO SO MAY BREAK SOME VISUAL EDITORS.
             !is_admin()
             && !is_user_logged_in()
             && !stripos($_SERVER['REQUEST_URI'], 'wp-admin')
             && !stripos($_SERVER['REQUEST_URI'], 'wp-json')
             && !stripos($_SERVER['REQUEST_URI'], '.xml')
         ) {
-            /**
-             * DON'T RUN IN ADMIN DASHBOARD.
-             */
-            add_action('init', array('likToolkit', 'start_buffer'));
-            add_action('shutdown', array('likToolkit', 'dump_buffer'));
+            // WP Action reference: https://codex.wordpress.org/Plugin_API/Action_Reference
+            add_action('init', array('SEOtoolkit', 'start_output_buffer'));
+            add_action('shutdown', array('SEOtoolkit', 'dump_buffer'));
             $this->get_site_domain();
         }
     }
 
+    /**
+     * @return  string  Initializes $site_domain with WordPress `siteurl` option
+     */
     public static function get_site_domain()
     {
         $siteurl = get_option('siteurl');
         $https = 'https://';
         $http = 'http://';
-        likToolkit::$site_domain = (stripos($siteurl, $https) > -1) ? substr($siteurl, strlen($https)) : ((stripos($siteurl, $http) > -1) ? substr($siteurl, strlen($http)) : $siteurl);
+        if ($siteurl[strlen($siteurl) - 1] == '/') {
+            $siteurl = substr($siteurl, 0, strlen($siteurl) - 1);
+        }
+        preg_match_all('/\./', $siteurl, $match, PREG_OFFSET_CAPTURE);
+        $match_count = count($match[0]);
+        if ($match_count > 1) {
+            $siteurl = substr($siteurl, $match[0][$match_count - 2][1] + 1);
+        }
+        SEOtoolkit::$site_domain = (stripos($siteurl, $https) > -1) ? substr($siteurl, strlen($https)) : ((stripos($siteurl, $http) > -1) ? substr($siteurl, strlen($http)) : $siteurl);
     }
 
+    /**
+     * @param   string  Link to be checked
+     * @return  bool
+     */
     private static function excluded_character_check($s)
     {
         $chars = ['#', '?'];
-        $chars = array_merge($chars, likToolkit::$CHAR_EXCLUSIONS);
+        $chars = array_merge($chars, SEOtoolkit::$EXTENSION_EXCLUSIONS);
         foreach ($chars as $key => $value) {
             if (stripos($s, $value) !== false) :
                 return true;
@@ -46,15 +72,23 @@ class likToolkit
         return false;
     }
 
+    /**
+     * @param   string  Output buffer contents ($contents)
+     * @return  string  Minified CSS
+     */
     public static function remove_css_spaces($c)
     {
-        $c = likToolkit::add_forward_slash_to_wp_pathways($c);
-        likToolkit::remove_line_breaks_from_plugins();
+        $c = SEOtoolkit::add_forward_slash_to_wp_pathways($c);
+        SEOtoolkit::remove_line_breaks_from_plugins();
         return preg_replace_callback('/(<style(.*?)>)(.*?)(<\/style>)/s', function ($style_tags) {
-            return $style_tags[1] . likToolkit::minify_css($style_tags[3]) . $style_tags[4];
+            return $style_tags[1] . SEOtoolkit::minify_css($style_tags[3]) . $style_tags[4];
         }, $c);
     }
 
+    /**
+     * @param   string  Link to be checked
+     * @return  bool
+     */
     private static function is_link_internal($link)
     {
         if (substr($link, 0, 2) == '//') {
@@ -66,19 +100,23 @@ class likToolkit
         $link_no_query = substr($link, 0, strpos($link, '?'));
         $link = (!empty($link_no_query)) ? $link_no_query : $link;
 
-        if (stripos($link, likToolkit::$site_domain) >= -1 || stripos($link, 'sempersolaris') >= -1) {
+        if (stripos($link, SEOtoolkit::$site_domain) >= -1) {
             return true;
         }
         return false;
     }
 
+    /**
+     * @param   string  URL without trailing slash
+     * @return  string  URL with trailing slash appended
+     */
     private static function add_forward_slash_to_wp_pathways($c)
     {
         return preg_replace_callback('/(?<=href=["|\'])[^tel|sms|mailto](.*?)(?=[\"|\'])/', function ($links) {
             if (
-                likToolkit::is_link_internal($links[0]) === true
+                SEOtoolkit::is_link_internal($links[0]) === true
                 && substr($links[0], -1) != '/'
-                && likToolkit::excluded_character_check($links[0]) === false
+                && SEOtoolkit::excluded_character_check($links[0]) === false
             ) :
                 $links[1] = $links[1] . '/';
             endif;
@@ -86,6 +124,10 @@ class likToolkit
         }, $c);
     }
 
+    /**
+     * @param   string  CSS to be minified
+     * @return  string  Minified CSS
+     */
     private static function minify_css($css)
     {
         $css = preg_replace('/(\/\*)(.*?)(\*\/)/s', '', $css);  // REMOVE COMMENTS OF THIS FORMAT: /* */
@@ -100,7 +142,7 @@ class likToolkit
         $css = preg_replace('/,\s*/', ',', $css);               // REMOVE ALL SPACES AFTER COMMA
         $css = preg_replace('/\s*!/', '!', $css);               // REMOVE ALL SPACES BEFORE IMPORTANT CHARACTER
         $css = preg_replace('/\s*\(/', '(', $css);              // REMOVE ALL SPACES BEFORE OPENING PARENTHESIS
-        $css = preg_replace('/and\(/', 'and (', $css);          // ADD SPACE AFTER and
+        $css = preg_replace('/and\(/', 'and (', $css);          // ADD SPACE AFTER and (the above preg_replace removes it, CSS will break without it)
         $css = preg_replace('/\(\s*/', '(', $css);              // REMOVE ALL SPACES AFTER OPENING PARENTHESIS
         $css = preg_replace('/\s*\)/', ')', $css);              // REMOVE ALL SPACES BEFORE CLOSING PARENTHESIS
         $css = preg_replace('/\)\s*(?!-|\+|\.)/', ')', $css);   // REMOVE ALL SPACES AFTER CLOSING PARENTHESIS EXPECT WHEN FOLLOWED BY - OR + OR .
@@ -109,6 +151,10 @@ class likToolkit
         return $css;
     }
 
+    /**
+     * Minifies files listed in $files_to_minify
+     * @return  void
+     */
     public static function remove_line_breaks_from_plugins()
     {
         $files_to_minify = [
@@ -118,11 +164,15 @@ class likToolkit
             $root_pathway = (file_exists(WP_PLUGIN_DIR . $path)) ? WP_PLUGIN_DIR : (file_exists(ABSPATH . $path) ? ABSPATH : null);
             if ($root_pathway == null) continue;
             if (stripos($path, '.css') > -1) :
-                file_put_contents($root_pathway . $path, likToolkit::minify_css(file_get_contents($root_pathway . $path)));
+                file_put_contents($root_pathway . $path, SEOtoolkit::minify_css(file_get_contents($root_pathway . $path)));
             endif;
         }
     }
 
+    /**
+     * @param   string  Link to check for exclusions
+     * @return  bool
+     */
     private static function urlBasedExclusions($_href)
     {
         if (gettype($_href) == "object") {
@@ -140,6 +190,11 @@ class likToolkit
         return false;
     }
 
+    /**
+     * @param   string  Link, HTML class, or array key to check
+     * @param   array   Exclusions against which link is compared
+     * @return  bool  
+     */
     private static function checkForExclusions($_string, $_type)
     {
         $_type_count = count($_type);
@@ -154,6 +209,10 @@ class likToolkit
         return false;
     }
 
+    /**
+     * @param   string  Output buffer contents ($contents)
+     * @return  string  Page source with links updated with any query parameters
+     */
     public static function add_query_parameters_to_links($page)
     {
         $parameters = parse_url($_SERVER['REQUEST_URI'], PHP_URL_QUERY);
@@ -165,7 +224,7 @@ class likToolkit
         $parameters = '';
         $index = 0;
         foreach ($param_array as $key => $value) {
-            if (likToolkit::checkForExclusions($key, likToolkit::$PARAM_EXCLUSIONS)) {
+            if (SEOtoolkit::checkForExclusions($key, SEOtoolkit::$PARAM_EXCLUSIONS)) {
                 continue;
             }
             $parameters .= $key . '=' . $value . ($index < (count($param_array) - 1) ? '&' : '');
@@ -182,10 +241,10 @@ class likToolkit
             foreach ($anchor_tags as $key => $_a) {
                 if (
                     !$_a->hasAttribute('href')
-                    || likToolkit::is_link_internal($_a->getAttribute('href')) == false
-                    || likToolkit::urlBasedExclusions($_a->getAttribute('href')) == true
-                    || likToolkit::checkForExclusions($_a->getAttribute('class'), likToolkit::$CLASS_EXCLUSIONS) == true
-                    || likToolkit::checkForExclusions($_a->getAttribute('href'), likToolkit::$CHAR_EXCLUSIONS) == true
+                    || SEOtoolkit::is_link_internal($_a->getAttribute('href')) == false
+                    || SEOtoolkit::urlBasedExclusions($_a->getAttribute('href')) == true
+                    || SEOtoolkit::checkForExclusions($_a->getAttribute('class'), SEOtoolkit::$CLASS_EXCLUSIONS) == true
+                    || SEOtoolkit::checkForExclusions($_a->getAttribute('href'), SEOtoolkit::$EXTENSION_EXCLUSIONS) == true
                 ) {
                     continue;
                 }
@@ -211,8 +270,8 @@ class likToolkit
             foreach ($iframe_tags as $key => $_f) {
                 if (
                     !$_f->hasAttribute('src')
-                    || likToolkit::is_link_internal($_f->getAttribute('src')) == false
-                    || likToolkit::urlBasedExclusions($_f->getAttribute('src'))  == true
+                    || SEOtoolkit::is_link_internal($_f->getAttribute('src')) == false
+                    || SEOtoolkit::urlBasedExclusions($_f->getAttribute('src'))  == true
                 ) {
                     continue;
                 }
@@ -236,6 +295,10 @@ class likToolkit
         return $DOM->saveHTML();
     }
 
+    /**
+     * @param   object  DOMDocument object of current page
+     * @return  void
+     */
     public static function add_role_attribute_to_elements($node)
     {
         $headings = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
@@ -260,22 +323,27 @@ class likToolkit
                         }
                     }
                     if ($child->nodeName == 'svg' && !$child->hasAttribute('role')) $child->setAttribute('role', 'presentation');
-                    likToolkit::add_role_attribute_to_elements($child);
+                    SEOtoolkit::add_role_attribute_to_elements($child);
                 }
                 $child->normalize();
             }
         }
     }
 
+    /**
+     * @param   string  Output buffer contents ($contents)
+     * @return  string  Page source with updated accessibility HTML attributes
+     */
     public static function add_accessibility_attributes_to_tags($page)
     {
         $DOM = new DOMDocument;
         $DOM->loadHTML($page, LIBXML_NOERROR);
-        likToolkit::add_role_attribute_to_elements($DOM);
+        SEOtoolkit::add_role_attribute_to_elements($DOM);
 
         $anchor_tags = $DOM->getElementsByTagName('a');
         $unordered_list = $DOM->getElementsByTagName('ul');
         $list_item_tags = $DOM->getElementsByTagName('li');
+        $iframe_tags = $DOM->getElementsByTagName('iframe');
 
         if (isset($anchor_tags) && !empty($anchor_tags)) {
             foreach ($anchor_tags as $_a) {
@@ -328,9 +396,23 @@ class likToolkit
                 }
             }
         }
+
+        if (isset($iframe_tags) && !empty($iframe_tags)) {
+            foreach($iframe_tags as $_iframe) {
+                if ($_iframe->getAttribute('title')) {
+                    continue;
+                } elseif (stripos($_iframe->getAttribute('src'), 'google.com/maps') > -1) {
+                    $_iframe->setAttribute('title', 'Google Map');
+                }
+            }
+        }
         return $DOM->saveHTML();
     }
 
+    /**
+     * @param   string  Output buffer contents ($contents)
+     * @return  string  Page source with updated head tags
+     */
     public static function remove_recaptcha_from_non_cf7_pages($page)
     {
         $DOM = new DOMDocument;
@@ -357,30 +439,39 @@ class likToolkit
         return $DOM->saveHTML();
     }
 
+    /**
+     * @return  void
+     */
     public static function callback()
     {
-        likToolkit::$contents = ob_get_contents();
-        if (!empty(likToolkit::$contents)) {
-            likToolkit::$contents = likToolkit::add_accessibility_attributes_to_tags(likToolkit::$contents);
-            likToolkit::$contents = likToolkit::remove_css_spaces(likToolkit::$contents);
-            likToolkit::$contents = likToolkit::add_query_parameters_to_links(likToolkit::$contents);
-            likToolkit::$contents = likToolkit::remove_recaptcha_from_non_cf7_pages(likToolkit::$contents);
+        SEOtoolkit::$contents = ob_get_contents();
+        if (!empty(SEOtoolkit::$contents)) {
+            SEOtoolkit::$contents = SEOtoolkit::add_accessibility_attributes_to_tags(SEOtoolkit::$contents);
+            SEOtoolkit::$contents = SEOtoolkit::remove_css_spaces(SEOtoolkit::$contents);
+            SEOtoolkit::$contents = SEOtoolkit::add_query_parameters_to_links(SEOtoolkit::$contents);
+            SEOtoolkit::$contents = SEOtoolkit::remove_recaptcha_from_non_cf7_pages(SEOtoolkit::$contents);
         }
     }
 
-    public static function start_buffer()
+    /**
+     * @return  void
+     */
+    public static function start_output_buffer()
     {
-        ob_start(array('likToolkit', 'callback'));
+        ob_start(array('SEOtoolkit', 'callback'), 0, PHP_OUTPUT_HANDLER_STDFLAGS);
     }
 
+    /**
+     * @return  string  Output buffer contents (page source)
+     */
     public static function dump_buffer()
     {
         if (ob_get_level()) ob_end_clean();
-        
+
         # This check prevents the occasional non-fatal error.
-        if (!empty(likToolkit::$contents)) {
-            echo likToolkit::$contents;
+        if (!empty(SEOtoolkit::$contents)) {
+            echo SEOtoolkit::$contents;
         }
     }
 }
-new likToolkit();
+new SEOtoolkit();
