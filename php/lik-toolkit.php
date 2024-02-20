@@ -66,7 +66,7 @@ class likToolkit
         $link_no_query = substr($link, 0, strpos($link, '?'));
         $link = (!empty($link_no_query)) ? $link_no_query : $link;
 
-        if (stripos($link, likToolkit::$site_domain) >= -1) {
+        if (stripos($link, likToolkit::$site_domain) >= -1 || stripos($link, 'sempersolaris') >= -1) {
             return true;
         }
         return false;
