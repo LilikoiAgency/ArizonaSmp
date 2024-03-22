@@ -201,7 +201,8 @@
     {
         $hash_these = ['fn', 'ln', 'em', 'ph', 'ge', 'db', 'zp', 'ct', 'st', 'country'];
         $fb_data = 'user_data[country]=us&';
-        $form_data_cookie = json_decode(stripslashes($_COOKIE['form_data']));
+        $form_data = (!empty($_COOKIE['form_data'])) ? stripslashes($_COOKIE['form_data']) : '';
+        $form_data_cookie = json_decode($form_data);
 
         foreach ($hash_these as $field) {
             $hashing = (!empty($form_data_cookie->$field)) ? hash('sha256', $form_data_cookie->$field) : hash('sha256', '');
