@@ -5,7 +5,7 @@
 
         <div class="hero-black-box-container">
             <p class="font-size-36" role="heading">Arizona's Solar Experts</p>
-            <p class="font-size-66" style="line-height: 0.95;" role="heading"> WE  WILL PAY YOUR ELECTRIC <br class="d-none d-md-inline"/> BILL FOR THE NEXT 3 MONTHS*</p>
+            <p class="font-size-66" style="line-height: 0.95;" role="heading"> Go Solar with Arizona's Top Solar Company!</p>
             <p class="font-size-28" >Get A FREE Consultation <br class="br"> <a style="color:#f78000; text-decoration:none; border-bottom:solid 3px #f78000;" href="https://appointment.sempersolaris.com/">Schedule Today!</a></p>
         </div>
 
