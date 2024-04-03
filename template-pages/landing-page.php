@@ -669,8 +669,8 @@ wp_head();
 
         <section class="star-bg-container">
             <div class="solarplusbattery">
-                <h2 class="smpFont">We Pay Your Electric Bill</h2>
-                <h3 class="smpFont">For the next 3 months!*</h3>
+                <h2 class="smpFont">Solar + Battery Storage</h2>
+                <h3 class="smpFont">Over 30,000 Systems Installed</h3>
             </div>
             <img src="/wp-content/uploads/2024/02/SMP-1-Volume-Residential-Solar-Battery-Badge.png" alt="America's #1 Volume Solar + Battery Installer">
         </section>
