@@ -506,7 +506,7 @@ wp_head();
                 <h2>VETERAN-OWNED</h2>
                 <h2>LOCAL BUSINESS</h2>
             </div>
-            <img width="350" src="https://smpstage.wpengine.com/wp-content/uploads/2023/05/05-24-2023-SMP-Webform-Logo-with-White-Background-June-2023.png" alt="Semper Solaris the best Solar Company in Arizona">
+            <img width="350" srcset="https://smpbackup.wpengine.com/wp-content/uploads/2023/05/05-24-2023-SMP-Webform-Logo-with-White-Background-June-2023.png" alt="Semper Solaris the best Solar Company in Arizona">
         </div>
 
         <section class="main-section">
@@ -880,9 +880,9 @@ wp_head();
             ?>
 
             <div class="img-wrapper">
-                <img loading="lazy" src="https://smpstage.wpengine.com/wp-content/uploads/2023/05/Pink-Panther.png" alt="Get 50 Year Platnium Warranty protection for your roof!">
-                <img loading="lazy" src="https://smpstage.wpengine.com/wp-content/uploads/2023/05/SMP-Web-Assets_Semper-Cares-1-1536x1536.png" alt="Semper Cares Initiative">
-                <img loading="lazy" src="https://smpstage.wpengine.com/wp-content/uploads/2023/05/SMP-Web-Assets_Owners-1-410x150.png" alt="Meet our Owners">
+                <img loading="lazy" srcset="https://smpbackup.wpengine.com/wp-content/uploads/2023/05/Pink-Panther.png" alt="Get 50 Year Platnium Warranty protection for your roof!">
+                <img loading="lazy" srcset="https://smpbackup.wpengine.com/wp-content/uploads/2023/05/SMP-Web-Assets_Semper-Cares-1-1536x1536.png" alt="Semper Cares Initiative">
+                <img loading="lazy" srcset="https://smpbackup.wpengine.com/wp-content/uploads/2023/05/SMP-Web-Assets_Owners-1-410x150.png" alt="Meet our Owners">
 
             </div>
         </section>
