@@ -85,42 +85,42 @@
                         </figure>
 
                         <figure class="col-2 p-0 mt-auto" role="none">
-                            <img loading="lazy"  width="135" height="160" src="https://www.sempersolaris.com/wp-content/uploads/2022/08/SMP-Solar-Power-World-Top-Solar-Storage-Residential-Installer-2022.png" alt="2022 Top Solar + Storage Residential Installer Award" style="margin-bottom: 9px;" /> 
+                            <img loading="lazy"  width="135" height="160" src="https://smpbackup.wpengine.com/wp-content/uploads/2022/08/SMP-Solar-Power-World-Top-Solar-Storage-Residential-Installer-2022.png" alt="2022 Top Solar + Storage Residential Installer Award" style="margin-bottom: 9px;" /> 
                             <figcaption style="line-height: 20px;">2022 Top Solar<br> + Storage <br>Residential Installer </figcaption>
                         </figure>
                         <figure class="col-2 p-0 mt-auto" role="none">
-                            <img loading="lazy"  width="135" height="160" src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2021-Top-Solar-Storage-Installer.png" alt="2021 Top Solar + Storage Installer Award" /> 
+                            <img loading="lazy"  width="135" height="160" src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2021-Top-Solar-Storage-Installer.png" alt="2021 Top Solar + Storage Installer Award" /> 
                             <figcaption style="line-height: 20px;">2021 Top Solar<br> + Storage <br> Installer Award </figcaption>
                         </figure>
                         <figure class="col-2 p-0 " style="margin-top: auto;" role="none">
-                            <img loading="lazy" width="135" height="145" src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2019-Residential-Installer.png" alt="2019 Residential Installer of the Year Award" />
+                            <img loading="lazy" width="135" height="145" src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2019-Residential-Installer.png" alt="2019 Residential Installer of the Year Award" />
                             <figcaption style="line-height: 20px;">2019 Residential<br> Installer of the  <br>Year Award</figcaption>
                         </figure>
                         <figure class="col-2 p-0 mt-0 " style="margin-top: auto;" role="none">
-                            <img loading="lazy" width="135" height="145"  src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2018-Solar-Vet50.png" alt="Inc. 5000 Vet 50 2018 award" />
+                            <img loading="lazy" width="135" height="145"  src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2018-Solar-Vet50.png" alt="Inc. 5000 Vet 50 2018 award" />
                             <figcaption style="line-height: 20px;">Inc. 5000 <br>Vet 50 2018 <br> </figcaption>
                         </figure>
                     </div>
 
                     <div class="d-flex row justify-content-center my-auto gap-3">
                         <figure class="col-2 p-0 mt-auto" role="none">
-                            <img loading="lazy"  width="145" height="160" src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2017-Solar-Residential-Volume.png" alt="2017 Residential Volume Dealer Of the Year award"> 
+                            <img loading="lazy"  width="145" height="160" src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2017-Solar-Residential-Volume.png" alt="2017 Residential Volume Dealer Of the Year award"> 
                             <figcaption style="line-height: 20px;">2017 Residential <br> Volume Dealer <br> of the Year</figcaption>
                         </figure>
                         <figure class="col-2 p-0 " style="margin-top: auto;" role="none">
-                            <img loading="lazy" width="145" height="145" src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2016-Solar-Residential-National.png" alt="2016 Residential National Dealer of the Year award">
+                            <img loading="lazy" width="145" height="145" src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2016-Solar-Residential-National.png" alt="2016 Residential National Dealer of the Year award">
                             <figcaption style="line-height: 20px;">2016 Residential <br> National Dealer <br> of the Year </figcaption>
                         </figure>
                         <figure class="col-2 p-0  " style="margin-top: auto;" role="none">
-                            <img loading="lazy" width="145" height="145"  src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2016-Solar-Residential-National-Producer.png" alt="2016 Residential National Top Producer of the Year award">
+                            <img loading="lazy" width="145" height="145"  src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2016-Solar-Residential-National-Producer.png" alt="2016 Residential National Top Producer of the Year award">
                             <figcaption style="line-height: 20px;">2016 Residential <br> National Top <br> Producer of the Year</figcaption>
                         </figure>
                         <figure class="col-2 p-0  " style="margin-top: auto;" role="none">
-                            <img loading="lazy" width="145" height="145"  src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2015-Solar-Residential-National.png" alt="2015 Residential National Dealer of the Year award">
+                            <img loading="lazy" width="145" height="145"  src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2015-Solar-Residential-National.png" alt="2015 Residential National Dealer of the Year award">
                             <figcaption style="line-height: 20px;">2015 Residential <br> National Dealer <br> of the Year <br></figcaption>
                         </figure>
                         <figure class="col-2 p-0  mt-0" style="margin-top: auto;" role="none">
-                            <img loading="lazy"  width="145" height="145"  src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2014-Solar-Residential-Rising-Star-1.png" alt="2014 Residential National Rising Star award">
+                            <img loading="lazy"  width="145" height="145"  src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2014-Solar-Residential-Rising-Star-1.png" alt="2014 Residential National Rising Star award">
                             <figcaption style="line-height: 20px;">2014 Residential <br> National Rising Star</figcaption>
                         </figure>
                     </div>
@@ -153,21 +153,21 @@
                     <p  style="font-size: 28px;" role="heading"><strong role="heading"> Over the Years Semper Solaris Has Won Many Awards </strong></p>
                     <div class="d-flex flex-wrap  justify-content-center my-auto gap-2 ">
                          <figure class="col-2 p-0 mt-0" role="none">
-                            <img loading="lazy" width="140" height="160" src="https://www.sempersolaris.com/wp-content/uploads/2023/05/05-05-23-Owens-Corning-Platinum-Top-Performer-2023-1-e1683321313981.png" alt="2023 Best roofing contractor" />
+                            <img loading="lazy" width="140" height="160" src="https://smpbackup.wpengine.com/wp-content/uploads/2023/05/05-05-23-Owens-Corning-Platinum-Top-Performer-2023-1-e1683321313981.png" alt="2023 Best roofing contractor" />
                             <figcaption style="line-height: 20px;">2023 Owens Corning<br> Top Performer Platinum Warranty<br></figcaption>
                         </figure>
                         <figure class="col-2 p-0 mt-0" role="none">
-                            <img loading="lazy" width="140" height="145" src="https://www.sempersolaris.com/wp-content/uploads/2023/05/05-05-23-Owens-Corning-Platinum-Excellence-Award-2023-1-2-e1683323144918.png" alt="2023 Best roofing companies" />
+                            <img loading="lazy" width="140" height="145" src="https://smpbackup.wpengine.com/wp-content/uploads/2023/05/05-05-23-Owens-Corning-Platinum-Excellence-Award-2023-1-2-e1683323144918.png" alt="2023 Best roofing companies" />
                             <figcaption style="line-height: 20px;">2023 Owens Corning <br> Product Excellence <br></figcaption>
                         </figure>
 
 
                         <figure class="col-2 p-0 mt-0" role="none">
-                            <img style="margin-top: 62px;" loading="lazy" width="140" height="160" src="https://www.sempersolaris.com/wp-content/uploads/2022/08/SMP-Roofing-Award-Excellence-Desktop.png" alt="2022 Platinum Excellence award" />
+                            <img style="margin-top: 62px;" loading="lazy" width="140" height="160" src="https://smpbackup.wpengine.com/wp-content/uploads/2022/08/SMP-Roofing-Award-Excellence-Desktop.png" alt="2022 Platinum Excellence award" />
                             <figcaption style="line-height: 20px;">2022 Owens Corning<br> Platinum Excellence <br> </figcaption>
                         </figure>
                         <figure class="col-2 p-0 mt-0" role="none">
-                            <img style="margin-top: 62px;" loading="lazy" width="140" height="145" src="https://www.sempersolaris.com/wp-content/uploads/2022/08/SMP-Roofing-Award-Performer-Desktop.png" alt="2022 Roofing Platinum Top Performer Award" />
+                            <img style="margin-top: 62px;" loading="lazy" width="140" height="145" src="https://smpbackup.wpengine.com/wp-content/uploads/2022/08/SMP-Roofing-Award-Performer-Desktop.png" alt="2022 Roofing Platinum Top Performer Award" />
                             <figcaption style="line-height: 20px;">2022 Owens Corning <br> Top Performer <br></figcaption>
                         </figure>
                       
@@ -176,46 +176,46 @@
 
                     <div class="d-flex flex-wrap  justify-content-center my-auto gap-2 ">
                         <figure class="col-2 p-0 mt-0" role="none">
-                            <img loading="lazy"  width="140" height="160" src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2022-Platinum-Excellence.png" alt="2022 Platinum Excellence award" /> 
+                            <img loading="lazy"  width="140" height="160" src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2022-Platinum-Excellence.png" alt="2022 Platinum Excellence award" /> 
                             <figcaption style="line-height: 20px;">2022 Owens Corning<br> Platinum Excellence <br>  </figcaption>
                         </figure>
                         <figure class="col-2 p-0 mt-0" role="none">
-                            <img loading="lazy"  width="140" height="145" src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2022-Platinum-Top-Performer.png" alt="2022 Platinum Top Performer award" />
+                            <img loading="lazy"  width="140" height="145" src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2022-Platinum-Top-Performer.png" alt="2022 Platinum Top Performer award" />
                             <figcaption style="line-height: 20px;">2022 Owens Corning <br> Platinum Top Performer  <br></figcaption>
                         </figure>
                         <figure class="col-2 p-0 mt-0 " style="margin-top: auto;" role="none">
-                            <img loading="lazy"  width="140" height="145"  src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2021-Product-Excellence.png" alt="2021 Product Excellence award" />
+                            <img loading="lazy"  width="140" height="145"  src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2021-Product-Excellence.png" alt="2021 Product Excellence award" />
                             <figcaption style="line-height: 20px;">2021 Ownes Corning <br> Product Excellence <br> </figcaption>
                         </figure>
                         <figure class="col-2 p-0 mt-0 " style="margin-top: auto;" role="none">
-                            <img loading="lazy"  width="140" height="145"  src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2021-Top-Performer-MVP.png" alt="2021 Top Performer MVP award" />
+                            <img loading="lazy"  width="140" height="145"  src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2021-Top-Performer-MVP.png" alt="2021 Top Performer MVP award" />
                             <figcaption style="line-height: 20px;">2021 Ownes Corning <br> Top Performer MVP<br> </figcaption>
                         </figure>
                         <figure class="col-2 p-0 mt-0 " style="margin-top: auto;" role="none">
-                            <img loading="lazy"  width="140" height="145"  src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2021-Top-Performer-Platinum-Warranty.png" alt="2021 Top Performer Platinum Warranty award" />
+                            <img loading="lazy"  width="140" height="145"  src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2021-Top-Performer-Platinum-Warranty.png" alt="2021 Top Performer Platinum Warranty award" />
                             <figcaption style="line-height: 20px;">2021 Ownes Corning <br> Top Performer <br> Platinum Warranty </figcaption>
                         </figure>
                     </div>
 
                     <div class="d-flex row justify-content-center my-auto gap-3">
                         <figure class="col-2 p-0 mt-auto" role="none">
-                            <img loading="lazy"   width="145" height="160" src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2020-Top-Performer-Platinum-Warranty.png" alt="2020 Top Performer Platinum Warranty award" /> 
+                            <img loading="lazy"   width="145" height="160" src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2020-Top-Performer-Platinum-Warranty.png" alt="2020 Top Performer Platinum Warranty award" /> 
                             <figcaption style="line-height: 20px;">2020 Owens Corning <br> Top Performer <br> Platinum Warranty</figcaption>
                         </figure>
                         <figure class="col-2 p-0 " style="margin-top: auto;" role="none">
-                            <img loading="lazy"  width="145" height="145" src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2019-Top-Performer-Warranty.png" alt="2019 Top Performer Platinum Warranty award" />
+                            <img loading="lazy"  width="145" height="145" src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2019-Top-Performer-Warranty.png" alt="2019 Top Performer Platinum Warranty award" />
                             <figcaption style="line-height: 20px;">2019 Owens Corning<br> Top Performer<br> Warranty </figcaption>
                         </figure>
                         <figure class="col-2 p-0  my-auto" role="none">
-                            <img loading="lazy"  width="145" height="145"  src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2020-Product-Excellence-BP.png" alt="2020 Product Excellence award" />
+                            <img loading="lazy"  width="145" height="145"  src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2020-Product-Excellence-BP.png" alt="2020 Product Excellence award" />
                             <figcaption style="line-height: 20px;"> 2020 Owens Corning <br> Product Excellence <br> <br></figcaption>
                         </figure>
                         <figure class="col-2 p-0 my-auto "  role="none">
-                            <img loading="lazy"  width="145" height="145"  src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2020-Service-Excellence-BP.png" alt="2020 Service Excellence award" />
+                            <img loading="lazy"  width="145" height="145"  src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2020-Service-Excellence-BP.png" alt="2020 Service Excellence award" />
                             <figcaption style="line-height: 20px;"> 2020 Owens Corning <br> Service Excellence <br>  <br></figcaption>
                         </figure>
                         <figure loading="lazy"  class="col-2 p-0 my-auto " role="none" >
-                            <img width="145" height="145"  src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2019-Product-Excellence-BP.png" alt="2019 Product Excellence award" />
+                            <img width="145" height="145"  src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2019-Product-Excellence-BP.png" alt="2019 Product Excellence award" />
                             <figcaption style="line-height: 20px;"> 2019 Owens Corning <br> Product Excellence <br> Gold</figcaption>
                         </figure>
                     </div>
@@ -224,7 +224,7 @@
                     <p style="font-size: 28px;" role="heading"> <strong role="heading">And We're Just Warming Up </strong> </p>
                 </div>
             <?php else : ?> 
-                <img class="mx-auto" loading="lazy" src="https://www.sempersolaris.com/wp-content/uploads/2023/05/SMP-Owens-Corning-Platinum-Top-Performer-2019-2023.png" alt="awards" />   
+                <img class="mx-auto" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/uploads/2023/05/SMP-Owens-Corning-Platinum-Top-Performer-2019-2023.png" alt="awards" />   
             <?php endif; ?>
             </div>
             </section>
@@ -269,11 +269,11 @@
                         </figure>
 
                         <figure class="col-md-2 p-0 mt-auto" role="none">
-                            <img loading="lazy"  width="135" height="160" src="https://www.sempersolaris.com/wp-content/uploads/2022/08/SMP-Solar-Power-World-Top-Solar-Storage-Residential-Installer-2022.png" alt="2022 Top Solar + Storage Residential Installer Award" style="margin-bottom: 8px;" /> 
+                            <img loading="lazy"  width="135" height="160" src="https://smpbackup.wpengine.com/wp-content/uploads/2022/08/SMP-Solar-Power-World-Top-Solar-Storage-Residential-Installer-2022.png" alt="2022 Top Solar + Storage Residential Installer Award" style="margin-bottom: 8px;" /> 
                             <figcaption style="line-height: 20px;">2022 Top Solar<br> + Storage <br>Residential Installer </figcaption>
                         </figure>
                         <figure class="col-md-2 p-0 mt-auto" role="none">
-                            <img loading="lazy"  width="135" height="160" src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2021-Top-Solar-Storage-Installer.png" alt="2021 Top Solar + Storage Installer Award" /> 
+                            <img loading="lazy"  width="135" height="160" src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2021-Top-Solar-Storage-Installer.png" alt="2021 Top Solar + Storage Installer Award" /> 
                             <figcaption style="line-height: 20px;">2021 Top Solar<br> + Storage <br> Installer Award </figcaption>
                         </figure>
                         
@@ -281,23 +281,23 @@
 
                     <!-- <div class="d-flex row justify-content-center my-auto gap-3">
                         <figure class="col-2 p-0 mt-auto">
-                            <img loading="lazy"  width="145" height="160" src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2017-Solar-Residential-Volume.png" alt="2017 Residential Volume Dealer Of the Year award"> 
+                            <img loading="lazy"  width="145" height="160" src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2017-Solar-Residential-Volume.png" alt="2017 Residential Volume Dealer Of the Year award"> 
                             <figcaption style="line-height: 20px;">2017 Residential <br> Volume Dealer <br> Of the Year</figcaption>
                         </figure>
                         <figure class="col-2 p-0 " style="margin-top: auto;">
-                            <img loading="lazy" width="145" height="145" src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2016-Solar-Residential-National.png" alt="2016 Residential National Dealer of the Year award">
+                            <img loading="lazy" width="145" height="145" src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2016-Solar-Residential-National.png" alt="2016 Residential National Dealer of the Year award">
                             <figcaption style="line-height: 20px;">2016 Residential <br> National Dealer <br> of the Year </figcaption>
                         </figure>
                         <figure class="col-2 p-0  " style="margin-top: auto;" >
-                            <img loading="lazy" width="145" height="145"  src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2016-Solar-Residential-National-Producer.png" alt="2016 Residential National Top Producer of the Year award">
+                            <img loading="lazy" width="145" height="145"  src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2016-Solar-Residential-National-Producer.png" alt="2016 Residential National Top Producer of the Year award">
                             <figcaption style="line-height: 20px;">2016 Residential <br> National Top <br> Producer of the Year</figcaption>
                         </figure>
                         <figure class="col-2 p-0  " style="margin-top: auto;" >
-                            <img loading="lazy" width="145" height="145"  src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2015-Solar-Residential-National.png" alt="2015 Residential National Dealer of the Year award">
+                            <img loading="lazy" width="145" height="145"  src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2015-Solar-Residential-National.png" alt="2015 Residential National Dealer of the Year award">
                             <figcaption style="line-height: 20px;">2015 Residential <br> National Dealer <br> of the Year <br></figcaption>
                         </figure>
                         <figure class="col-2 p-0  mt-0" style="margin-top: auto;" >
-                            <img loading="lazy"  width="145" height="145"  src="https://www.sempersolaris.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2014-Solar-Residential-Rising-Star-1.png" alt="2014 Residential National Rising Star award">
+                            <img loading="lazy"  width="145" height="145"  src="https://smpbackup.wpengine.com/wp-content/uploads/2022/06/05-24-SMP-Awards-2014-Solar-Residential-Rising-Star-1.png" alt="2014 Residential National Rising Star award">
                             <figcaption style="line-height: 20px;">2014 Residential <br> National Rising Star</figcaption>
                         </figure>
                     </div> -->

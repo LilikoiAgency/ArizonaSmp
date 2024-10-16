@@ -1044,7 +1044,7 @@ get_template_part('template-parts/location', 'banner-#1');
                     /*
                     <!-- <hr class="verticalLine "> -->
                     <!--                     <div class="flex-wrap-wrap service-block border-line-2">
-                        <img class="lazy-images" width="107" height="82" data-src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon HVAC.svg" alt="">
+                        <img class="lazy-images" width="107" height="82" data-src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon HVAC.svg" alt="">
                         <h3>HVAC<br /> <?= isset($content_array['city-name']) ? $content_array['city-name'] : ''; ?></h3>
                         <a itemprop="url" href="/" class="learn-more-btn main-hvac-link">
                             <span class="learn-more-text ">LEARN MORE</span>
@@ -1126,7 +1126,7 @@ get_template_part('template-parts/location', 'banner-#1');
                 <div style=" border: 1px solid #004c97; background-color:#E6EDF4; padding:5%;">
                     <div class="imgCircle">
                         <div class="circleShadow">
-                            <img width="77" height="152" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP Article Falling Money.svg" alt="Money Falling Icon">
+                            <img width="77" height="152" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP Article Falling Money.svg" alt="Money Falling Icon">
                         </div>
                     </div>
 

@@ -185,9 +185,6 @@ endif;
                     <li><a href="/solar-panels/" class="text-black">Solar Panels</a></li>
                     <li><a href="/roofing/" class="text-black">Roofing Services</a></li>
                     <li><a href="/battery-storage/" class="text-black">Battery Storage</a></li>
-                    <?php /* ?>
-                    <li><a href="/heating-air-conditioning">Heating & Air Conditioning </a></li>
-					<?php */ ?>
                     <li><a href="https://www.sempersolaris.com/warranties/" class="text-black">Warranties</a></li>
                 </ul>
             </div>

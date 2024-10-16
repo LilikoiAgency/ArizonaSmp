@@ -946,7 +946,7 @@ get_template_part('template-parts/location', 'banner-#1')
 
                 <div class="text-center servicesHolder">
                     <div class="flex-wrap-wrap service-block border-line">
-                        <img class="lazy-images" width="107" height="82" data-src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon Solar.svg" alt="solar panel icon">
+                        <img class="lazy-images" width="107" height="82" data-src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon Solar.svg" alt="solar panel icon">
                         <h3>Solar Energy<br /> <?= isset($content_array['city-name']) ? $content_array['city-name'] : '' ?> </h3>
                         <a itemprop="url" href="/" class="learn-more-btn main-solar-link">
                             <span class="learn-more-text ">LEARN MORE</span>
@@ -957,7 +957,7 @@ get_template_part('template-parts/location', 'banner-#1')
                     </div>
                     <!-- <hr class="verticalLine"> -->
                     <div class="flex-wrap-wrap service-block border-line-4">
-                        <img class="lazy-images" width="107" height="82" data-src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon Battery.svg" alt="battery storage icon">
+                        <img class="lazy-images" width="107" height="82" data-src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon Battery.svg" alt="battery storage icon">
                         <h3>Battery Storage <br /> <?= isset($content_array['city-name']) ? $content_array['city-name'] : '' ?></h3>
                         <a itemprop="url" href="/" class="learn-more-btn main-battery-link">
                             <span class="learn-more-text ">LEARN MORE</span>
@@ -968,7 +968,7 @@ get_template_part('template-parts/location', 'banner-#1')
                     </div>
                     <!-- <hr class="verticalLine"> -->
                     <div class="flex-wrap-wrap service-block">
-                        <img class="lazy-images" width="107" height="82" data-src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon Roofing.svg" alt="roofing">
+                        <img class="lazy-images" width="107" height="82" data-src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon Roofing.svg" alt="roofing">
                         <h3>Roofing<br /> <?= isset($content_array['city-name']) ? $content_array['city-name'] : '' ?></h3>
                         <a itemprop="url" href="/" class="learn-more-btn main-roofing-link">
                             <span class="learn-more-text ">LEARN MORE</span>

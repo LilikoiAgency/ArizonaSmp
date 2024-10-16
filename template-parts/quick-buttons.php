@@ -27,7 +27,7 @@
                     <picture>
                         <source type="image/webp" media="(min-width: 240px)" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/chat_2.webp 46w, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/chat_2@2x.webp 2x" sizes="46w">
                         <source type="image/png" media="(min-width: 240px)" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/chat_2.png 46w, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/chat_2@2x.png 2x" sizes="46w">
-                        <img class="lazy center-block" alt="Chat Now" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/chat_2.png" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/chat_2@2x.png, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/chat_2@2x.png 2x" height="46" width="46" style="border-radius:100%">
+                        <img class="lazy center-block" alt="Chat Now" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/dist/img/icons/chat_2.png" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/chat_2@2x.png, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/chat_2@2x.png 2x" height="46" width="46" style="border-radius:100%">
                     </picture>
                     <strong>Chat</strong>
                 </a>
@@ -37,7 +37,7 @@
                     <picture>
                         <source type="image/webp" media="(min-width: 240px)" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/book-now.webp 46w, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/book-now_2x.webp 2x" sizes="46w">
                         <source type="image/png" media="(min-width: 240px)" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/book-now.png 46w, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/book-now_2x.png 2x" sizes="46w">
-                        <img class="lazy center-block" alt="Book Now" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/book-now.png" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/book-now.png, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/book-now_2x.png 2x" height="46" width="46" style="border-radius:100%">
+                        <img class="lazy center-block" alt="Book Now" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/dist/img/icons/book-now.png" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/book-now.png, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/book-now_2x.png 2x" height="46" width="46" style="border-radius:100%">
                     </picture>
                     <strong>Book Now</strong>
                 </a>
@@ -47,7 +47,7 @@
                     <picture>
                         <source type="image/webp" media="(min-width: 240px)" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/Refer@0.5x.webp 46w, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/Refer.webp 2x" sizes="46w">
                         <source type="image/png" media="(min-width: 240px)" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/Refer@0.5x.png 46w, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/Refer.png 2x" sizes="46w">
-                        <img class="lazy center-block" alt="Refer" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/Refer@0.5x.png" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/Refer@0.5x.png, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/Refer.png 2x" height="46" width="46" style="border-radius:100%">
+                        <img class="lazy center-block" alt="Refer" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/dist/img/icons/Refer@0.5x.png" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/Refer@0.5x.png, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/Refer.png 2x" height="46" width="46" style="border-radius:100%">
                     </picture>
                     <strong>Refer a Friend</strong>
                 </a>
@@ -57,7 +57,7 @@
                     <picture>
                         <source type="image/webp" media="(min-width: 240px)" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/phone.webp 46w, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/phone_2x.webp 2x" sizes="46w">
                         <source type="image/png" media="(min-width: 240px)" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/phone.png 46w, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/phone_2x.png 2x" sizes="46w">
-                        <img class="lazy center-block" alt="Call Now" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/phone.png" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/phone.png, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/phone_2x.png 2x" height="46" width="46" style="border-radius:100%">
+                        <img class="lazy center-block" alt="Call Now" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/dist/img/icons/phone.png" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/phone.png, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/phone_2x.png 2x" height="46" width="46" style="border-radius:100%">
                     </picture>
                     <strong>Phone</strong>
                 </a>
@@ -67,7 +67,7 @@
                     <picture>
                         <source type="image/webp" media="(min-width: 240px)" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/email.webp 46w, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/email_2x.webp 2x" sizes="46w">
                         <source type="image/png" media="(min-width: 240px)" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/email.png 46w, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/email_2x.png 2x" sizes="46w">
-                        <img class="lazy center-block" alt="Contact Now" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/email.png" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/email.png, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/email_2x.png 2x" height="46" width="46" style="border-radius:100%">
+                        <img class="lazy center-block" alt="Contact Now" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/dist/img/icons/email.png" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/email.png, https://www.sempersolaris.com/wp-content/themes/semper-solaris/dist/img/icons/email_2x.png 2x" height="46" width="46" style="border-radius:100%">
                     </picture>
                     <strong>Contact</strong>
                 </a>

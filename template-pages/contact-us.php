@@ -100,7 +100,7 @@ get_header();
 
                     ?>
                         <div>
-                            <img src="https://www.sempersolaris.com/wp-content/uploads/2019/11/solaredge-install-garage-478x290.jpg" width="500" height="303.34" style="width:100%" alt=" happy employees" />
+                            <img src="https://smpbackup.wpengine.com/wp-content/uploads/2019/11/solaredge-install-garage-478x290.jpg" width="500" height="303.34" style="width:100%" alt=" happy employees" />
                         </div>
                     <?php
 
