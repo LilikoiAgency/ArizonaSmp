@@ -188,7 +188,7 @@ $vet_array = [
     
     foreach($vet_array as $veteran){
         echo '<div class="card m-2 mb-5 shadow" style="width: 450px; ">';
-        echo '<img class="card-img-top" width="450" height="220" style="background-color:darkgray" src="https://www.sempersolaris.com' . $veteran["thumbnail"] . '" alt="Card image cap">';
+        echo '<img class="card-img-top" width="450" height="220" style="background-color:darkgray" src="https://smpbackup.wpengine.com' . $veteran["thumbnail"] . '" alt="Card image cap">';
         echo '<div class="card-body text-center">';
         echo "<h5 class='card-text'> ". $veteran["name"] ." </h5>";
         echo '<button onclick="watchVideo(\'https://www.youtube.com/embed/' . $veteran["vid"] . '\')"; type="button" class="btn btn-primary video-btn" data-bs-toggle="modal" data-bs-target="#myModal" style="background-color: #004c97 !important;" >

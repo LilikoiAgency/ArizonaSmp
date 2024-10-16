@@ -39,7 +39,7 @@ const EXIT_FORM = `
             <h3 class="exit-popup-3rd-header m-auto font-weight-bold  margin:auto;"> Take Advantage Of <br class="d-block"> Our Solar Internet Coupon </h3>
             <picture style=" margin:auto;margin-bottom: -10px; padding: 0px 10px;">
                 <source media="(min-width: 779px)" width="380" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/pop-up-offer/12-09-22-SMPAZ-Downloadable-Coupon-Dec2022.svg">
-                <img src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/pop-up-offer/12-12-22-SMPAZ-Downloadable-Coupon-Mobile-Dec2022.svg" alt="$500 downloadable coupon">
+                <img src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/pop-up-offer/12-12-22-SMPAZ-Downloadable-Coupon-Mobile-Dec2022.svg" alt="$500 downloadable coupon">
             </picture>
             <p class="exit-pop-display" style="font-size:12px !important; max-width:300px; line-height:14px!important; margin:auto;">*Present this at the time of your appointment. Call or see the website for further details www.sempersolaris.com | ROC# 336163 | ROC# 336306 | ROC# 336305</p>
 
@@ -56,7 +56,7 @@ const EXIT_FORM = `
          
         
             <h3 class="text-center pt-md-3 font-weight-bold exit-pop-display right-side-title"> Get Your Coupon Emailed <br class="d-md-block"> <b> Start Saving</b> On Your <br class="d-md-block"> Electric Bill! </h3>
-            <p class="text-center font-weight-bold fill-out-form-below "><img src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/pop-up-offer/12-09-22-SMPAZ-Red-Down-Arrow-Dec2022.svg" alt="Red Down Arrow"> Fill out form below <img src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/pop-up-offer/12-09-22-SMPAZ-Red-Down-Arrow-Dec2022.svg" alt="Red Down Arrow"></p>
+            <p class="text-center font-weight-bold fill-out-form-below "><img src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/pop-up-offer/12-09-22-SMPAZ-Red-Down-Arrow-Dec2022.svg" alt="Red Down Arrow"> Fill out form below <img src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/pop-up-offer/12-09-22-SMPAZ-Red-Down-Arrow-Dec2022.svg" alt="Red Down Arrow"></p>
 
             <label for="last_name_popup">
                 <input id="last_name_popup" maxlength="80" name="last_name" size="20" type="text"  aria-label="Full Name (required)" placeholder="Full Name:*" required />

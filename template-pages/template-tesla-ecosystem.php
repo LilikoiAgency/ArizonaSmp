@@ -45,7 +45,7 @@ get_header();
 
             <div class="quick-fact-container " style="max-width: 235px;">
                 <h3 class="blue-box-with-border text-white p-2 h5 rounded-3">SOLAR <br> INVERTER</h3>
-                <img class="pt-3 my-auto" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/01-23-SMP-Tesla-Inverter-Icon-Jan2023.svg" alt="Tesla Solar Inverter">
+                <img class="pt-3 my-auto" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/01-23-SMP-Tesla-Inverter-Icon-Jan2023.svg" alt="Tesla Solar Inverter">
                 <p class="pt-4"><a href="https://en.wikipedia.org/wiki/Tesla,_Inc." target="_blank">Tesla</a> Solar Inverter offers improved aesthetics, reliability and native integration with the Tesla ecosystem.</p>
             </div>
 
@@ -53,14 +53,14 @@ get_header();
 
             <div class=" quick-fact-container " style="max-width: 235px;">
                 <h3 class="blue-box-with-border text-white p-2 h5 rounded-3"> <span> POWERWALL <br></span> BATTERY BACKUP</h3>
-                <img class="pt-md-4" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Battery Service Icon.svg" alt="Tesla Powerwall Best Certified installer">
+                <img class="pt-md-4" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Battery Service Icon.svg" alt="Tesla Powerwall Best Certified installer">
                 <p class="pt-4">Powerwall is an integrated battery system that stores your solar energy for backup protection.</p>
             </div>
             <hr class="verticalLine">
 
             <div class="quick-fact-container  " style="max-width: 235px;">
                 <h3 class="blue-box-with-border text-white p-2 h5 rounded-3">EV CHARGING <span><br> STATION </span> </h3>
-                <img class="pt-md-3" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Car Charger Service Icon.svg" alt="Tesla car charger">
+                <img class="pt-md-3" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Car Charger Service Icon.svg" alt="Tesla car charger">
                 <p class="pt-4 ">The most convenient charging solution for houses,<br> apartments, hospitality properties and workplaces.</p>
             </div>
 
@@ -82,7 +82,7 @@ get_header();
                 <h5 >Maximum Solar Production</h5>
             </div>
 
-            <figure class="col-md m-0 p-0 "><img style="width:100%; max-height:1100px;" src="https://www.sempersolaris.com/wp-content/uploads/2023/02/01-23-SMP-Tesla-Inverter-Jan2023.jpg" alt="Tesla powerwall certified installer, Tesla Solar Inverter for Solar Panels"></figure>
+            <figure class="col-md m-0 p-0 "><img style="width:100%; max-height:1100px;" src="https://smpbackup.wpengine.com/wp-content/uploads/2023/02/01-23-SMP-Tesla-Inverter-Jan2023.jpg" alt="Tesla powerwall certified installer, Tesla Solar Inverter for Solar Panels"></figure>
 
             <article class="col-md about-tesla-solar-inverter">
                 <div class="solar-inverter-content p-3 ps-md-4">
@@ -107,7 +107,7 @@ get_header();
     <div class="d-md-flex justify-content-center flex-wrap p-4 cta-midde-flow-map" style="align-items: center;font-size: 20px; background-color: #F5F5F573; gap: 2%;">
         <STRONG style="font-size:22px;">Claim Your FREE Estimate Today?</STRONG>
         <a class="orange-cta-btn-2" href="#location-form-wrapper" style="max-width:100%; margin-left:0px !important; margin-right:0px !important;">
-            <img width="21px" height="21px" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP CTA White Arrow.svg" alt="white arrow icon" />
+            <img width="21px" height="21px" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP CTA White Arrow.svg" alt="white arrow icon" />
             REQUEST FREE QUOTE
         </a>
     </div>
@@ -117,7 +117,7 @@ get_header();
             <article>
                 <h3>Tesla Powerwall</h3>
                 <h6>Outage Protection</h6>
-                <!-- <img class="m-auto" width="225" src="https://www.sempersolaris.com/wp-content/uploads/2023/02/SMP-Trust-Logo-Tesla-Installer.png" alt=""> -->
+                <!-- <img class="m-auto" width="225" src="https://smpbackup.wpengine.com/wp-content/uploads/2023/02/SMP-Trust-Logo-Tesla-Installer.png" alt=""> -->
                 <br class="d-none d-md-block"><br>
                 <div class="powerwall-callouts">
                     <div>
@@ -138,7 +138,7 @@ get_header();
                     <div class="powerwall-breakdown ">
                         <figure>
                             <h4>Powerwall</h4>
-                            <img src="https://www.sempersolaris.com/wp-content/uploads/2023/02/01-23-SMP-Tesla-Powerwall-Jan2023.png" alt="Tesla Powerwall Certified installer in Arizona">
+                            <img src="https://smpbackup.wpengine.com/wp-content/uploads/2023/02/01-23-SMP-Tesla-Powerwall-Jan2023.png" alt="Tesla Powerwall Certified installer in Arizona">
                         </figure>
                         <div>
                             <p> 
@@ -187,7 +187,7 @@ get_header();
 
                         <figure>
                             <h4>Powerwall+</h4>
-                            <img src="https://www.sempersolaris.com/wp-content/uploads/2023/02/01-23-SMP-Tesla-Powerwall-Plus-Jan2023.png" alt="Tesla Powerwall certified installer in Arizona">
+                            <img src="https://smpbackup.wpengine.com/wp-content/uploads/2023/02/01-23-SMP-Tesla-Powerwall-Plus-Jan2023.png" alt="Tesla Powerwall certified installer in Arizona">
                         </figure>
                     </div>
                 </div>
@@ -203,18 +203,18 @@ get_header();
 
             <div class="whats-tesla-pw-callouts">
                 <div>
-                    <img class="mb-2 d-none d-md-block m-auto" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Lighting Circle Icon.svg" alt="tesla installers">
-                    <h4><img class="mb-2 me-1 d-md-none" width="30" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Lighting Circle Icon.svg" alt="charging icon"> Blackout Protection</h4>
+                    <img class="mb-2 d-none d-md-block m-auto" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Lighting Circle Icon.svg" alt="tesla installers">
+                    <h4><img class="mb-2 me-1 d-md-none" width="30" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Lighting Circle Icon.svg" alt="charging icon"> Blackout Protection</h4>
                     <p>Protect your Arizona home from unexpected power outages with a trustworthy battery backup.</p>
                 </div>
                 <div>
-                    <img class="mb-1 d-none d-md-block m-auto" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Lighting Circle Icon.svg" alt="charging icon">
-                    <h4><img class="mb-2 me-1 d-md-none" width="30" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Lighting Circle Icon.svg" alt=""> Storm Watch</h4>
+                    <img class="mb-1 d-none d-md-block m-auto" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Lighting Circle Icon.svg" alt="charging icon">
+                    <h4><img class="mb-2 me-1 d-md-none" width="30" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Lighting Circle Icon.svg" alt=""> Storm Watch</h4>
                     <p>Tesla Powerwall will connect to the National Weather Service and reserve energy for incoming severe weather.</p>
                 </div>
                 <div>
-                    <img class="mb-2 d-none d-md-block m-auto" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Lighting Circle Icon.svg" alt="">
-                    <h4><img class="mb-2 me-1 d-md-none" width="30" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Lighting Circle Icon.svg" alt="charging icon"> 24/7 Backup Energy</h4>
+                    <img class="mb-2 d-none d-md-block m-auto" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Lighting Circle Icon.svg" alt="">
+                    <h4><img class="mb-2 me-1 d-md-none" width="30" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla Lighting Circle Icon.svg" alt="charging icon"> 24/7 Backup Energy</h4>
                     <p>Use solar and Powerwall to reduce reliance on the grid and run your home off solar day and night</p>
                 </div>
             </div>
@@ -236,7 +236,7 @@ get_header();
         <div class="d-flex justify-content-center flex-wrap p-2 p-md-5 " style="align-items: center; font-size: 20px;  gap: 2%;">
             <STRONG style="font-size:22px;">Claim Your FREE Estimate Today?</STRONG>
             <a class="orange-cta-btn-2" href="#location-form-wrapper" style="max-width:100%; margin-left:0px !important; margin-right:0px !important;">
-                <img width="21px" height="21px" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP CTA White Arrow.svg" alt="Arrow" />
+                <img width="21px" height="21px" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP CTA White Arrow.svg" alt="Arrow" />
                 REQUEST FREE QUOTE
             </a>
         </div>
@@ -258,7 +258,7 @@ get_header();
                     </ul>  
                 </div>
 
-                <img src="https://www.sempersolaris.com/wp-content/uploads/2023/02/01-23-SMP-Tesla-Mobile-App-Desktop-Jan2023.png" alt="download the tesla mobile app">
+                <img src="https://smpbackup.wpengine.com/wp-content/uploads/2023/02/01-23-SMP-Tesla-Mobile-App-Desktop-Jan2023.png" alt="download the tesla mobile app">
             </div>
         </article>
 
@@ -269,10 +269,10 @@ get_header();
             </div>
             <div class="d-flex flex-direction-row gap-4 justify-content-center pt-3 ">
 
-                <img class="tesla-desktop" style="height: 400px;" src="https://www.sempersolaris.com/wp-content/uploads/2023/02/02-23-SMP-Tesla-EV-Charger-Product-Feb2023.png" alt="Charger Image">
+                <img class="tesla-desktop" style="height: 400px;" src="https://smpbackup.wpengine.com/wp-content/uploads/2023/02/02-23-SMP-Tesla-EV-Charger-Product-Feb2023.png" alt="Charger Image">
                 <p class="fw-md-lighter text-end ev-wall-connector-p" style="margin-left:-220px;max-width: 180px;">Wall Connector can adapt to most home electrical systems, with customizable power levels on a range of circuit breakers. This versatility allows installation in most homes, apartments, condos and workplaces. <br><br> <span> The lightweight 24-foot (7.3 meter) cable allows the Mobile Connector to be left in the car</span></p>
-                <img class="tesla-mobile" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla EV Charger Car Image w-Bullet Point.png" alt="Tesla Ev Charger">
-                <img class="tesla-ev-charger" width="286" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla EV Charger Product.png" alt="Tesla Ev Charger">
+                <img class="tesla-mobile" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla EV Charger Car Image w-Bullet Point.png" alt="Tesla Ev Charger">
+                <img class="tesla-ev-charger" width="286" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/tesla-ecosystem/06 15 SMP Tesla EV Charger Product.png" alt="Tesla Ev Charger">
 
             </div>
 
@@ -282,7 +282,7 @@ get_header();
         <div class="d-flex justify-content-center flex-wrap p-2 p-md-5 " style="align-items: center; font-size: 20px;  gap: 2%;">
             <STRONG style="font-size:22px;">Get Your FREE Estimate Today?</STRONG>
             <a class="orange-cta-btn-2" href="#location-form-wrapper" style="max-width:100%; margin-left:0px !important; margin-right:0px !important;">
-                <img width="21px" height="21px" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP CTA White Arrow.svg" alt="Arrow" />
+                <img width="21px" height="21px" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP CTA White Arrow.svg" alt="Arrow" />
                 REQUEST FREE QUOTE
             </a>
         </div>

@@ -85,10 +85,10 @@ get_header();
     </div>
     <div id="meet-buttons">
         <a href="https://www.sempersolaris.com/about-us/#meet-the-owners">
-            <img src="https://www.sempersolaris.com/wp-content/uploads/2018/07/SMP-MeetTheOwners-Button.jpg" alt="Meet the Owners" title="Meet the Owners">
+            <img src="https://smpbackup.wpengine.com/wp-content/uploads/2018/07/SMP-MeetTheOwners-Button.jpg" alt="Meet the Owners" title="Meet the Owners">
         </a>
         <a href="https://www.sempersolaris.com/about-us/#meet-our-vets">
-            <img src="https://www.sempersolaris.com/wp-content/uploads/2018/07/SMP-MeetOurVets-Button.jpg" alt="Meet Our Vets" title="Meet Our Vets">
+            <img src="https://smpbackup.wpengine.com/wp-content/uploads/2018/07/SMP-MeetOurVets-Button.jpg" alt="Meet Our Vets" title="Meet Our Vets">
         </a>
     </div>
 </section>

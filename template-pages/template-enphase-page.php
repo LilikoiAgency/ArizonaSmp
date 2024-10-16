@@ -49,9 +49,9 @@ get_header();
     <?php endif; ?>
     <div>
         <?php if (wp_is_mobile()) : ?>
-            <img width="375" height="53" style="padding-bottom:15px" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Header-Tagline-Mobile-Icon.svg" alt="Enphase powered by Semper Solaris" />
+            <img width="375" height="53" style="padding-bottom:15px" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Header-Tagline-Mobile-Icon.svg" alt="Enphase powered by Semper Solaris" />
         <?php else : ?>
-            <img width="663" height="28" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Hero-Header-Icon.svg" alt="Enphase powered by semper solaris" />
+            <img width="663" height="28" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Hero-Header-Icon.svg" alt="Enphase powered by semper solaris" />
         <?php endif; ?>
         <div>
             <h2 style="padding-top:5px;"><strong>The Best Home Battery back Up for Arizona</strong></h2>
@@ -71,13 +71,13 @@ get_header();
     <fieldset class="fieldset-border">
         <legend align="center" class="legendStyle">
             <?php if (wp_is_mobile()) : ?>
-                <img width="65" height="67" class="legend-img" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Solar-Down-Arrow-Icon.svg" alt="arrow pointing down with sun" />
+                <img width="65" height="67" class="legend-img" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Solar-Down-Arrow-Icon.svg" alt="arrow pointing down with sun" />
             <?php endif; ?>
         </legend>
         <p>
 In the Grand Canyon State of Arizona, where the sun blazes with intensity, the vision of harnessing clean and renewable solar power becomes a tangible achievement for homeowners. The residents of Arizona are presented with a special chance to embrace self-sufficiency in energy by utilizing the plentiful sunlight that blesses our stunning state. By incorporating a solar energy system with battery storage, you not only tap into this remarkable resource but also shield yourself from the ever-increasing burden of energy expenses.        </p>
         <?php if (!wp_is_mobile()) : ?>
-            <img width="65" height="67" class="legend-img " loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Solar-Down-Arrow-Icon.svg" alt="Solar down arrow" />
+            <img width="65" height="67" class="legend-img " loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Solar-Down-Arrow-Icon.svg" alt="Solar down arrow" />
         <?php endif; ?>
     </fieldset>
 </div>
@@ -98,7 +98,7 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
     <div class="card-container">
         <div class="cards">
             <div class="card-img-wrapper">
-                <img width="240" height="290" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-InnovateDesign.jpg" alt="innovative Solar panels on house" />
+                <img width="240" height="290" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-InnovateDesign.jpg" alt="innovative Solar panels on house" />
             </div>
 
             <h3> Innovative Design</h3>
@@ -106,14 +106,14 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
         </div>
         <div class="cards">
             <div class="card-img-wrapper">
-                <img width="240" height="290" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Self-Powered-Home.jpg" alt="Enphase batery storage installation" />
+                <img width="240" height="290" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Self-Powered-Home.jpg" alt="Enphase batery storage installation" />
             </div>
             <h3> A Self-Powered Home</h3>
             <p>When you have an Enphase <a href="/battery-storage/">Battery Storage</a>  you have a self-powered home. By pairing it with solar panels you can store surplus solar energy. Or you can simply charge your battery from the grid and use it as a back up generator.</p>
         </div>
         <div class="cards">
             <div class="card-img-wrapper">
-                <img width="240" height="290" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-1.webp" alt="Enphase phone application User interface" />
+                <img width="240" height="290" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-1.webp" alt="Enphase phone application User interface" />
             </div>
             <h3> Power In Your Hand</h3>
             <p>If you like to be in control then you can effortlessly access your system with the Enlighten app. There you can actively monitor both your solar and storage as one. That's one system, one app, and one call for support.</p>
@@ -125,7 +125,7 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
 
     <div class="cta-wrapper" style="background-color:whitesmoke;">
         <p><strong>Ready For 24/7 Backup Energy? </strong> </p>
-        <a class="enphase-cta-btn" href="#location-form-wrapper"> <img width="21" height="27" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP-CTA-White-Arrow.svg" alt="white arrow icon" />
+        <a class="enphase-cta-btn" href="#location-form-wrapper"> <img width="21" height="27" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP-CTA-White-Arrow.svg" alt="white arrow icon" />
             <p>REQUEST A FREE QUOTE</p>
         </a>
     </div>
@@ -136,17 +136,17 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
 
 <div class="quick-facts-wrapper">
     <div class="quick-facts-container">
-        <img width="176" height="164" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-LongTermBenefit-Icon.svg" alt="Dollar symbol on top of hand." />
+        <img width="176" height="164" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-LongTermBenefit-Icon.svg" alt="Dollar symbol on top of hand." />
         <h3>Long-Term Benefits</h3>
         <p>With a solar system, you get power that pays for itself</p>
     </div>
     <div class="quick-facts-container">
-        <img width="176" height="164" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-SaveMoney-Icon.svg" alt="Piggy bank with money dropping in." />
+        <img width="176" height="164" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-SaveMoney-Icon.svg" alt="Piggy bank with money dropping in." />
         <h3>Save Money</h3>
         <p>An energy independent home adds up to thousands of dollars saved per year</p>
     </div>
     <div class="quick-facts-container">
-        <img width="176" height="164" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-TaxCredits-Icon.svg" alt="Document icon." />
+        <img width="176" height="164" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-TaxCredits-Icon.svg" alt="Document icon." />
         <h3>Tax Credits</h3>
         <p>You may be eligible to earn tax credits for going solar and battery*</p>
     </div>
@@ -163,26 +163,26 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
             <div class="second-cards">
                 <h3><strong>24/7 Backup Energy</strong> </h3>
                 <div class="img-wrapper-second-cards">
-                    <img loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Backup-Energy.png" alt="home power stays on due to battery storage" />
+                    <img loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Backup-Energy.png" alt="home power stays on due to battery storage" />
                 </div>
                 <p>Whether it be an energy emergency, or you simply wish to independently run your appliances at night, Enphase keeps you prepared.</p>
-                <img loading="lazy" class="lightningBolt" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Rows-Lighting-Bolt-Icon.svg" alt="ligntning bolt" />
+                <img loading="lazy" class="lightningBolt" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Rows-Lighting-Bolt-Icon.svg" alt="ligntning bolt" />
             </div>
             <div class="second-cards">
                 <h3><strong>Blackout Protection </strong> </h3>
                 <div class="img-wrapper-second-cards">
-                    <img loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Blackout-Protection.png" alt="flashlight" />
+                    <img loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Blackout-Protection.png" alt="flashlight" />
                 </div>
                 <p>During a blackout in Arizona, your system will detect the issue, disconnect from the grid, and shift your power supply through the Enpower Smart Switch.</p>
-                <img loading="lazy" class="lightningBolt" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Rows-Lighting-Bolt-Icon.svg" alt="ligntning bolt" />
+                <img loading="lazy" class="lightningBolt" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Rows-Lighting-Bolt-Icon.svg" alt="ligntning bolt" />
             </div>
             <div class="second-cards">
                 <h3> <strong>Tested Durability </strong> </h3>
                 <div class="img-wrapper-second-cards">
-                    <img loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP Enphase Tested Durability.png" alt="Home in extreme weather condition equiped with battery storage" />
+                    <img loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP Enphase Tested Durability.png" alt="Home in extreme weather condition equiped with battery storage" />
                 </div>
                 <p>Whether you're faced with a sudden energy crisis or just want to power your appliances independently at night, Enphase keeps you fully equipped and ready to go.</p>
-                <img loading="lazy" class="lightningBolt" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Rows-Lighting-Bolt-Icon.svg" alt="ligntning bolt" />
+                <img loading="lazy" class="lightningBolt" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Rows-Lighting-Bolt-Icon.svg" alt="ligntning bolt" />
             </div>
         </div>
         <div class="text-wrapper-cards">
@@ -194,7 +194,7 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
 
 <div class="cta-wrapper" style=" background-color:whitesmoke">
     <p><strong>Ready For 24/7 Backup Energy? </strong> </p>
-    <a class="enphase-cta-btn" href="#location-form-wrapper"> <img width="21" height="27" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP-CTA-White-Arrow.svg" alt="white arrow" />
+    <a class="enphase-cta-btn" href="#location-form-wrapper"> <img width="21" height="27" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP-CTA-White-Arrow.svg" alt="white arrow" />
         <p>REQUEST A FREE QUOTE</p>
     </a>
 </div>
@@ -204,11 +204,11 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
 </div>
 <div class="enphase-encharge-10">
     <div class="ligtning-circle-holder" style="text-align:center;">
-        <img loading="lazy" height="82" width="82" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Circle-Lighting-Bolt-Icon.svg" alt="Lightning Bolt Icon" />
+        <img loading="lazy" height="82" width="82" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Circle-Lighting-Bolt-Icon.svg" alt="Lightning Bolt Icon" />
         <p>Battery storage is like a protective wall between your Arizona home and the power grid, seamlessly plugging into your electrical system to maximize your daily energy consumption and serve as a reliable backup during a grid failure. It works by capturing power from either the grid or your solar panels and intelligently distributing it to power up your home.</p>
     </div>
     <div class="encharge-10-holder">
-        <img loading="lazy" height="369" width="508" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Battery-Front-Face.png" alt="Enphase battery storage Encharge 10" />
+        <img loading="lazy" height="369" width="508" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Battery-Front-Face.png" alt="Enphase battery storage Encharge 10" />
         <h4 style="margin-top: 15px; "> <strong>ENPHASE ENCHARGE 10 </strong> </h4>
     </div>
 </div>
@@ -219,9 +219,9 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
         <p class="p-style">With the presence of a battery storage system, you can be free from concerns about losing access to vital devices such as your refrigerator, emergency medical equipment, or internet router. This guarantees that during a grid outage, you will have power supply through your battery functioning as an "off-grid" system.</p>
         <div class="dyk-holder">
             <?php if (wp_is_mobile()) : ?>
-                <img loading="lazy" width="237" height="70" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-DidYouKnow-Mobile-Icon.svg" alt="did you know icon" />
+                <img loading="lazy" width="237" height="70" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-DidYouKnow-Mobile-Icon.svg" alt="did you know icon" />
             <?php else : ?>
-                <img loading="lazy" width="161" height="108" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-DidYouKnow-Desktop-Icon.svg" alt="did you know icon" />
+                <img loading="lazy" width="161" height="108" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-DidYouKnow-Desktop-Icon.svg" alt="did you know icon" />
 
             <?php endif; ?>
             <p>The only real way to be energy independent is by adding battery storage to your existing solar system. This duo allows you the freedom to run your solar panels even during an outage and provides continuous power to your home.</p>
@@ -229,12 +229,12 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
 
         <div class="cta-wrapper" style="text-align:center;">
             <p><strong>Ready For 24/7 Backup Energy? </strong> </p>
-            <a class="enphase-cta-btn" href="#location-form-wrapper"> <img width="21" height="27" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP-CTA-White-Arrow.svg" alt="white arrow" />
+            <a class="enphase-cta-btn" href="#location-form-wrapper"> <img width="21" height="27" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP-CTA-White-Arrow.svg" alt="white arrow" />
                 <p>REQUEST A FREE QUOTE</p>
             </a>
         </div>
     </div>
-    <img loading="lazy" class="family-img" width="486" height="459" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Family-251530589.png" alt="family happy to have an enphase battery storage unit" />
+    <img loading="lazy" class="family-img" width="486" height="459" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Family-251530589.png" alt="family happy to have an enphase battery storage unit" />
 </div>
 
 
@@ -243,9 +243,9 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
     <div class="iq8-wrapper">
         <h4 class="h4-titles-style mobile-style-iq8" style="padding-top:75px"> The World's Only <span style="color:#FF9300">Microinverter<span class="iqdisclaimer">¥</span> </span> That Provides Instant Energy Backup During An Outage! </h4>
         <div class="iq8-img-title">
-            <img loading="lazy" class="iq8-product-img" width="347" height="415" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/11-30-22-SMP-Enphase-IQ8+-Microinverter-Angle-Orange.webp" alt="Enphase Microinverter" />
+            <img loading="lazy" class="iq8-product-img" width="347" height="415" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/11-30-22-SMP-Enphase-IQ8+-Microinverter-Angle-Orange.webp" alt="Enphase Microinverter" />
             <div class="iq8-title-wrapper">
-                <img loading="lazy" class="iq8-product-title" width="470" height="109" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/11-29-22-SMP-Enphase-Microinverter-Header.svg" alt="Enphase powered by Semper Solaris" />
+                <img loading="lazy" class="iq8-product-title" width="470" height="109" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/11-29-22-SMP-Enphase-Microinverter-Header.svg" alt="Enphase powered by Semper Solaris" />
             </div>
         </div>
     </div>
@@ -256,9 +256,9 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
         <h4 class="h4-titles-style">The Brains Of The System, Now Even Brainier </h4>
         <p>Our pioneering Enphase IQ Microinverter<span class="iqdisclaimer">¥</span>  performs a seemingly impossible feat with brilliant simplicity.</p>
         <?php if (wp_is_mobile()) : ?>
-            <img loading="lazy" width="375" height="280" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/11-29-22-SMP-Enphase-Microinverter-Yellow-Box-Header-Mobile.svg" alt="IQ8 quick fact" />
+            <img loading="lazy" width="375" height="280" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/11-29-22-SMP-Enphase-Microinverter-Yellow-Box-Header-Mobile.svg" alt="IQ8 quick fact" />
         <?php else : ?>
-            <img loading="lazy" width="554" height="248" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/11-29-22-SMP-Enphase-Microinverter-Yellow-Box-Header.svg" alt="IQ8 mircroinverter facts" />
+            <img loading="lazy" width="554" height="248" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/11-29-22-SMP-Enphase-Microinverter-Yellow-Box-Header.svg" alt="IQ8 mircroinverter facts" />
         <?php endif; ?>
     </div>
 </div>
@@ -266,12 +266,12 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
 
 
 <div class="phone-yellow-wrapper">
-    <img loading="lazy" class="phone-svg" style="position:relative" width="268" height="517" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Mobile-App-2-V3.png" alt="Enphase mobile app" />
+    <img loading="lazy" class="phone-svg" style="position:relative" width="268" height="517" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Mobile-App-2-V3.png" alt="Enphase mobile app" />
     <div class="img-p-yellow-holder">
         <?php if (wp_is_mobile()) : ?>
-            <img loading="lazy" width="62" height="32" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP Enphase White Arrow Mobile Icon.svg" alt="large white arrow" />
+            <img loading="lazy" width="62" height="32" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP Enphase White Arrow Mobile Icon.svg" alt="large white arrow" />
         <?php else : ?>
-            <img loading="lazy" width="47" height="93" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-White-Arrow-Icon.svg" alt="white arrow icon" />
+            <img loading="lazy" width="47" height="93" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-White-Arrow-Icon.svg" alt="white arrow icon" />
         <?php endif; ?>
         <p>Enphase Energy Systems are managed by our beautifully designed app, meaning you’re just a tap away from tracking how much energy you’re producing, how much you’re using, and more.</p>
     </div>
@@ -286,13 +286,13 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
         <div class="fact-square bottom-border">
             <h3>Smart Power</h3>
             <p style="padding-bottom:50px;">Enphase Energy Systems are smart enough to update themselves automatically over the internet to receive the latest software and new features.</p>
-            <img loading="lazy" width="324" height="261" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/01-28-22-SMP-Enphase-IQ8-No-Shadow.png" alt="Enphase microinverter" />
+            <img loading="lazy" width="324" height="261" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/01-28-22-SMP-Enphase-IQ8-No-Shadow.png" alt="Enphase microinverter" />
         </div>
 
         <div class="fact-square top-border bottom-br">
             <h3>Responsive and Responsible</h3>
             <p>Enphase Energy Systems include built-in Rapid Shutdown so that, in the event of an emergency, your solar power can be turned off instantly and easily, keeping utility workers and first responders safe.</p>
-            <img loading="lazy" width="458" height="251" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Responsive-FirstResponders.jpg" alt="Firefighter" />
+            <img loading="lazy" width="458" height="251" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Responsive-FirstResponders.jpg" alt="Firefighter" />
 
         </div>
     </div>
@@ -301,13 +301,13 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
         <div class="fact-square bottom-border">
             <h3>Seamless Switching On Or Off Grid</h3>
             <p>IQ8, our most powerful software—defined microinverter<span class="iqdisclaimer">¥</span>  ever, is powered by a proprietary, intelligent chip, that makes switching between on or off grid virtually seamless.</p>
-            <img loading="lazy" style="padding-top:50px;" width="525" height="261" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/17-SMP-Microinverter-Chip-Background.jpg" alt="Enphase microinverter chip " />
+            <img loading="lazy" style="padding-top:50px;" width="525" height="261" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/17-SMP-Microinverter-Chip-Background.jpg" alt="Enphase microinverter chip " />
         </div>
 
         <div class="fact-square top-border">
             <h3>A Bright Idea, Even In Low Light</h3>
             <p>Enphase Energy Systems use our breakthrough Burst Mode technology to capture energy in low-light conditions, such as when there are shadows or clouds passing over the solar array.</p>
-            <img loading="lazy" width="506" height="241" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Burst-Mode-V3.jpg" alt="solar panel burst mode" />
+            <img loading="lazy" width="506" height="241" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-Burst-Mode-V3.jpg" alt="solar panel burst mode" />
         </div>
     </div>
 
@@ -317,16 +317,16 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
 
 <div class="cta-wrapper" style="text-align:center; background-color:whitesmoke;">
     <p><strong>Ready For 24/7 Backup Energy? </strong> </p>
-    <a class="enphase-cta-btn" href="#location-form-wrapper"> <img width="21" height="27" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP-CTA-White-Arrow.svg" alt="white arrow" />
+    <a class="enphase-cta-btn" href="#location-form-wrapper"> <img width="21" height="27" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP-CTA-White-Arrow.svg" alt="white arrow" />
         <p>REQUEST A FREE QUOTE</p>
     </a>
 </div>
 
 <div class="powered-by-smper-wrapper">
     <?php if (wp_is_mobile()) : ?>
-        <img loading="lazy" width="375" height="115" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-LocalVeteranOwned-Header-Mobile-Icon-(1).svg" alt="Enphase header" />
+        <img loading="lazy" width="375" height="115" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-LocalVeteranOwned-Header-Mobile-Icon-(1).svg" alt="Enphase header" />
     <?php else : ?>
-        <img loading="lazy" width="854" height="108" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-LocalVeteranOwned-Header-Icon.svg" alt="Enphase powered by Semper Solaris" />
+        <img loading="lazy" width="854" height="108" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Enphase-LocalVeteranOwned-Header-Icon.svg" alt="Enphase powered by Semper Solaris" />
     <?php endif; ?>
 
     <h3><strong>Local & Veteran Owned</strong> </h3>
@@ -335,7 +335,7 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
     <div class="veteran-cols">
         <div class="owners-smp">
             <div style="max-height:210px; overflow:hidden">
-                <img loading="lazy" width="321" height="210" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Kelly-Family-Photo-Jan-2020.jpg" alt="best solar installer" />
+                <img loading="lazy" width="321" height="210" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Kelly-Family-Photo-Jan-2020.jpg" alt="best solar installer" />
             </div>
 
             <p>
@@ -345,7 +345,7 @@ In the Grand Canyon State of Arizona, where the sun blazes with intensity, the v
 
         <div class="owners-smp">
             <div style="max-height:210px; overflow:hidden">
-                <img loading="lazy" width="321" height="220" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Main-Family-Photo-for-Almond's.jpg" alt="best company for solar" />
+                <img loading="lazy" width="321" height="220" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/enphase/SMP-Main-Family-Photo-for-Almond's.jpg" alt="best company for solar" />
             </div>
 
             <p> <strong>

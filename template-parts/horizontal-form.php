@@ -217,7 +217,7 @@ global $content_array;
             <strong class=" mx-auto text-center hideSection"> <?= isset($content_array['blue-banner-text']) ? $content_array['blue-banner-text'] : 'START SAVING NOW!'; ?> </strong>
             <strong class=" mx-auto text-center hideSection"> <?= isset($content_array['orange-banner-text']) ? $content_array['orange-banner-text'] : 'Call (480) 863-0024'; ?> </strong>
         </div>
-        <img class="w-100 hideSection" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP-FormFill-Colored-Bar.svg" alt="banner icon" />
+        <img class="w-100 hideSection" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP-FormFill-Colored-Bar.svg" alt="banner icon" />
     <?php
 
     endif;
@@ -226,7 +226,7 @@ global $content_array;
 
     ?>
 
-        <img class="w-100 hideSection" style="position:relative; margin-bottom:-15px" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP-Fill-Out-Form-Below-White-Rectangle.svg" alt="banner icon" />
+        <img class="w-100 hideSection" style="position:relative; margin-bottom:-15px" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP-Fill-Out-Form-Below-White-Rectangle.svg" alt="banner icon" />
 
     <?php
 

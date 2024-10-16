@@ -98,7 +98,7 @@ get_header();
             <source srcset="https://www.sempersolaris.com/wp-content/uploads/2022/02/SMP-All-Services-Image-Banner.png" media="(min-width: 800px)">
             <source srcset="https://www.sempersolaris.com/wp-content/uploads/2022/02/SMP-All-Services-Header-782.jpg" media="(min-width: 400px)">
             <source srcset="https://www.sempersolaris.com/wp-content/uploads/2022/02/SMP-All-Services-Header-Mobile-375.jpg" media="(max-width: 399px)">
-            <img src="https://www.sempersolaris.com/wp-content/uploads/2022/02/SMP-All-Services-Image-Banner.png" alt="Our Services">
+            <img src="https://smpbackup.wpengine.com/wp-content/uploads/2022/02/SMP-All-Services-Image-Banner.png" alt="Our Services">
         </picture>
         <div class="container-image-map">
             <a href="/solar-panels/">

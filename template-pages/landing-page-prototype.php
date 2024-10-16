@@ -68,7 +68,7 @@ get_header();
                             <h2 class="display-6 text-end">Best City Location Evah</h2>
                         </div>
                         <div class="col-auto d-none d-lg-block">
-                            <img src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP MainPg Header-02.jpg" class="rounded" />
+                            <img src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP MainPg Header-02.jpg" class="rounded" />
                         </div>
                     </div>
                 </div>
@@ -81,28 +81,28 @@ get_header();
                 <div class="d-flex flex-row justify-content-between text-center mb-4">
                     <div class="d-flex flex-column justify-content-between service-block border-line">
                         <div>
-                            <img class="align-up slide-in" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon Solar.svg" alt="">
+                            <img class="align-up slide-in" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon Solar.svg" alt="">
                             <h3 class="rounded-top m-0 p-2">Solar Energy <br /> <?= isset($content_array['city-name']) ? $content_array['city-name'] : 'city-name' ?></h3>
                             <p class="rounded-bottom"><?= isset($content_array['solar-quick-description']) ? $content_array['solar-quick-description'] : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' ?></p>
                         </div>
                         <a itemprop="url" href="" class="learn-more-btn main-solar-link">
                             <span class="learn-more-text ">LEARN MORE</span>
                             <span class=" learn-more-icon">
-                                <img loading="lazy" style="margin-top: 10px;" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP CTA Button Circle Arrow.svg" alt="">
+                                <img loading="lazy" style="margin-top: 10px;" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP CTA Button Circle Arrow.svg" alt="">
                             </span>
                         </a>
                     </div>
                     <hr />
                     <div class="d-flex flex-column justify-content-between service-block border-line">
                         <div>
-                            <img class="align-up slide-in" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon Battery.svg" alt="">
+                            <img class="align-up slide-in" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon Battery.svg" alt="">
                             <h3 class="rounded-top m-0 p-2">Battery Storage <br /> <?= isset($content_array['city-name']) ? $content_array['city-name'] : 'city-name' ?></h3>
                             <p class="rounded-bottom"><?= isset($content_array['battery-quick-description']) ? $content_array['battery-quick-description'] : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' ?></p>
                         </div>
                         <a id="" itemprop="url" href="" class="learn-more-btn main-battery-link">
                             <span class="learn-more-text ">LEARN MORE</span>
                             <span class=" learn-more-icon">
-                                <img loading="lazy" style="margin-top: 10px;" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP CTA Button Circle Arrow.svg" alt="">
+                                <img loading="lazy" style="margin-top: 10px;" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP CTA Button Circle Arrow.svg" alt="">
 
                             </span>
                         </a>
@@ -110,28 +110,28 @@ get_header();
                     <hr />
                     <div class="d-flex flex-column justify-content-between service-block border-line">
                         <div>
-                            <img class="align-up slide-in" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon Roofing.svg" alt="">
+                            <img class="align-up slide-in" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon Roofing.svg" alt="">
                             <h3 class="rounded-top m-0 p-2">Roofing <br /> <?= isset($content_array['city-name']) ? $content_array['city-name'] : 'city-name' ?></h3>
                             <p class="rounded-bottom"><?= isset($content_array['roofing-quick-description']) ? $content_array['roofing-quick-description'] : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' ?></p>
                         </div>
                         <a itemprop="url" href="" class="learn-more-btn main-roofing-link">
                             <span class="learn-more-text ">LEARN MORE</span>
                             <span class=" learn-more-icon">
-                                <img loading="lazy" style="margin-top: 10px;" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP CTA Button Circle Arrow.svg" alt="">
+                                <img loading="lazy" style="margin-top: 10px;" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP CTA Button Circle Arrow.svg" alt="">
                             </span>
                         </a>
                     </div>
                     <hr />
                     <div class="d-flex flex-column justify-content-between service-block border-line">
                         <div>
-                            <img class="align-up slide-in" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon HVAC.svg" alt="">
+                            <img class="align-up slide-in" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP Icon HVAC.svg" alt="">
                             <h3 class="rounded-top m-0 p-2">HVAC <br /> <?= isset($content_array['city-name']) ? $content_array['city-name'] : 'city-name' ?></h3>
                             <p class="rounded-bottom"><?= isset($content_array['hvac-quick-description']) ? $content_array['hvac-quick-description'] : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' ?></p>
                         </div>
                         <a itemprop="url" href="<?= isset($hvac) ? $hvac : 'https://hvac.sempersolaris.com/'; ?>" class="learn-more-btn main-hvac-link">
                             <span class="learn-more-text ">LEARN MORE</span>
                             <span class=" learn-more-icon">
-                                <img loading="lazy" style="margin-top: 10px;" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP CTA Button Circle Arrow.svg" alt="">
+                                <img loading="lazy" style="margin-top: 10px;" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP CTA Button Circle Arrow.svg" alt="">
                             </span>
                         </a>
                     </div>
@@ -140,8 +140,8 @@ get_header();
             </section>
             <section class="d-flex flex-row gap-3 my-5">
                 <article class="col-md-6">
-                    <img loading="lazy" class="position-absolute" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP Blue Solar Image Tag.svg" alt="">
-                    <img loading="lazy" width="500" height="256" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP MainPg Solar-03.jpg" alt="">
+                    <img loading="lazy" class="position-absolute" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP Blue Solar Image Tag.svg" alt="">
+                    <img loading="lazy" width="500" height="256" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP MainPg Solar-03.jpg" alt="">
                     <h2><strong><?= isset($content_array['solar-title']) ? $content_array['solar-title'] : 'Solar Panel Installation You Can Trust' ?> </strong> </h2>
                     <p> <?php //echo isset($content_array['solar-title']) ? $content_array['solar-title'] : 'solor-article' 
                         ?> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut sapien venenatis, bibendum diam vel, porttitor turpis. Maecenas venenatis ultrices molestie. Quisque sed cursus diam. Vestibulum quis orci vel urna aliquet condimentum id ut lorem. Proin a nunc est. Cras at ultrices leo. Maecenas imperdiet mollis mauris vitae efficitur. Quisque dignissim lectus at justo egestas posuere. Nam ut volutpat tellus. Vivamus nec erat eget odio venenatis mattis. Morbi lacinia nisl in nisl facilisis iaculis.</p>
@@ -157,8 +157,8 @@ get_header();
 
 
                 <article class="col-md-6">
-                    <img loading="lazy" class="position-absolute" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP Blue Battery Image Tag.svg" alt="">
-                    <img loading="lazy" width="500" height="256" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP MainPg Battery-03.jpg" alt="">
+                    <img loading="lazy" class="position-absolute" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP Blue Battery Image Tag.svg" alt="">
+                    <img loading="lazy" width="500" height="256" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP MainPg Battery-03.jpg" alt="">
                     <h2><strong> <?= isset($content_array['battery-title']) ? $content_array['battery-title'] : 'Reliable Battery Storage Installation' ?> </strong> </h2>
                     <p> <?php //echo $content_array['battery-article'] ?: 'battery-article' 
                         ?> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut sapien venenatis, bibendum diam vel, porttitor turpis. Maecenas venenatis ultrices molestie. Quisque sed cursus diam. Vestibulum quis orci vel urna aliquet condimentum id ut lorem. Proin a nunc est. Cras at ultrices leo. Maecenas imperdiet mollis mauris vitae efficitur. Quisque dignissim lectus at justo egestas posuere. Nam ut volutpat tellus. Vivamus nec erat eget odio venenatis mattis. Morbi lacinia nisl in nisl facilisis iaculis.</p>
@@ -185,13 +185,13 @@ get_header();
     <!-- Contains Special Offers Section -->
     <section class="container-fluid rounded pb-4" style="background-color:#0C4E970D; margin: 40px 0;">
         <div class="container offer-wrapper">
-            <h2 class="sectionTitle" style="margin:0;padding-top: 40px;margin-bottom: 5px;color: #004c97;">SPECIAL OFFERS <img loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP Special Offers Red Tag.svg"> </h2>
+            <h2 class="sectionTitle" style="margin:0;padding-top: 40px;margin-bottom: 5px;color: #004c97;">SPECIAL OFFERS <img loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP Special Offers Red Tag.svg"> </h2>
             <hr class="horizontalLine">
             <div class="d-flex justify-content-around flex-wrap  offer-holder">
-                <img class="m-2" width="256" height="218" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/05 01 SMPCA Coupon Solar.svg" alt="solar coupon" />
-                <img class="m-2" width="256" height="218" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/05 01 SMPCA Coupon Battery.svg" alt="solar coupon" />
-                <img class="m-2" width="256" height="218" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/05 01 SMPCA Coupon Roofing.svg" alt="solar coupon" />
-                <img class="m-2" width="256" height="218" loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/05 01 SMPCA Coupon HVAC.svg" alt="solar coupon" />
+                <img class="m-2" width="256" height="218" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/05 01 SMPCA Coupon Solar.svg" alt="solar coupon" />
+                <img class="m-2" width="256" height="218" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/05 01 SMPCA Coupon Battery.svg" alt="solar coupon" />
+                <img class="m-2" width="256" height="218" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/05 01 SMPCA Coupon Roofing.svg" alt="solar coupon" />
+                <img class="m-2" width="256" height="218" loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/05 01 SMPCA Coupon HVAC.svg" alt="solar coupon" />
             </div>
         </div>
     </section>
@@ -203,8 +203,8 @@ get_header();
     </section>
     <section class="container d-flex flex-row gap-3 my-5">
         <article class="col-md-6">
-            <img loading="lazy" class="position-absolute" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP Blue Roofing Image Tag.svg" alt="">
-            <img loading="lazy" width="500" height="256" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP MainPg Roofing-03.jpg" alt="">
+            <img loading="lazy" class="position-absolute" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP Blue Roofing Image Tag.svg" alt="">
+            <img loading="lazy" width="500" height="256" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP MainPg Roofing-03.jpg" alt="">
             <h2><strong><?= isset($content_array['solar-title']) ? $content_array['solar-title'] : 'Keep Your Home Warm with Our Roofing Contractor' ?> </strong> </h2>
             <p> <?php //echo $content_array['solar-article'] ?: 'solor-article' 
                 ?> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut sapien venenatis, bibendum diam vel, porttitor turpis. Maecenas venenatis ultrices molestie. Quisque sed cursus diam. Vestibulum quis orci vel urna aliquet condimentum id ut lorem. Proin a nunc est. Cras at ultrices leo. Maecenas imperdiet mollis mauris vitae efficitur. Quisque dignissim lectus at justo egestas posuere. Nam ut volutpat tellus. Vivamus nec erat eget odio venenatis mattis. Morbi lacinia nisl in nisl facilisis iaculis.</p>
@@ -220,8 +220,8 @@ get_header();
 
 
         <article class="col-md-6">
-            <img loading="lazy" class="position-absolute" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP Blue HVAC Image Tag.svg" alt="">
-            <img loading="lazy" width="500" height="256" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP MainPg HVAC-03.jpg" alt="">
+            <img loading="lazy" class="position-absolute" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP Blue HVAC Image Tag.svg" alt="">
+            <img loading="lazy" width="500" height="256" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/main-location/SMP MainPg HVAC-03.jpg" alt="">
             <h2><strong> <?= isset($content_array['battery-title']) ? $content_array['battery-title'] : 'Quality HVAC Services for Every Home' ?> </strong> </h2>
             <p> <?php //echo $content_array['battery-article'] ?: 'battery-article' 
                 ?> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut sapien venenatis, bibendum diam vel, porttitor turpis. Maecenas venenatis ultrices molestie. Quisque sed cursus diam. Vestibulum quis orci vel urna aliquet condimentum id ut lorem. Proin a nunc est. Cras at ultrices leo. Maecenas imperdiet mollis mauris vitae efficitur. Quisque dignissim lectus at justo egestas posuere. Nam ut volutpat tellus. Vivamus nec erat eget odio venenatis mattis. Morbi lacinia nisl in nisl facilisis iaculis.</p>
@@ -272,17 +272,17 @@ get_header();
                 </h4>
             </div>
             <div class="col-5 locationDetails location-info" style="border-top: 2px solid lightgrey; border-right: 2px solid lightgrey; ">
-                <img loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP Map Time Blue Icon.svg" alt="">
+                <img loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP Map Time Blue Icon.svg" alt="">
                 <?php //echo $content_array['office-hours'] 
                 ?>
             </div>
             <div class="col-4 locationDetails location-info" style="border-top: 2px solid lightgrey; border-right: 2px solid lightgrey;">
-                <img loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP Map Location Blue Icon.svg" alt="">
+                <img loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP Map Location Blue Icon.svg" alt="">
                 <?php //echo $content_array['office-address'] 
                 ?>
             </div>
             <div class="col-3 locationDetails location-info" style="border-top: 2px solid lightgrey">
-                <img loading="lazy" src="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/location/SMP Map Phone Blue Icon.svg" alt="">
+                <img loading="lazy" src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/location/SMP Map Phone Blue Icon.svg" alt="">
                 <?php //echo $content_array['office-number'] 
                 ?>
             </div>
