@@ -80,7 +80,7 @@
                     <p  style="font-size: 28px;" role="heading"><strong role="heading"> Over the Years Semper Solaris Has Won Many Awards </strong></p>
                     <div class="d-flex flex-wrap  justify-content-center my-auto gap-2 ">
                         <figure class="col-2 p-0 mt-auto" role="none">
-                            <img loading="lazy" width="135" height="160" src="https://smpstage.wpengine.com/wp-content/uploads/2023/08/SMP-Solar-Power-World-Award-2023.png" alt="2023 Top Solar + Storage Residential Installer Award" style="margin-bottom: 9px;" />
+                            <img loading="lazy" width="135" height="160" srcset="https://smpbackup.wpengine.com/wp-content/uploads/2023/08/SMP-Solar-Power-World-Award-2023.png" alt="2023 Top Solar + Storage Residential Installer Award" style="margin-bottom: 9px;" />
                             <figcaption style="line-height: 20px;">2023 Top Solar<br> + Storage <br>Residential Installer </figcaption>
                         </figure>
 
@@ -129,7 +129,7 @@
                     <p style="font-size: 28px;" role="heading"> <strong role="heading">And We're Just Warming Up </strong> </p>
                 </div>
             <?php else : ?> 
-                <img class="mx-auto" loading="lazy" src="https://smpstage.wpengine.com/wp-content/uploads/2023/08/SMP-Solar-Awards-Mobile.jpg" alt="awards">   
+                <img class="mx-auto" loading="lazy" srcset="https://smpbackup.wpengine.com/wp-content/uploads/2023/08/SMP-Solar-Awards-Mobile.jpg" alt="awards">   
             <?php endif; ?>
             </div>
         </section>
@@ -264,7 +264,7 @@
                     <p class="awards-text" style="font-size: 28px;" role="heading"><strong role="heading"> Over the Years Semper Solaris Has <br> Won Many Awards </strong></p>
                     <div class="d-flex flex-wrap  justify-content-center my-auto gap-2 ">
                         <figure class="col-md-2 p-0 mt-auto" role="none">
-                            <img loading="lazy" width="135" height="160" src="https://smpstage.wpengine.com/wp-content/uploads/2023/08/SMP-Solar-Power-World-Award-2023.png" alt="2023 Top Solar + Storage Residential Installer Award" style="margin-bottom: 9px;" />
+                            <img loading="lazy" width="135" height="160" srcset="https://smpbackup.wpengine.com/wp-content/uploads/2023/08/SMP-Solar-Power-World-Award-2023.png" alt="2023 Top Solar + Storage Residential Installer Award" style="margin-bottom: 9px;" />
                             <figcaption style="line-height: 20px;">2023 Top Solar<br> + Storage <br>Residential Installer </figcaption>
                         </figure>
 
