@@ -38,7 +38,7 @@ const EXIT_FORM = `
         <div class="text-center popup-coupon-wrapper">
             <h3 class="exit-popup-3rd-header m-auto font-weight-bold  margin:auto;"> Take Advantage Of <br class="d-block"> Our Solar Internet Coupon </h3>
             <picture style=" margin:auto;margin-bottom: -10px; padding: 0px 10px;">
-                <source media="(min-width: 779px)" width="380" srcset="https://www.sempersolaris.com/wp-content/themes/semper-solaris/assets/img/pop-up-offer/12-09-22-SMPAZ-Downloadable-Coupon-Dec2022.svg">
+                <source media="(min-width: 779px)" width="380" srcset="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/pop-up-offer/12-09-22-SMPAZ-Downloadable-Coupon-Dec2022.svg">
                 <img src="https://smpbackup.wpengine.com/wp-content/themes/semper-solaris/assets/img/pop-up-offer/12-12-22-SMPAZ-Downloadable-Coupon-Mobile-Dec2022.svg" alt="$500 downloadable coupon">
             </picture>
             <p class="exit-pop-display" style="font-size:12px !important; max-width:300px; line-height:14px!important; margin:auto;">*Present this at the time of your appointment. Call or see the website for further details www.sempersolaris.com | ROC# 336163 | ROC# 336306 | ROC# 336305</p>
